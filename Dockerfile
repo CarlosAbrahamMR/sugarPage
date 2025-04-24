@@ -28,6 +28,7 @@ RUN mkdir -p storage/framework/views storage/framework/cache storage/logs bootst
     && composer require laravel/ui \
     && composer install --no-dev \
     && npm install --legacy-peer-deps \
+    && npm install jquery --save \
     && php artisan key:generate \
     && php artisan optimize:clear \
     && npm run dev
