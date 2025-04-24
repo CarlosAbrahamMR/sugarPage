@@ -29,7 +29,6 @@ RUN mkdir -p storage/framework/views storage/framework/cache storage/logs bootst
     && php artisan key:generate \
     && php artisan config:clear \
     && php artisan config:cache \
-    && php artisan migrate --seed --force \
     && npm install --legacy-peer-deps \
     && npm install jquery --save \
 
