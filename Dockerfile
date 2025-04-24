@@ -22,6 +22,9 @@ WORKDIR /var/www
 
 COPY . .
 
+RUN mkdir -p storage/framework/views storage/framework/cache storage/logs bootstrap/cache \
+    && chown -R www-data:www-data storage bootstrap/cache
+
 # 👉 Aquí está el fix
 RUN composer require laravel/ui \
     && composer install --no-dev \
