@@ -1,3 +1,57 @@
-*
-!data/
-!.gitignore
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/.env.*.backup
+Homestead.json
+Homestead.yaml
+
+# Laravel IDE helpers
+.phpstorm.meta.php
+_ide_helper.php
+_ide_helper_models.php
+
+# Cache & Logs
+/storage/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# Composer & npm
+composer.lock
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Build
+/public/hot
+/public/storage
+/public/mix-manifest.json
+/public/js/*
+/public/css/*
+/public/build
+/build
+
+# dotenv files
+.env.*
+!.env.example
+
+# Editor & System
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+*.swp
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# SSH keys
+*.pem
+*.key

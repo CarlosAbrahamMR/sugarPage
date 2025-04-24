@@ -1,0 +1,3 @@
+NOTE: player HTML is copied from these files into the main wrapper div when _skin.html generator is used.
+
+You can also copy player manually into your html page.
