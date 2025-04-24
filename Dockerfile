@@ -30,7 +30,6 @@ RUN mkdir -p storage/framework/views storage/framework/cache storage/logs bootst
     && npm install --legacy-peer-deps \
     && php artisan key:generate \
     && php artisan optimize:clear \
-    && php artisan migrate --seed \
     && npm run dev
 EXPOSE 9000
 
