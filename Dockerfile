@@ -23,17 +23,15 @@ WORKDIR /var/www
 COPY . .
 
 RUN mkdir -p storage/framework/views storage/framework/cache storage/logs bootstrap/cache \
-    && chown -R www-data:www-data storage bootstrap/cache
-
-# 👉 Aquí está el fix
-RUN composer require laravel/ui \
+    && chown -R www-data:www-data storage bootstrap/cache \
+    && cp .env.example .env \
+    && composer require laravel/ui \
     && composer install --no-dev \
     && npm install --legacy-peer-deps \
     && php artisan key:generate \
     && php artisan optimize:clear \
     && php artisan migrate --seed \
     && npm run dev
-
 EXPOSE 9000
 
 CMD ["php-fpm"]
