@@ -1,4 +1,5 @@
 const mix = require('laravel-mix');
+window.$ = window.jQuery = require('jquery');
 
 mix.autoload({
     jquery: ['$', 'window.jQuery', 'jQuery'],
