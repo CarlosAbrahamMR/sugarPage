@@ -9,6 +9,11 @@
     <meta name="author" content="">
     <title>MySugarFan</title>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
+        crossorigin="anonymous"></script>
+
+
     <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
     <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
     <style type="text/css">
