@@ -10,6 +10,8 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -19,8 +21,7 @@
     <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
     <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
     @yield('styles')
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
