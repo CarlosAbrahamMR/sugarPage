@@ -1,0 +1,5479 @@
+Listado de rutas de carpetas
+El número de serie del volumen es 1804-C49F
+C:.
++---app
+¦   +---Console
+¦   ¦   +---Commands
+¦   +---Exceptions
+¦   +---Http
+¦   ¦   +---Controllers
+¦   ¦   ¦   +---Auth
+¦   ¦   +---Middleware
+¦   ¦   +---Requests
+¦   +---Mail
+¦   +---Models
+¦   +---Policies
+¦   +---Providers
++---bootstrap
+¦   +---cache
++---certbot
+¦   +---conf
+¦   ¦   +---renewal-hooks
+¦   ¦       +---deploy
+¦   ¦       +---post
+¦   ¦       +---pre
+¦   +---www
++---config
++---database
+¦   +---factories
+¦   +---migrations
+¦   +---seeders
++---nginx
++---node_modules
+¦   +---.bin
+¦   +---.cache
+¦   ¦   +---babel-loader
+¦   +---@ampproject
+¦   ¦   +---remapping
+¦   ¦       +---dist
+¦   ¦           +---types
+¦   +---@babel
+¦   ¦   +---code-frame
+¦   ¦   ¦   +---lib
+¦   ¦   +---compat-data
+¦   ¦   ¦   +---data
+¦   ¦   +---core
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---config
+¦   ¦   ¦   ¦   ¦   +---files
+¦   ¦   ¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   ¦   +---validation
+¦   ¦   ¦   ¦   +---errors
+¦   ¦   ¦   ¦   +---gensync-utils
+¦   ¦   ¦   ¦   +---parser
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---tools
+¦   ¦   ¦   ¦   +---transformation
+¦   ¦   ¦   ¦   ¦   +---file
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---vendor
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦   ¦   +---.bin
+¦   ¦   ¦   ¦   +---semver
+¦   ¦   ¦   ¦       +---bin
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---config
+¦   ¦   ¦           +---files
+¦   ¦   +---generator
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---generators
+¦   ¦   ¦       +---node
+¦   ¦   +---helper-annotate-as-pure
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-compilation-targets
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---.bin
+¦   ¦   ¦       +---semver
+¦   ¦   ¦           +---bin
+¦   ¦   +---helper-create-class-features-plugin
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---.bin
+¦   ¦   ¦       +---semver
+¦   ¦   ¦           +---bin
+¦   ¦   +---helper-create-regexp-features-plugin
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---.bin
+¦   ¦   ¦       +---semver
+¦   ¦   ¦           +---bin
+¦   ¦   +---helper-define-polyfill-provider
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---browser
+¦   ¦   ¦       +---node
+¦   ¦   ¦       +---visitors
+¦   ¦   +---helper-member-expression-to-functions
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-module-imports
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-module-transforms
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-optimise-call-expression
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-plugin-utils
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-remap-async-to-generator
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-replace-supers
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-skip-transparent-expression-wrappers
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-string-parser
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-validator-identifier
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-validator-option
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-wrap-function
+¦   ¦   ¦   +---lib
+¦   ¦   +---helpers
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---helpers
+¦   ¦   +---parser
+¦   ¦   ¦   +---bin
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---typings
+¦   ¦   +---plugin-bugfix-firefox-class-in-computed-class-key
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-bugfix-safari-class-field-initializer-scope
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-bugfix-safari-id-destructuring-collision-in-function-expression
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-bugfix-v8-spread-parameters-in-optional-chaining
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-bugfix-v8-static-class-fields-redefine-readonly
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-proposal-object-rest-spread
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-proposal-private-property-in-object
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-syntax-dynamic-import
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-syntax-import-assertions
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-syntax-import-attributes
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-syntax-object-rest-spread
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-syntax-unicode-sets-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-arrow-functions
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-async-generator-functions
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-async-to-generator
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-block-scoped-functions
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-block-scoping
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-class-properties
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-class-static-block
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-classes
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-computed-properties
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-destructuring
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-dotall-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-duplicate-keys
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-duplicate-named-capturing-groups-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-dynamic-import
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-exponentiation-operator
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-export-namespace-from
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-for-of
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-function-name
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-json-strings
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-literals
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-logical-assignment-operators
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-member-expression-literals
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-modules-amd
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-modules-commonjs
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-modules-systemjs
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-modules-umd
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-named-capturing-groups-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-new-target
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-nullish-coalescing-operator
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-numeric-separator
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-object-rest-spread
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-object-super
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-optional-catch-binding
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-optional-chaining
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-parameters
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-private-methods
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-private-property-in-object
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-property-literals
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-regenerator
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-regexp-modifiers
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-reserved-words
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-runtime
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---babel-7
+¦   ¦   ¦   ¦   +---get-runtime-path
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦   ¦   +---.bin
+¦   ¦   ¦   ¦   +---semver
+¦   ¦   ¦   ¦       +---bin
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---get-runtime-path
+¦   ¦   +---plugin-transform-shorthand-properties
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-spread
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-sticky-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-template-literals
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-typeof-symbol
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-unicode-escapes
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-unicode-property-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-unicode-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---plugin-transform-unicode-sets-regex
+¦   ¦   ¦   +---lib
+¦   ¦   +---preset-env
+¦   ¦   ¦   +---data
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---polyfills
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---.bin
+¦   ¦   ¦       +---semver
+¦   ¦   ¦           +---bin
+¦   ¦   +---preset-modules
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---plugins
+¦   ¦   ¦   ¦       +---transform-async-arrows-in-class
+¦   ¦   ¦   ¦       +---transform-edge-default-parameters
+¦   ¦   ¦   ¦       +---transform-edge-function-name
+¦   ¦   ¦   ¦       +---transform-jsx-spread
+¦   ¦   ¦   ¦       +---transform-safari-block-shadowing
+¦   ¦   ¦   ¦       +---transform-safari-for-shadowing
+¦   ¦   ¦   ¦       +---transform-tagged-template-caching
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---plugins
+¦   ¦   ¦           +---transform-async-arrows-in-class
+¦   ¦   ¦           +---transform-edge-default-parameters
+¦   ¦   ¦           +---transform-edge-function-name
+¦   ¦   ¦           +---transform-jsx-spread
+¦   ¦   ¦           +---transform-safari-block-shadowing
+¦   ¦   ¦           +---transform-safari-for-shadowing
+¦   ¦   ¦           +---transform-tagged-template-caching
+¦   ¦   +---runtime
+¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---regenerator
+¦   ¦   +---template
+¦   ¦   ¦   +---lib
+¦   ¦   +---traverse
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---path
+¦   ¦   ¦       ¦   +---inference
+¦   ¦   ¦       ¦   +---lib
+¦   ¦   ¦       +---scope
+¦   ¦   ¦           +---lib
+¦   ¦   +---types
+¦   ¦       +---lib
+¦   ¦           +---asserts
+¦   ¦           ¦   +---generated
+¦   ¦           +---ast-types
+¦   ¦           ¦   +---generated
+¦   ¦           +---builders
+¦   ¦           ¦   +---flow
+¦   ¦           ¦   +---generated
+¦   ¦           ¦   +---react
+¦   ¦           ¦   +---typescript
+¦   ¦           +---clone
+¦   ¦           +---comments
+¦   ¦           +---constants
+¦   ¦           ¦   +---generated
+¦   ¦           +---converters
+¦   ¦           +---definitions
+¦   ¦           +---modifications
+¦   ¦           ¦   +---flow
+¦   ¦           ¦   +---typescript
+¦   ¦           +---retrievers
+¦   ¦           +---traverse
+¦   ¦           +---utils
+¦   ¦           ¦   +---react
+¦   ¦           +---validators
+¦   ¦               +---generated
+¦   ¦               +---react
+¦   +---@colors
+¦   ¦   +---colors
+¦   ¦       +---examples
+¦   ¦       +---lib
+¦   ¦       ¦   +---custom
+¦   ¦       ¦   +---maps
+¦   ¦       ¦   +---system
+¦   ¦       +---themes
+¦   +---@discoveryjs
+¦   ¦   +---json-ext
+¦   ¦       +---dist
+¦   ¦       +---src
+¦   +---@jridgewell
+¦   ¦   +---gen-mapping
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---types
+¦   ¦   +---resolve-uri
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---types
+¦   ¦   +---set-array
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---types
+¦   ¦   +---source-map
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---types
+¦   ¦   +---sourcemap-codec
+¦   ¦   ¦   +---dist
+¦   ¦   ¦       +---types
+¦   ¦   +---trace-mapping
+¦   ¦       +---dist
+¦   ¦           +---types
+¦   +---@kurkle
+¦   ¦   +---color
+¦   ¦       +---dist
+¦   +---@leichtgewicht
+¦   ¦   +---ip-codec
+¦   ¦       +---types
+¦   +---@nodelib
+¦   ¦   +---fs.scandir
+¦   ¦   ¦   +---out
+¦   ¦   ¦       +---adapters
+¦   ¦   ¦       +---providers
+¦   ¦   ¦       +---types
+¦   ¦   ¦       +---utils
+¦   ¦   +---fs.stat
+¦   ¦   ¦   +---out
+¦   ¦   ¦       +---adapters
+¦   ¦   ¦       +---providers
+¦   ¦   ¦       +---types
+¦   ¦   +---fs.walk
+¦   ¦       +---out
+¦   ¦           +---providers
+¦   ¦           +---readers
+¦   ¦           +---types
+¦   +---@parcel
+¦   ¦   +---watcher
+¦   ¦   ¦   +---scripts
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---kqueue
+¦   ¦   ¦       +---linux
+¦   ¦   ¦       +---macos
+¦   ¦   ¦       +---shared
+¦   ¦   ¦       +---unix
+¦   ¦   ¦       +---wasm
+¦   ¦   ¦       +---watchman
+¦   ¦   ¦       +---windows
+¦   ¦   +---watcher-linux-x64-glibc
+¦   ¦   +---watcher-linux-x64-musl
+¦   +---@popperjs
+¦   ¦   +---core
+¦   ¦       +---dist
+¦   ¦       ¦   +---cjs
+¦   ¦       ¦   +---esm
+¦   ¦       ¦   ¦   +---dom-utils
+¦   ¦       ¦   ¦   +---modifiers
+¦   ¦       ¦   ¦   +---utils
+¦   ¦       ¦   +---umd
+¦   ¦       +---lib
+¦   ¦           +---dom-utils
+¦   ¦           +---modifiers
+¦   ¦           +---utils
+¦   +---@swc
+¦   ¦   +---helpers
+¦   ¦       +---.vscode
+¦   ¦       +---lib
+¦   ¦       +---scripts
+¦   ¦       +---src
+¦   +---@types
+¦   ¦   +---autoprefixer
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---picocolors
+¦   ¦   ¦       +---postcss
+¦   ¦   ¦           +---lib
+¦   ¦   +---babel-core
+¦   ¦   +---babel-generator
+¦   ¦   +---babel-template
+¦   ¦   +---babel-traverse
+¦   ¦   +---babel-types
+¦   ¦   +---babylon
+¦   ¦   +---body-parser
+¦   ¦   +---bonjour
+¦   ¦   +---browser-sync
+¦   ¦   +---browserslist
+¦   ¦   +---clean-css
+¦   ¦   +---connect
+¦   ¦   +---connect-history-api-fallback
+¦   ¦   +---cssnano
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---picocolors
+¦   ¦   ¦       +---postcss
+¦   ¦   ¦           +---lib
+¦   ¦   +---eslint
+¦   ¦   ¦   +---rules
+¦   ¦   +---eslint-scope
+¦   ¦   +---estree
+¦   ¦   +---express
+¦   ¦   ¦   +---node_modules
+¦   ¦   ¦       +---@types
+¦   ¦   ¦           +---express-serve-static-core
+¦   ¦   +---express-serve-static-core
+¦   ¦   +---glob
+¦   ¦   +---http-errors
+¦   ¦   +---http-proxy
+¦   ¦   +---imagemin
+¦   ¦   +---imagemin-gifsicle
+¦   ¦   +---imagemin-mozjpeg
+¦   ¦   +---imagemin-optipng
+¦   ¦   +---imagemin-svgo
+¦   ¦   +---json-schema
+¦   ¦   +---micromatch
+¦   ¦   +---mime
+¦   ¦   +---minimatch
+¦   ¦   +---node
+¦   ¦   ¦   +---assert
+¦   ¦   ¦   +---compatibility
+¦   ¦   ¦   +---dns
+¦   ¦   ¦   +---fs
+¦   ¦   ¦   +---readline
+¦   ¦   ¦   +---stream
+¦   ¦   ¦   +---timers
+¦   ¦   ¦   +---ts5.6
+¦   ¦   +---node-forge
+¦   ¦   +---parse-glob
+¦   ¦   +---parse-json
+¦   ¦   +---q
+¦   ¦   +---qs
+¦   ¦   +---range-parser
+¦   ¦   +---retry
+¦   ¦   +---send
+¦   ¦   +---serve-index
+¦   ¦   +---serve-static
+¦   ¦   +---sockjs
+¦   ¦   +---svgo
+¦   ¦   +---ws
+¦   +---@vue
+¦   ¦   +---compiler-sfc
+¦   ¦   ¦   +---dist
+¦   ¦   +---component-compiler-utils
+¦   ¦       +---dist
+¦   ¦       ¦   +---stylePlugins
+¦   ¦       ¦   +---styleProcessors
+¦   ¦       ¦   +---templateCompilerModules
+¦   ¦       +---lib
+¦   ¦       ¦   +---stylePlugins
+¦   ¦       ¦   +---styleProcessors
+¦   ¦       ¦   +---templateCompilerModules
+¦   ¦       +---node_modules
+¦   ¦           +---lru-cache
+¦   ¦           +---picocolors
+¦   ¦           +---postcss
+¦   ¦           ¦   +---lib
+¦   ¦           +---yallist
+¦   +---@webassemblyjs
+¦   ¦   +---ast
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   +---transform
+¦   ¦   ¦   ¦   ¦   +---ast-module-to-module-context
+¦   ¦   ¦   ¦   ¦   +---denormalize-type-references
+¦   ¦   ¦   ¦   ¦   +---wast-identifier-to-index
+¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦   +---transform
+¦   ¦   ¦   ¦   ¦   +---ast-module-to-module-context
+¦   ¦   ¦   ¦   ¦   +---denormalize-type-references
+¦   ¦   ¦   ¦   ¦   +---wast-identifier-to-index
+¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   +---scripts
+¦   ¦   +---floating-point-hex-parser
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-api-error
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-buffer
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-numbers
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---src
+¦   ¦   +---helper-wasm-bytecode
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---helper-wasm-section
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---ieee754
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---src
+¦   ¦   +---leb128
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---utf8
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---src
+¦   ¦   ¦   +---test
+¦   ¦   +---wasm-edit
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---wasm-gen
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   +---encoder
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---encoder
+¦   ¦   +---wasm-opt
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---lib
+¦   ¦   +---wasm-parser
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---types
+¦   ¦   +---wast-printer
+¦   ¦       +---esm
+¦   ¦       +---lib
+¦   +---@webpack-cli
+¦   ¦   +---configtest
+¦   ¦   ¦   +---lib
+¦   ¦   +---info
+¦   ¦   ¦   +---lib
+¦   ¦   +---serve
+¦   ¦       +---lib
+¦   +---@xtuc
+¦   ¦   +---ieee754
+¦   ¦   ¦   +---dist
+¦   ¦   +---long
+¦   ¦       +---dist
+¦   ¦       +---src
+¦   +---accepts
+¦   ¦   +---node_modules
+¦   ¦       +---negotiator
+¦   ¦           +---lib
+¦   +---acorn
+¦   ¦   +---bin
+¦   ¦   +---dist
+¦   +---adjust-sourcemap-loader
+¦   ¦   +---codec
+¦   ¦   ¦   +---utility
+¦   ¦   +---lib
+¦   ¦       +---process
+¦   +---ajv
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦   ¦   +---compile
+¦   ¦   ¦   +---dot
+¦   ¦   ¦   +---dotjs
+¦   ¦   ¦   +---refs
+¦   ¦   +---scripts
+¦   +---ajv-formats
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---ajv
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---compile
+¦   ¦   ¦   ¦   ¦   ¦   +---codegen
+¦   ¦   ¦   ¦   ¦   ¦   +---jtd
+¦   ¦   ¦   ¦   ¦   ¦   +---validate
+¦   ¦   ¦   ¦   ¦   +---refs
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---meta
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦   ¦   ¦       +---meta
+¦   ¦   ¦   ¦   ¦   +---runtime
+¦   ¦   ¦   ¦   ¦   +---standalone
+¦   ¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   ¦   ¦   +---vocabularies
+¦   ¦   ¦   ¦   ¦       +---applicator
+¦   ¦   ¦   ¦   ¦       +---core
+¦   ¦   ¦   ¦   ¦       +---discriminator
+¦   ¦   ¦   ¦   ¦       +---dynamic
+¦   ¦   ¦   ¦   ¦       +---format
+¦   ¦   ¦   ¦   ¦       +---jtd
+¦   ¦   ¦   ¦   ¦       +---unevaluated
+¦   ¦   ¦   ¦   ¦       +---validation
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       +---compile
+¦   ¦   ¦   ¦       ¦   +---codegen
+¦   ¦   ¦   ¦       ¦   +---jtd
+¦   ¦   ¦   ¦       ¦   +---validate
+¦   ¦   ¦   ¦       +---refs
+¦   ¦   ¦   ¦       ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦       ¦   ¦   +---meta
+¦   ¦   ¦   ¦       ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦       ¦       +---meta
+¦   ¦   ¦   ¦       +---runtime
+¦   ¦   ¦   ¦       +---standalone
+¦   ¦   ¦   ¦       +---types
+¦   ¦   ¦   ¦       +---vocabularies
+¦   ¦   ¦   ¦           +---applicator
+¦   ¦   ¦   ¦           +---core
+¦   ¦   ¦   ¦           +---discriminator
+¦   ¦   ¦   ¦           +---dynamic
+¦   ¦   ¦   ¦           +---format
+¦   ¦   ¦   ¦           +---jtd
+¦   ¦   ¦   ¦           +---unevaluated
+¦   ¦   ¦   ¦           +---validation
+¦   ¦   ¦   +---json-schema-traverse
+¦   ¦   ¦       +---.github
+¦   ¦   ¦       ¦   +---workflows
+¦   ¦   ¦       +---spec
+¦   ¦   ¦           +---fixtures
+¦   ¦   +---src
+¦   +---ajv-keywords
+¦   ¦   +---keywords
+¦   ¦       +---dot
+¦   ¦       +---dotjs
+¦   +---alphanum-sort
+¦   ¦   +---lib
+¦   +---ansi-html-community
+¦   ¦   +---bin
+¦   +---ansi-regex
+¦   +---ansi-styles
+¦   +---anymatch
+¦   +---argparse
+¦   ¦   +---lib
+¦   ¦       +---action
+¦   ¦       ¦   +---append
+¦   ¦       ¦   +---store
+¦   ¦       +---argument
+¦   ¦       +---help
+¦   +---arity-n
+¦   +---array-buffer-byte-length
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---array-flatten
+¦   +---array-union
+¦   +---array.prototype.reduce
+¦   ¦   +---test
+¦   +---arraybuffer.prototype.slice
+¦   ¦   +---test
+¦   +---asn1.js
+¦   ¦   +---lib
+¦   ¦   ¦   +---asn1
+¦   ¦   ¦       +---base
+¦   ¦   ¦       +---constants
+¦   ¦   ¦       +---decoders
+¦   ¦   ¦       +---encoders
+¦   ¦   +---node_modules
+¦   ¦       +---bn.js
+¦   ¦           +---lib
+¦   ¦           +---util
+¦   +---assert
+¦   ¦   +---.github
+¦   ¦   +---node_modules
+¦   ¦       +---inherits
+¦   ¦       +---util
+¦   ¦           +---support
+¦   +---async-function
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---at-least-node
+¦   +---atob
+¦   ¦   +---bin
+¦   +---autoprefixer
+¦   ¦   +---bin
+¦   ¦   +---data
+¦   ¦   +---lib
+¦   ¦       +---hacks
+¦   +---available-typed-arrays
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---axios
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦       +---adapters
+¦   ¦       +---cancel
+¦   ¦       +---core
+¦   ¦       +---helpers
+¦   +---babel-loader
+¦   ¦   +---lib
+¦   +---babel-merge
+¦   ¦   +---.idea
+¦   ¦   ¦   +---codeStyles
+¦   ¦   ¦   +---dictionaries
+¦   ¦   +---src
+¦   ¦   +---test
+¦   +---babel-plugin-polyfill-corejs2
+¦   ¦   +---esm
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---.bin
+¦   ¦       +---semver
+¦   ¦           +---bin
+¦   +---babel-plugin-polyfill-corejs3
+¦   ¦   +---core-js-compat
+¦   ¦   +---esm
+¦   ¦   +---lib
+¦   +---babel-plugin-polyfill-regenerator
+¦   ¦   +---esm
+¦   ¦   +---lib
+¦   +---balanced-match
+¦   ¦   +---.github
+¦   +---base64-js
+¦   +---batch
+¦   +---big.js
+¦   +---binary-extensions
+¦   +---bluebird
+¦   ¦   +---js
+¦   ¦       +---browser
+¦   ¦       +---release
+¦   +---bn.js
+¦   ¦   +---lib
+¦   +---body-parser
+¦   ¦   +---lib
+¦   ¦   ¦   +---types
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   +---src
+¦   ¦       +---ms
+¦   ¦       +---qs
+¦   ¦           +---.github
+¦   ¦           +---dist
+¦   ¦           +---lib
+¦   ¦           +---test
+¦   +---bonjour-service
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---utils
+¦   ¦   +---types
+¦   +---boolbase
+¦   +---bootstrap
+¦   ¦   +---dist
+¦   ¦   ¦   +---css
+¦   ¦   ¦   +---js
+¦   ¦   +---js
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---dom
+¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   +---src
+¦   ¦   ¦       +---dom
+¦   ¦   ¦       +---util
+¦   ¦   +---scss
+¦   ¦       +---forms
+¦   ¦       +---helpers
+¦   ¦       +---mixins
+¦   ¦       +---utilities
+¦   ¦       +---vendor
+¦   +---bootstrap-select
+¦   ¦   +---.github
+¦   ¦   ¦   +---ISSUE_TEMPLATE
+¦   ¦   +---dist
+¦   ¦   ¦   +---css
+¦   ¦   ¦   +---js
+¦   ¦   ¦       +---i18n
+¦   ¦   +---docs
+¦   ¦   ¦   +---custom_theme
+¦   ¦   ¦   ¦   +---ajax
+¦   ¦   ¦   ¦   ¦   +---libs
+¦   ¦   ¦   ¦   ¦       +---highlight.js
+¦   ¦   ¦   ¦   ¦           +---9.15.6
+¦   ¦   ¦   ¦   ¦               +---css
+¦   ¦   ¦   ¦   ¦               +---js
+¦   ¦   ¦   ¦   +---css
+¦   ¦   ¦   ¦   +---js
+¦   ¦   ¦   +---docs
+¦   ¦   ¦       +---css
+¦   ¦   ¦       +---dist
+¦   ¦   ¦       ¦   +---css
+¦   ¦   ¦       ¦   +---js
+¦   ¦   ¦       ¦       +---i18n
+¦   ¦   ¦       +---playground
+¦   ¦   ¦           +---3
+¦   ¦   +---js
+¦   ¦   ¦   +---i18n
+¦   ¦   +---less
+¦   ¦   +---nuget
+¦   ¦   +---sass
+¦   ¦   +---tests
+¦   +---brace-expansion
+¦   +---braces
+¦   ¦   +---lib
+¦   +---brorand
+¦   ¦   +---test
+¦   +---browserify-aes
+¦   ¦   +---modes
+¦   +---browserify-cipher
+¦   +---browserify-des
+¦   +---browserify-rsa
+¦   +---browserify-sign
+¦   ¦   +---browser
+¦   +---browserify-zlib
+¦   ¦   +---lib
+¦   ¦   +---src
+¦   +---browserslist
+¦   +---buffer
+¦   ¦   +---bin
+¦   ¦   +---test
+¦   ¦       +---node
+¦   +---buffer-from
+¦   +---buffer-xor
+¦   ¦   +---test
+¦   +---builtin-status-codes
+¦   +---bytes
+¦   +---call-bind
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---call-bind-apply-helpers
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---call-bound
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---caller-callsite
+¦   +---caller-path
+¦   +---callsites
+¦   +---camel-case
+¦   ¦   +---dist
+¦   ¦   +---dist.es2015
+¦   +---camelcase
+¦   +---caniuse-api
+¦   ¦   +---dist
+¦   +---caniuse-lite
+¦   ¦   +---data
+¦   ¦   ¦   +---features
+¦   ¦   ¦   +---regions
+¦   ¦   +---dist
+¦   ¦       +---lib
+¦   ¦       +---unpacker
+¦   +---chalk
+¦   ¦   +---source
+¦   +---charenc
+¦   +---chart.js
+¦   ¦   +---auto
+¦   ¦   +---dist
+¦   ¦   ¦   +---chunks
+¦   ¦   ¦   +---controllers
+¦   ¦   ¦   +---core
+¦   ¦   ¦   +---elements
+¦   ¦   ¦   +---helpers
+¦   ¦   ¦   +---platform
+¦   ¦   ¦   +---plugins
+¦   ¦   ¦   ¦   +---plugin.filler
+¦   ¦   ¦   +---scales
+¦   ¦   ¦   +---types
+¦   ¦   +---helpers
+¦   +---chokidar
+¦   ¦   +---lib
+¦   ¦   +---types
+¦   +---chrome-trace-event
+¦   ¦   +---dist
+¦   +---cipher-base
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---clean-css
+¦   ¦   +---lib
+¦   ¦       +---optimizer
+¦   ¦       ¦   +---level-0
+¦   ¦       ¦   +---level-1
+¦   ¦       ¦   +---level-2
+¦   ¦       ¦       +---properties
+¦   ¦       +---options
+¦   ¦       +---reader
+¦   ¦       +---tokenizer
+¦   ¦       +---utils
+¦   ¦       +---writer
+¦   +---cli-table3
+¦   ¦   +---src
+¦   +---cliui
+¦   ¦   +---build
+¦   ¦       +---lib
+¦   +---clone-deep
+¦   +---coa
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---ansi-styles
+¦   ¦       +---chalk
+¦   ¦       ¦   +---types
+¦   ¦       +---color-convert
+¦   ¦       +---color-name
+¦   ¦       +---has-flag
+¦   ¦       +---supports-color
+¦   +---collect.js
+¦   ¦   +---build
+¦   ¦   +---bundler
+¦   ¦   +---dist
+¦   ¦   ¦   +---helpers
+¦   ¦   ¦   +---methods
+¦   ¦   +---docs
+¦   ¦   ¦   +---.vuepress
+¦   ¦   ¦   +---api
+¦   ¦   +---src
+¦   ¦       +---helpers
+¦   ¦       +---methods
+¦   +---color
+¦   ¦   +---node_modules
+¦   ¦       +---color-convert
+¦   ¦       +---color-name
+¦   +---color-convert
+¦   +---color-name
+¦   +---color-string
+¦   +---colorette
+¦   +---commander
+¦   ¦   +---typings
+¦   +---commondir
+¦   ¦   +---example
+¦   ¦   +---test
+¦   +---compose-function
+¦   ¦   +---module
+¦   +---compressible
+¦   +---compression
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   +---src
+¦   ¦       +---ms
+¦   +---concat
+¦   ¦   +---bin
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---commander
+¦   ¦   ¦       +---typings
+¦   ¦   +---test
+¦   ¦       +---folder
+¦   +---concat-map
+¦   ¦   +---example
+¦   ¦   +---test
+¦   +---connect-history-api-fallback
+¦   ¦   +---lib
+¦   +---console-browserify
+¦   ¦   +---test
+¦   ¦       +---static
+¦   +---consolidate
+¦   ¦   +---lib
+¦   +---constants-browserify
+¦   +---content-disposition
+¦   +---content-type
+¦   +---convert-source-map
+¦   +---cookie
+¦   +---cookie-signature
+¦   +---core-js-compat
+¦   +---core-util-is
+¦   ¦   +---lib
+¦   +---cosmiconfig
+¦   ¦   +---dist
+¦   +---create-ecdh
+¦   ¦   +---node_modules
+¦   ¦       +---bn.js
+¦   ¦           +---lib
+¦   ¦           +---util
+¦   +---create-hash
+¦   +---create-hmac
+¦   +---cross-env
+¦   ¦   +---src
+¦   ¦       +---bin
+¦   +---cross-spawn
+¦   ¦   +---lib
+¦   ¦       +---util
+¦   +---crypt
+¦   +---crypto-browserify
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   +---example
+¦   ¦   +---test
+¦   ¦       +---node
+¦   +---css
+¦   ¦   +---lib
+¦   ¦       +---parse
+¦   ¦       +---stringify
+¦   +---css-color-names
+¦   +---css-declaration-sorter
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---picocolors
+¦   ¦   ¦   +---postcss
+¦   ¦   ¦       +---lib
+¦   ¦   +---orders
+¦   ¦   +---src
+¦   +---css-loader
+¦   ¦   +---dist
+¦   ¦   ¦   +---plugins
+¦   ¦   ¦   +---runtime
+¦   ¦   +---node_modules
+¦   ¦       +---schema-utils
+¦   ¦           +---declarations
+¦   ¦           ¦   +---keywords
+¦   ¦           ¦   +---util
+¦   ¦           +---dist
+¦   ¦               +---keywords
+¦   ¦               +---util
+¦   +---css-select
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---dom-serializer
+¦   ¦       +---domutils
+¦   ¦           +---lib
+¦   ¦           +---node_modules
+¦   ¦           ¦   +---domelementtype
+¦   ¦           +---test
+¦   ¦               +---tests
+¦   +---css-select-base-adapter
+¦   ¦   +---test
+¦   +---css-tree
+¦   ¦   +---data
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦       +---common
+¦   ¦       +---convertor
+¦   ¦       +---definition-syntax
+¦   ¦       +---generator
+¦   ¦       +---lexer
+¦   ¦       +---parser
+¦   ¦       +---syntax
+¦   ¦       ¦   +---atrule
+¦   ¦       ¦   +---config
+¦   ¦       ¦   +---function
+¦   ¦       ¦   +---node
+¦   ¦       ¦   +---pseudo
+¦   ¦       ¦   ¦   +---common
+¦   ¦       ¦   +---scope
+¦   ¦       +---tokenizer
+¦   ¦       +---utils
+¦   ¦       +---walker
+¦   +---css-what
+¦   ¦   +---lib
+¦   +---cssesc
+¦   ¦   +---bin
+¦   ¦   +---man
+¦   +---cssnano
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---cssnano-preset-default
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---cssnano-util-get-arguments
+¦   ¦   +---dist
+¦   +---cssnano-util-get-match
+¦   ¦   +---dist
+¦   +---cssnano-util-raw-cache
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---cssnano-util-same-parent
+¦   ¦   +---dist
+¦   +---csso
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦   ¦   +---clean
+¦   ¦   ¦   +---replace
+¦   ¦   ¦   ¦   +---atrule
+¦   ¦   ¦   ¦   +---property
+¦   ¦   ¦   +---restructure
+¦   ¦   ¦       +---prepare
+¦   ¦   +---node_modules
+¦   ¦       +---css-tree
+¦   ¦       ¦   +---data
+¦   ¦       ¦   +---dist
+¦   ¦       ¦   +---lib
+¦   ¦       ¦       +---common
+¦   ¦       ¦       +---convertor
+¦   ¦       ¦       +---definition-syntax
+¦   ¦       ¦       +---generator
+¦   ¦       ¦       +---lexer
+¦   ¦       ¦       +---parser
+¦   ¦       ¦       +---syntax
+¦   ¦       ¦       ¦   +---atrule
+¦   ¦       ¦       ¦   +---config
+¦   ¦       ¦       ¦   +---function
+¦   ¦       ¦       ¦   +---node
+¦   ¦       ¦       ¦   +---pseudo
+¦   ¦       ¦       ¦   ¦   +---common
+¦   ¦       ¦       ¦   +---scope
+¦   ¦       ¦       +---tokenizer
+¦   ¦       ¦       +---utils
+¦   ¦       ¦       +---walker
+¦   ¦       +---mdn-data
+¦   ¦           +---api
+¦   ¦           +---css
+¦   ¦           +---l10n
+¦   +---csstype
+¦   +---d
+¦   +---data-view-buffer
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---data-view-byte-length
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---data-view-byte-offset
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---de-indent
+¦   +---debug
+¦   ¦   +---src
+¦   +---decode-uri-component
+¦   +---deepmerge
+¦   ¦   +---dist
+¦   +---default-gateway
+¦   +---define-data-property
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---define-lazy-prop
+¦   +---define-properties
+¦   ¦   +---.github
+¦   +---depd
+¦   ¦   +---lib
+¦   ¦       +---browser
+¦   +---des.js
+¦   ¦   +---lib
+¦   ¦   ¦   +---des
+¦   ¦   +---test
+¦   +---destroy
+¦   +---detect-libc
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   +---detect-node
+¦   +---diffie-hellman
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---bn.js
+¦   ¦           +---lib
+¦   ¦           +---util
+¦   +---dir-glob
+¦   +---dns-packet
+¦   +---dom-serializer
+¦   ¦   +---lib
+¦   ¦   ¦   +---esm
+¦   ¦   +---node_modules
+¦   ¦       +---domhandler
+¦   ¦           +---lib
+¦   +---domain-browser
+¦   ¦   +---source
+¦   +---domelementtype
+¦   ¦   +---lib
+¦   ¦       +---esm
+¦   +---domhandler
+¦   ¦   +---lib
+¦   +---domutils
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---domhandler
+¦   ¦           +---lib
+¦   +---dot-case
+¦   ¦   +---dist
+¦   ¦   +---dist.es2015
+¦   +---dot-prop
+¦   +---dotenv
+¦   ¦   +---.github
+¦   ¦   +---lib
+¦   ¦   +---types
+¦   +---dotenv-expand
+¦   ¦   +---lib
+¦   +---dropzone
+¦   ¦   +---dist
+¦   ¦   +---src
+¦   +---dunder-proto
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---ee-first
+¦   +---electron-to-chromium
+¦   +---elliptic
+¦   ¦   +---lib
+¦   ¦   ¦   +---elliptic
+¦   ¦   ¦       +---curve
+¦   ¦   ¦       +---ec
+¦   ¦   ¦       +---eddsa
+¦   ¦   ¦       +---precomputed
+¦   ¦   +---node_modules
+¦   ¦       +---bn.js
+¦   ¦           +---lib
+¦   ¦           +---util
+¦   +---emoji-regex
+¦   ¦   +---es2015
+¦   +---emojis-list
+¦   +---encodeurl
+¦   +---enhanced-resolve
+¦   ¦   +---lib
+¦   ¦       +---util
+¦   +---entities
+¦   ¦   +---lib
+¦   ¦       +---maps
+¦   +---envinfo
+¦   ¦   +---dist
+¦   +---error-ex
+¦   +---es-abstract
+¦   ¦   +---2015
+¦   ¦   ¦   +---tables
+¦   ¦   +---2016
+¦   ¦   ¦   +---tables
+¦   ¦   +---2017
+¦   ¦   ¦   +---tables
+¦   ¦   +---2018
+¦   ¦   ¦   +---tables
+¦   ¦   +---2019
+¦   ¦   ¦   +---tables
+¦   ¦   +---2020
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   +---Number
+¦   ¦   ¦   +---tables
+¦   ¦   +---2021
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   +---Number
+¦   ¦   ¦   +---tables
+¦   ¦   +---2022
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   +---Number
+¦   ¦   ¦   +---tables
+¦   ¦   +---2023
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   +---Number
+¦   ¦   ¦   +---tables
+¦   ¦   +---2024
+¦   ¦   ¦   +---BigInt
+¦   ¦   ¦   +---Number
+¦   ¦   ¦   +---tables
+¦   ¦   +---5
+¦   ¦   +---helpers
+¦   ¦   ¦   +---records
+¦   ¦   +---operations
+¦   +---es-array-method-boxes-properly
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---es-define-property
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---es-errors
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---es-module-lexer
+¦   ¦   +---dist
+¦   ¦   +---types
+¦   +---es-object-atoms
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---es-set-tostringtag
+¦   ¦   +---test
+¦   +---es-to-primitive
+¦   ¦   +---.github
+¦   ¦   +---helpers
+¦   ¦   +---test
+¦   +---es5-ext
+¦   ¦   +---array
+¦   ¦   ¦   +---#
+¦   ¦   ¦   ¦   +---@@iterator
+¦   ¦   ¦   ¦   +---concat
+¦   ¦   ¦   ¦   +---copy-within
+¦   ¦   ¦   ¦   +---entries
+¦   ¦   ¦   ¦   +---fill
+¦   ¦   ¦   ¦   +---filter
+¦   ¦   ¦   ¦   +---find
+¦   ¦   ¦   ¦   +---find-index
+¦   ¦   ¦   ¦   +---keys
+¦   ¦   ¦   ¦   +---map
+¦   ¦   ¦   ¦   +---slice
+¦   ¦   ¦   ¦   +---splice
+¦   ¦   ¦   ¦   +---values
+¦   ¦   ¦   +---from
+¦   ¦   ¦   +---of
+¦   ¦   +---boolean
+¦   ¦   +---date
+¦   ¦   ¦   +---#
+¦   ¦   +---error
+¦   ¦   ¦   +---#
+¦   ¦   +---function
+¦   ¦   ¦   +---#
+¦   ¦   +---iterable
+¦   ¦   +---json
+¦   ¦   +---math
+¦   ¦   ¦   +---acosh
+¦   ¦   ¦   +---asinh
+¦   ¦   ¦   +---atanh
+¦   ¦   ¦   +---cbrt
+¦   ¦   ¦   +---clz32
+¦   ¦   ¦   +---cosh
+¦   ¦   ¦   +---expm1
+¦   ¦   ¦   +---fround
+¦   ¦   ¦   +---hypot
+¦   ¦   ¦   +---imul
+¦   ¦   ¦   +---log10
+¦   ¦   ¦   +---log1p
+¦   ¦   ¦   +---log2
+¦   ¦   ¦   +---sign
+¦   ¦   ¦   +---sinh
+¦   ¦   ¦   +---tanh
+¦   ¦   ¦   +---trunc
+¦   ¦   +---number
+¦   ¦   ¦   +---#
+¦   ¦   ¦   +---epsilon
+¦   ¦   ¦   +---is-finite
+¦   ¦   ¦   +---is-integer
+¦   ¦   ¦   +---is-nan
+¦   ¦   ¦   +---is-safe-integer
+¦   ¦   ¦   +---max-safe-integer
+¦   ¦   ¦   +---min-safe-integer
+¦   ¦   +---object
+¦   ¦   ¦   +---assign
+¦   ¦   ¦   +---entries
+¦   ¦   ¦   +---keys
+¦   ¦   ¦   +---set-prototype-of
+¦   ¦   +---promise
+¦   ¦   ¦   +---#
+¦   ¦   ¦       +---finally
+¦   ¦   +---reg-exp
+¦   ¦   ¦   +---#
+¦   ¦   ¦       +---match
+¦   ¦   ¦       +---replace
+¦   ¦   ¦       +---search
+¦   ¦   ¦       +---split
+¦   ¦   ¦       +---sticky
+¦   ¦   ¦       +---unicode
+¦   ¦   +---string
+¦   ¦       +---#
+¦   ¦       ¦   +---@@iterator
+¦   ¦       ¦   +---code-point-at
+¦   ¦       ¦   +---contains
+¦   ¦       ¦   +---ends-with
+¦   ¦       ¦   +---normalize
+¦   ¦       ¦   +---repeat
+¦   ¦       ¦   +---starts-with
+¦   ¦       +---from-code-point
+¦   ¦       +---raw
+¦   +---es6-iterator
+¦   ¦   +---#
+¦   ¦   +---test
+¦   ¦       +---#
+¦   +---es6-symbol
+¦   ¦   +---lib
+¦   ¦       +---private
+¦   ¦           +---setup
+¦   +---escalade
+¦   ¦   +---dist
+¦   ¦   +---sync
+¦   +---escape-html
+¦   +---escape-string-regexp
+¦   +---eslint-scope
+¦   ¦   +---lib
+¦   +---esniff
+¦   ¦   +---lib
+¦   ¦   +---utils
+¦   +---esprima
+¦   ¦   +---bin
+¦   ¦   +---dist
+¦   +---esrecurse
+¦   ¦   +---node_modules
+¦   ¦       +---estraverse
+¦   +---estraverse
+¦   +---esutils
+¦   ¦   +---lib
+¦   +---etag
+¦   +---event-emitter
+¦   ¦   +---benchmark
+¦   ¦   +---test
+¦   +---eventemitter3
+¦   ¦   +---umd
+¦   +---events
+¦   ¦   +---.github
+¦   ¦   +---tests
+¦   +---evp_bytestokey
+¦   +---execa
+¦   ¦   +---lib
+¦   +---express
+¦   ¦   +---lib
+¦   ¦   ¦   +---middleware
+¦   ¦   ¦   +---router
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   +---src
+¦   ¦       +---ms
+¦   ¦       +---qs
+¦   ¦           +---.github
+¦   ¦           +---dist
+¦   ¦           +---lib
+¦   ¦           +---test
+¦   +---ext
+¦   ¦   +---docs
+¦   ¦   ¦   +---function
+¦   ¦   ¦   +---math
+¦   ¦   ¦   +---object
+¦   ¦   ¦   +---promise
+¦   ¦   ¦   +---string
+¦   ¦   ¦   +---string_
+¦   ¦   ¦   +---thenable_
+¦   ¦   +---function
+¦   ¦   +---global-this
+¦   ¦   +---lib
+¦   ¦   ¦   +---private
+¦   ¦   +---math
+¦   ¦   +---object
+¦   ¦   ¦   +---entries
+¦   ¦   +---promise
+¦   ¦   +---string
+¦   ¦   +---string_
+¦   ¦   ¦   +---includes
+¦   ¦   +---thenable_
+¦   +---fast-deep-equal
+¦   ¦   +---es6
+¦   +---fast-glob
+¦   ¦   +---out
+¦   ¦       +---managers
+¦   ¦       +---providers
+¦   ¦       ¦   +---filters
+¦   ¦       ¦   +---matchers
+¦   ¦       ¦   +---transformers
+¦   ¦       +---readers
+¦   ¦       +---types
+¦   ¦       +---utils
+¦   +---fast-json-stable-stringify
+¦   ¦   +---.github
+¦   ¦   +---benchmark
+¦   ¦   +---example
+¦   ¦   +---test
+¦   +---fast-uri
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦   +---types
+¦   +---fastest-levenshtein
+¦   ¦   +---esm
+¦   +---fastq
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   +---test
+¦   +---faye-websocket
+¦   ¦   +---lib
+¦   ¦       +---faye
+¦   ¦           +---websocket
+¦   ¦               +---api
+¦   +---file-loader
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---schema-utils
+¦   ¦           +---declarations
+¦   ¦           ¦   +---keywords
+¦   ¦           ¦   +---util
+¦   ¦           +---dist
+¦   ¦               +---keywords
+¦   ¦               +---util
+¦   +---file-type
+¦   +---fill-range
+¦   +---finalhandler
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   +---src
+¦   ¦       +---ms
+¦   +---find-cache-dir
+¦   +---find-up
+¦   +---flat
+¦   ¦   +---test
+¦   +---follow-redirects
+¦   +---for-each
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---forwarded
+¦   +---fraction.js
+¦   +---fresh
+¦   +---fs-extra
+¦   ¦   +---lib
+¦   ¦       +---copy
+¦   ¦       +---copy-sync
+¦   ¦       +---empty
+¦   ¦       +---ensure
+¦   ¦       +---fs
+¦   ¦       +---json
+¦   ¦       +---mkdirs
+¦   ¦       +---move
+¦   ¦       +---move-sync
+¦   ¦       +---output
+¦   ¦       +---path-exists
+¦   ¦       +---remove
+¦   ¦       +---util
+¦   +---fs-monkey
+¦   ¦   +---docs
+¦   ¦   ¦   +---api
+¦   ¦   +---lib
+¦   ¦       +---util
+¦   +---fs.realpath
+¦   +---function-bind
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---function.prototype.name
+¦   ¦   +---.github
+¦   ¦   +---helpers
+¦   ¦   +---test
+¦   +---functions-have-names
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---gensync
+¦   ¦   +---test
+¦   +---get-caller-file
+¦   +---get-intrinsic
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---get-proto
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---get-stream
+¦   +---get-symbol-description
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---glob
+¦   +---glob-parent
+¦   +---glob-to-regexp
+¦   +---globals
+¦   +---globalthis
+¦   ¦   +---test
+¦   +---globby
+¦   +---gopd
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---graceful-fs
+¦   +---growly
+¦   ¦   +---example
+¦   ¦   +---lib
+¦   +---handle-thing
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---has
+¦   ¦   +---src
+¦   ¦   +---test
+¦   +---has-bigints
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---has-flag
+¦   +---has-property-descriptors
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---has-proto
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---has-symbols
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   ¦       +---shams
+¦   +---has-tostringtag
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   ¦       +---shams
+¦   +---hash-base
+¦   +---hash-sum
+¦   +---hash.js
+¦   ¦   +---lib
+¦   ¦   ¦   +---hash
+¦   ¦   ¦       +---sha
+¦   ¦   +---test
+¦   +---hasown
+¦   ¦   +---.github
+¦   +---he
+¦   ¦   +---bin
+¦   ¦   +---man
+¦   +---hex-color-regex
+¦   +---hmac-drbg
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦       +---fixtures
+¦   +---hpack.js
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   ¦   ¦   +---hpack
+¦   ¦   +---test
+¦   ¦   +---tools
+¦   +---hsl-regex
+¦   ¦   +---test
+¦   +---hsla-regex
+¦   ¦   +---test
+¦   +---html-entities
+¦   ¦   +---dist
+¦   ¦   ¦   +---commonjs
+¦   ¦   ¦   +---esm
+¦   ¦   +---src
+¦   +---html-loader
+¦   ¦   +---dist
+¦   ¦   ¦   +---plugins
+¦   ¦   ¦   +---runtime
+¦   ¦   +---node_modules
+¦   ¦       +---schema-utils
+¦   ¦           +---declarations
+¦   ¦           ¦   +---keywords
+¦   ¦           ¦   +---util
+¦   ¦           +---dist
+¦   ¦               +---keywords
+¦   ¦               +---util
+¦   +---html-minifier-terser
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---.bin
+¦   ¦   ¦   +---commander
+¦   ¦   ¦   ¦   +---typings
+¦   ¦   ¦   +---terser
+¦   ¦   ¦       +---bin
+¦   ¦   ¦       +---dist
+¦   ¦   ¦       +---node_modules
+¦   ¦   ¦       ¦   +---commander
+¦   ¦   ¦       ¦       +---typings
+¦   ¦   ¦       +---tools
+¦   ¦   +---src
+¦   +---htmlparser2
+¦   ¦   +---lib
+¦   +---http-deceiver
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---http-errors
+¦   +---http-parser-js
+¦   +---http-proxy
+¦   ¦   +---lib
+¦   ¦       +---http-proxy
+¦   ¦           +---passes
+¦   +---http-proxy-middleware
+¦   ¦   +---dist
+¦   ¦       +---handlers
+¦   +---https-browserify
+¦   +---human-signals
+¦   ¦   +---build
+¦   ¦       +---src
+¦   +---iconv-lite
+¦   ¦   +---encodings
+¦   ¦   ¦   +---tables
+¦   ¦   +---lib
+¦   +---icss-utils
+¦   ¦   +---src
+¦   +---ieee754
+¦   +---ignore
+¦   +---imagemin
+¦   +---img-loader
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---.bin
+¦   ¦   ¦   +---json5
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---loader-utils
+¦   ¦   ¦       +---lib
+¦   ¦   +---__tests__
+¦   +---immutable
+¦   ¦   +---dist
+¦   +---import-fresh
+¦   +---import-local
+¦   ¦   +---fixtures
+¦   +---indexes-of
+¦   +---inflight
+¦   +---inherits
+¦   +---internal-slot
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---interpret
+¦   +---ipaddr.js
+¦   ¦   +---lib
+¦   +---is-absolute-url
+¦   +---is-array-buffer
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-arrayish
+¦   +---is-async-function
+¦   ¦   +---test
+¦   +---is-bigint
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-binary-path
+¦   +---is-boolean-object
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-buffer
+¦   ¦   +---test
+¦   +---is-callable
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-color-stop
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦   +---util
+¦   +---is-core-module
+¦   ¦   +---test
+¦   +---is-data-view
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-date-object
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-directory
+¦   +---is-docker
+¦   +---is-extendable
+¦   +---is-extglob
+¦   +---is-finalizationregistry
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-fullwidth-code-point
+¦   +---is-generator-function
+¦   ¦   +---test
+¦   +---is-glob
+¦   +---is-map
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-number
+¦   +---is-number-object
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-obj
+¦   +---is-plain-obj
+¦   +---is-plain-object
+¦   +---is-regex
+¦   ¦   +---test
+¦   +---is-resolvable
+¦   +---is-set
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-shared-array-buffer
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-stream
+¦   +---is-string
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-symbol
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-typed-array
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-weakmap
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-weakref
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-weakset
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---is-wsl
+¦   +---isarray
+¦   +---isexe
+¦   ¦   +---test
+¦   +---isobject
+¦   +---jest-worker
+¦   ¦   +---build
+¦   ¦   ¦   +---base
+¦   ¦   ¦   +---workers
+¦   ¦   +---node_modules
+¦   ¦       +---supports-color
+¦   +---js-tokens
+¦   +---js-yaml
+¦   ¦   +---bin
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦       +---js-yaml
+¦   ¦           +---schema
+¦   ¦           +---type
+¦   ¦               +---js
+¦   +---jsesc
+¦   ¦   +---bin
+¦   ¦   +---man
+¦   +---json-parse-better-errors
+¦   +---json-parse-even-better-errors
+¦   +---json-schema-traverse
+¦   ¦   +---spec
+¦   ¦       +---fixtures
+¦   +---json5
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   +---jsonfile
+¦   +---junk
+¦   +---just-extend
+¦   +---kind-of
+¦   +---klona
+¦   ¦   +---dist
+¦   ¦   +---full
+¦   ¦   +---json
+¦   ¦   +---lite
+¦   +---laravel-mix
+¦   ¦   +---bin
+¦   ¦   +---icons
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---.bin
+¦   ¦   ¦   +---commander
+¦   ¦   ¦   ¦   +---typings
+¦   ¦   ¦   +---semver
+¦   ¦   ¦       +---bin
+¦   ¦   +---setup
+¦   ¦   +---src
+¦   ¦   ¦   +---builder
+¦   ¦   ¦   +---components
+¦   ¦   ¦   +---tasks
+¦   ¦   ¦   +---webpackPlugins
+¦   ¦   ¦       +---Css
+¦   ¦   +---types
+¦   +---launch-editor
+¦   ¦   +---editor-info
+¦   +---lilconfig
+¦   ¦   +---dist
+¦   +---lines-and-columns
+¦   ¦   +---build
+¦   +---loader-runner
+¦   ¦   +---lib
+¦   +---loader-utils
+¦   ¦   +---lib
+¦   ¦       +---hash
+¦   +---locate-path
+¦   +---lodash
+¦   ¦   +---fp
+¦   +---lodash.debounce
+¦   +---lodash.memoize
+¦   +---lodash.uniq
+¦   +---lower-case
+¦   ¦   +---dist
+¦   ¦   +---dist.es2015
+¦   +---lru-cache
+¦   +---make-dir
+¦   ¦   +---node_modules
+¦   ¦       +---.bin
+¦   ¦       +---semver
+¦   ¦           +---bin
+¦   +---math-intrinsics
+¦   ¦   +---.github
+¦   ¦   +---constants
+¦   ¦   +---test
+¦   +---md5
+¦   ¦   +---demo
+¦   ¦   +---dist
+¦   +---md5.js
+¦   +---mdn-data
+¦   ¦   +---api
+¦   ¦   +---css
+¦   ¦   +---l10n
+¦   +---media-typer
+¦   +---memfs
+¦   ¦   +---lib
+¦   ¦       +---internal
+¦   +---merge-descriptors
+¦   +---merge-source-map
+¦   +---merge-stream
+¦   +---merge2
+¦   +---methods
+¦   +---micromatch
+¦   +---miller-rabin
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---bn.js
+¦   ¦   ¦       +---lib
+¦   ¦   ¦       +---util
+¦   ¦   +---test
+¦   +---mime
+¦   ¦   +---src
+¦   +---mime-db
+¦   +---mime-types
+¦   +---mimic-fn
+¦   +---mini-css-extract-plugin
+¦   ¦   +---dist
+¦   ¦   ¦   +---hmr
+¦   ¦   +---node_modules
+¦   ¦       +---schema-utils
+¦   ¦           +---declarations
+¦   ¦           ¦   +---keywords
+¦   ¦           ¦   +---util
+¦   ¦           +---dist
+¦   ¦               +---keywords
+¦   ¦               +---util
+¦   +---minimalistic-assert
+¦   +---minimalistic-crypto-utils
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---minimatch
+¦   +---minimist
+¦   ¦   +---.github
+¦   ¦   +---example
+¦   ¦   +---test
+¦   +---mkdirp
+¦   ¦   +---bin
+¦   +---ms
+¦   +---multicast-dns
+¦   +---nanoid
+¦   ¦   +---async
+¦   ¦   +---bin
+¦   ¦   +---non-secure
+¦   ¦   +---url-alphabet
+¦   +---negotiator
+¦   ¦   +---lib
+¦   +---neo-async
+¦   +---next-tick
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---no-case
+¦   ¦   +---dist
+¦   ¦   +---dist.es2015
+¦   +---node-addon-api
+¦   ¦   +---tools
+¦   +---node-forge
+¦   ¦   +---dist
+¦   ¦   +---flash
+¦   ¦   ¦   +---swf
+¦   ¦   +---lib
+¦   +---node-libs-browser
+¦   ¦   +---mock
+¦   +---node-notifier
+¦   ¦   +---lib
+¦   ¦   +---notifiers
+¦   ¦   +---vendor
+¦   ¦       +---mac.noindex
+¦   ¦       ¦   +---terminal-notifier.app
+¦   ¦       ¦       +---Contents
+¦   ¦       ¦           +---MacOS
+¦   ¦       ¦           +---Resources
+¦   ¦       ¦               +---en.lproj
+¦   ¦       +---notifu
+¦   ¦       +---snoreToast
+¦   +---node-releases
+¦   ¦   +---data
+¦   ¦       +---processed
+¦   ¦       +---release-schedule
+¦   +---normalize-path
+¦   +---normalize-range
+¦   +---normalize-url
+¦   +---npm-run-path
+¦   +---nth-check
+¦   +---object-inspect
+¦   ¦   +---.github
+¦   ¦   +---example
+¦   ¦   +---test
+¦   ¦       +---browser
+¦   +---object-keys
+¦   ¦   +---test
+¦   +---object.assign
+¦   ¦   +---.github
+¦   ¦   +---dist
+¦   ¦   +---test
+¦   +---object.getownpropertydescriptors
+¦   ¦   +---test
+¦   +---object.omit
+¦   +---object.values
+¦   ¦   +---test
+¦   +---obuf
+¦   ¦   +---test
+¦   +---on-finished
+¦   +---on-headers
+¦   +---once
+¦   +---onetime
+¦   +---open
+¦   +---os-browserify
+¦   +---own-keys
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---p-limit
+¦   +---p-locate
+¦   +---p-pipe
+¦   +---p-retry
+¦   +---p-try
+¦   +---pako
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦       +---utils
+¦   ¦       +---zlib
+¦   +---param-case
+¦   ¦   +---dist
+¦   ¦   +---dist.es2015
+¦   +---parent-module
+¦   ¦   +---node_modules
+¦   ¦       +---callsites
+¦   +---parse-asn1
+¦   ¦   +---.github
+¦   +---parse-json
+¦   +---parseurl
+¦   +---pascal-case
+¦   ¦   +---dist
+¦   ¦   +---dist.es2015
+¦   +---path-browserify
+¦   ¦   +---test
+¦   +---path-exists
+¦   +---path-is-absolute
+¦   +---path-key
+¦   +---path-parse
+¦   +---path-to-regexp
+¦   +---path-type
+¦   +---pbkdf2
+¦   ¦   +---lib
+¦   +---picocolors
+¦   +---picomatch
+¦   ¦   +---lib
+¦   +---pkg-dir
+¦   +---possible-typed-array-names
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---postcss
+¦   ¦   +---lib
+¦   +---postcss-calc
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-colormin
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-convert-values
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-discard-comments
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-discard-duplicates
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-discard-empty
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-discard-overridden
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---picocolors
+¦   ¦   ¦   +---postcss
+¦   ¦   ¦       +---lib
+¦   ¦   +---src
+¦   ¦       +---__tests__
+¦   ¦           +---fixtures
+¦   +---postcss-load-config
+¦   ¦   +---src
+¦   +---postcss-loader
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---cosmiconfig
+¦   ¦       ¦   +---dist
+¦   ¦       +---import-fresh
+¦   ¦       +---parse-json
+¦   ¦       +---resolve-from
+¦   ¦       +---schema-utils
+¦   ¦           +---declarations
+¦   ¦           ¦   +---keywords
+¦   ¦           ¦   +---util
+¦   ¦           +---dist
+¦   ¦               +---keywords
+¦   ¦               +---util
+¦   +---postcss-merge-longhand
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---decl
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-merge-rules
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-selector-parser
+¦   ¦           +---dist
+¦   ¦               +---selectors
+¦   +---postcss-minify-font-values
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-minify-gradients
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-minify-params
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-minify-selectors
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-selector-parser
+¦   ¦           +---dist
+¦   ¦               +---selectors
+¦   +---postcss-modules-extract-imports
+¦   ¦   +---src
+¦   +---postcss-modules-local-by-default
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---postcss-selector-parser
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---selectors
+¦   ¦   ¦           +---util
+¦   ¦   +---src
+¦   +---postcss-modules-scope
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---postcss-selector-parser
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---selectors
+¦   ¦   ¦           +---util
+¦   ¦   +---src
+¦   +---postcss-modules-values
+¦   ¦   +---src
+¦   +---postcss-normalize-charset
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-normalize-display-values
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-positions
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-repeat-style
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-string
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-timing-functions
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-unicode
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-url
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-normalize-whitespace
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-ordered-values
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---rules
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-reduce-initial
+¦   ¦   +---data
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-reduce-transforms
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-selector-parser
+¦   ¦   +---dist
+¦   ¦       +---selectors
+¦   ¦       +---util
+¦   +---postcss-svgo
+¦   ¦   +---dist
+¦   ¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-value-parser
+¦   ¦           +---lib
+¦   +---postcss-unique-selectors
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦           +---lib
+¦   +---postcss-value-parser
+¦   ¦   +---lib
+¦   +---prettier
+¦   ¦   +---esm
+¦   +---process
+¦   +---process-nextick-args
+¦   +---proxy-addr
+¦   ¦   +---node_modules
+¦   ¦       +---ipaddr.js
+¦   ¦           +---lib
+¦   +---pseudomap
+¦   ¦   +---test
+¦   +---public-encrypt
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---bn.js
+¦   ¦   ¦       +---lib
+¦   ¦   ¦       +---util
+¦   ¦   +---test
+¦   +---punycode
+¦   +---q
+¦   +---qs
+¦   ¦   +---.github
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---querystring-es3
+¦   ¦   +---test
+¦   +---queue-microtask
+¦   +---randombytes
+¦   +---randomfill
+¦   +---range-parser
+¦   +---raw-body
+¦   +---readable-stream
+¦   ¦   +---doc
+¦   ¦   ¦   +---wg-meetings
+¦   ¦   +---lib
+¦   ¦   ¦   +---internal
+¦   ¦   ¦       +---streams
+¦   ¦   +---node_modules
+¦   ¦       +---safe-buffer
+¦   ¦       +---string_decoder
+¦   ¦           +---lib
+¦   +---readdirp
+¦   +---rechoir
+¦   ¦   +---lib
+¦   +---reflect.getprototypeof
+¦   ¦   +---test
+¦   +---regenerate
+¦   +---regenerate-unicode-properties
+¦   ¦   +---Binary_Property
+¦   ¦   +---General_Category
+¦   ¦   +---Property_of_Strings
+¦   ¦   +---Script
+¦   ¦   +---Script_Extensions
+¦   +---regenerator-runtime
+¦   +---regenerator-transform
+¦   ¦   +---lib
+¦   ¦   +---src
+¦   +---regex-parser
+¦   ¦   +---lib
+¦   ¦       +---typings
+¦   +---regexp.prototype.flags
+¦   ¦   +---test
+¦   +---regexpu-core
+¦   ¦   +---data
+¦   +---regjsgen
+¦   +---regjsparser
+¦   ¦   +---bin
+¦   ¦   +---node_modules
+¦   ¦       +---.bin
+¦   ¦       +---jsesc
+¦   ¦           +---bin
+¦   ¦           +---man
+¦   +---relateurl
+¦   ¦   +---lib
+¦   ¦       +---parse
+¦   ¦       +---relate
+¦   ¦       +---util
+¦   +---replace-ext
+¦   +---require-directory
+¦   +---require-from-string
+¦   +---requires-port
+¦   +---resolve
+¦   ¦   +---.github
+¦   ¦   +---bin
+¦   ¦   +---example
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦       +---dotdot
+¦   ¦       ¦   +---abc
+¦   ¦       +---module_dir
+¦   ¦       ¦   +---xmodules
+¦   ¦       ¦   ¦   +---aaa
+¦   ¦       ¦   +---ymodules
+¦   ¦       ¦   ¦   +---aaa
+¦   ¦       ¦   +---zmodules
+¦   ¦       ¦       +---bbb
+¦   ¦       +---node_path
+¦   ¦       ¦   +---x
+¦   ¦       ¦   ¦   +---aaa
+¦   ¦       ¦   ¦   +---ccc
+¦   ¦       ¦   +---y
+¦   ¦       ¦       +---bbb
+¦   ¦       ¦       +---ccc
+¦   ¦       +---pathfilter
+¦   ¦       ¦   +---deep_ref
+¦   ¦       +---precedence
+¦   ¦       ¦   +---aaa
+¦   ¦       ¦   +---bbb
+¦   ¦       +---resolver
+¦   ¦       ¦   +---baz
+¦   ¦       ¦   +---browser_field
+¦   ¦       ¦   +---dot_main
+¦   ¦       ¦   +---dot_slash_main
+¦   ¦       ¦   +---false_main
+¦   ¦       ¦   +---incorrect_main
+¦   ¦       ¦   +---invalid_main
+¦   ¦       ¦   +---multirepo
+¦   ¦       ¦   ¦   +---packages
+¦   ¦       ¦   ¦       +---package-a
+¦   ¦       ¦   ¦       +---package-b
+¦   ¦       ¦   +---nested_symlinks
+¦   ¦       ¦   ¦   +---mylib
+¦   ¦       ¦   +---other_path
+¦   ¦       ¦   ¦   +---lib
+¦   ¦       ¦   +---quux
+¦   ¦       ¦   ¦   +---foo
+¦   ¦       ¦   +---same_names
+¦   ¦       ¦   ¦   +---foo
+¦   ¦       ¦   +---symlinked
+¦   ¦       ¦   ¦   +---package
+¦   ¦       ¦   ¦   +---_
+¦   ¦       ¦   ¦       +---node_modules
+¦   ¦       ¦   ¦       +---symlink_target
+¦   ¦       ¦   +---without_basedir
+¦   ¦       +---shadowed_core
+¦   ¦           +---node_modules
+¦   ¦               +---util
+¦   +---resolve-cwd
+¦   ¦   +---node_modules
+¦   ¦       +---resolve-from
+¦   +---resolve-from
+¦   +---resolve-url
+¦   ¦   +---test
+¦   +---resolve-url-loader
+¦   ¦   +---lib
+¦   ¦   ¦   +---engine
+¦   ¦   +---node_modules
+¦   ¦       +---.bin
+¦   ¦       +---ansi-styles
+¦   ¦       +---chalk
+¦   ¦       ¦   +---node_modules
+¦   ¦       ¦   ¦   +---supports-color
+¦   ¦       ¦   +---types
+¦   ¦       +---color-convert
+¦   ¦       +---color-name
+¦   ¦       +---convert-source-map
+¦   ¦       +---has-flag
+¦   ¦       +---json5
+¦   ¦       ¦   +---dist
+¦   ¦       ¦   +---lib
+¦   ¦       +---loader-utils
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss
+¦   ¦       ¦   +---docs
+¦   ¦       ¦   ¦   +---guidelines
+¦   ¦       ¦   +---lib
+¦   ¦       +---safe-buffer
+¦   ¦       +---supports-color
+¦   +---retry
+¦   ¦   +---example
+¦   ¦   +---lib
+¦   +---reusify
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   +---benchmarks
+¦   +---rework
+¦   ¦   +---node_modules
+¦   ¦       +---convert-source-map
+¦   ¦           +---example
+¦   ¦           +---test
+¦   ¦               +---fixtures
+¦   +---rework-visit
+¦   +---rgb-regex
+¦   ¦   +---test
+¦   +---rgba-regex
+¦   ¦   +---test
+¦   +---rimraf
+¦   +---ripemd160
+¦   +---run-parallel
+¦   +---safe-array-concat
+¦   ¦   +---.github
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---isarray
+¦   ¦   +---test
+¦   +---safe-buffer
+¦   +---safe-push-apply
+¦   ¦   +---.github
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---isarray
+¦   ¦   +---test
+¦   +---safe-regex-test
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---safer-buffer
+¦   +---sass
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---chokidar
+¦   ¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---readdirp
+¦   ¦   ¦       +---esm
+¦   ¦   +---types
+¦   ¦       +---legacy
+¦   ¦       +---logger
+¦   ¦       +---util
+¦   ¦       +---value
+¦   +---sass-loader
+¦   ¦   +---dist
+¦   +---sax
+¦   ¦   +---lib
+¦   +---schema-utils
+¦   ¦   +---declarations
+¦   ¦   ¦   +---keywords
+¦   ¦   ¦   +---util
+¦   ¦   +---dist
+¦   ¦       +---keywords
+¦   ¦       +---util
+¦   +---select-hose
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   +---selfsigned
+¦   ¦   +---test
+¦   +---semver
+¦   ¦   +---bin
+¦   ¦   +---classes
+¦   ¦   +---functions
+¦   ¦   +---internal
+¦   ¦   +---ranges
+¦   +---send
+¦   ¦   +---node_modules
+¦   ¦       +---debug
+¦   ¦       ¦   +---node_modules
+¦   ¦       ¦   ¦   +---ms
+¦   ¦       ¦   +---src
+¦   ¦       +---encodeurl
+¦   +---serialize-javascript
+¦   +---serve-index
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---debug
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   +---depd
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       +---browser
+¦   ¦   ¦   ¦       +---compat
+¦   ¦   ¦   +---http-errors
+¦   ¦   ¦   +---inherits
+¦   ¦   ¦   +---ms
+¦   ¦   ¦   +---setprototypeof
+¦   ¦   ¦   +---statuses
+¦   ¦   +---public
+¦   ¦       +---icons
+¦   +---serve-static
+¦   +---set-function-length
+¦   ¦   +---.github
+¦   +---set-function-name
+¦   ¦   +---.github
+¦   +---set-proto
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---setimmediate
+¦   +---setprototypeof
+¦   ¦   +---test
+¦   +---sha.js
+¦   ¦   +---test
+¦   +---shallow-clone
+¦   +---shebang-command
+¦   +---shebang-regex
+¦   +---shell-quote
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---shellwords
+¦   ¦   +---lib
+¦   +---side-channel
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---side-channel-list
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---side-channel-map
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---side-channel-weakmap
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---signal-exit
+¦   +---simple-swizzle
+¦   ¦   +---node_modules
+¦   ¦       +---is-arrayish
+¦   +---slash
+¦   +---sockjs
+¦   ¦   +---lib
+¦   +---source-list-map
+¦   ¦   +---lib
+¦   +---source-map
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   +---source-map-js
+¦   ¦   +---lib
+¦   +---source-map-resolve
+¦   ¦   +---lib
+¦   +---source-map-support
+¦   +---source-map-url
+¦   +---spdy
+¦   ¦   +---lib
+¦   ¦   ¦   +---spdy
+¦   ¦   +---test
+¦   +---spdy-transport
+¦   ¦   +---lib
+¦   ¦   ¦   +---spdy-transport
+¦   ¦   ¦       +---protocol
+¦   ¦   ¦           +---base
+¦   ¦   ¦           +---http2
+¦   ¦   ¦           +---spdy
+¦   ¦   +---node_modules
+¦   ¦       +---readable-stream
+¦   ¦           +---lib
+¦   ¦               +---internal
+¦   ¦                   +---streams
+¦   +---sprintf-js
+¦   ¦   +---demo
+¦   ¦   +---dist
+¦   ¦   +---src
+¦   ¦   +---test
+¦   +---stable
+¦   +---statuses
+¦   +---stream-browserify
+¦   ¦   +---test
+¦   +---stream-http
+¦   ¦   +---lib
+¦   ¦   +---test
+¦   ¦       +---browser
+¦   ¦       ¦   +---lib
+¦   ¦       +---node
+¦   ¦       +---server
+¦   ¦           +---static
+¦   +---string-width
+¦   +---string.prototype.trim
+¦   ¦   +---test
+¦   +---string.prototype.trimend
+¦   ¦   +---test
+¦   +---string.prototype.trimstart
+¦   ¦   +---test
+¦   +---string_decoder
+¦   ¦   +---lib
+¦   +---strip-ansi
+¦   +---strip-final-newline
+¦   +---style-loader
+¦   ¦   +---dist
+¦   ¦   ¦   +---runtime
+¦   ¦   +---node_modules
+¦   ¦       +---schema-utils
+¦   ¦           +---declarations
+¦   ¦           ¦   +---keywords
+¦   ¦           ¦   +---util
+¦   ¦           +---dist
+¦   ¦               +---keywords
+¦   ¦               +---util
+¦   +---stylehacks
+¦   ¦   +---dist
+¦   ¦   ¦   +---dictionary
+¦   ¦   ¦   +---plugins
+¦   ¦   +---node_modules
+¦   ¦       +---picocolors
+¦   ¦       +---postcss
+¦   ¦       ¦   +---lib
+¦   ¦       +---postcss-selector-parser
+¦   ¦           +---dist
+¦   ¦               +---selectors
+¦   +---supports-color
+¦   +---supports-preserve-symlinks-flag
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---svgo
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   ¦   ¦   +---svgo
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---ansi-styles
+¦   ¦   ¦   +---chalk
+¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   +---color-convert
+¦   ¦   ¦   +---color-name
+¦   ¦   ¦   +---has-flag
+¦   ¦   ¦   +---supports-color
+¦   ¦   +---plugins
+¦   +---tapable
+¦   ¦   +---lib
+¦   +---terser
+¦   ¦   +---bin
+¦   ¦   +---dist
+¦   ¦   +---lib
+¦   ¦   ¦   +---compress
+¦   ¦   ¦   +---utils
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---commander
+¦   ¦   ¦       +---typings
+¦   ¦   +---tools
+¦   +---terser-webpack-plugin
+¦   ¦   +---dist
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---ajv
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---compile
+¦   ¦   ¦   ¦   ¦   ¦   +---codegen
+¦   ¦   ¦   ¦   ¦   ¦   +---jtd
+¦   ¦   ¦   ¦   ¦   ¦   +---validate
+¦   ¦   ¦   ¦   ¦   +---refs
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---meta
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦   ¦   ¦       +---meta
+¦   ¦   ¦   ¦   ¦   +---runtime
+¦   ¦   ¦   ¦   ¦   +---standalone
+¦   ¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   ¦   ¦   +---vocabularies
+¦   ¦   ¦   ¦   ¦       +---applicator
+¦   ¦   ¦   ¦   ¦       +---core
+¦   ¦   ¦   ¦   ¦       +---discriminator
+¦   ¦   ¦   ¦   ¦       +---dynamic
+¦   ¦   ¦   ¦   ¦       +---format
+¦   ¦   ¦   ¦   ¦       +---jtd
+¦   ¦   ¦   ¦   ¦       +---unevaluated
+¦   ¦   ¦   ¦   ¦       +---validation
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       +---compile
+¦   ¦   ¦   ¦       ¦   +---codegen
+¦   ¦   ¦   ¦       ¦   +---jtd
+¦   ¦   ¦   ¦       ¦   +---validate
+¦   ¦   ¦   ¦       +---refs
+¦   ¦   ¦   ¦       ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦       ¦   ¦   +---meta
+¦   ¦   ¦   ¦       ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦       ¦       +---meta
+¦   ¦   ¦   ¦       +---runtime
+¦   ¦   ¦   ¦       +---standalone
+¦   ¦   ¦   ¦       +---types
+¦   ¦   ¦   ¦       +---vocabularies
+¦   ¦   ¦   ¦           +---applicator
+¦   ¦   ¦   ¦           +---core
+¦   ¦   ¦   ¦           +---discriminator
+¦   ¦   ¦   ¦           +---dynamic
+¦   ¦   ¦   ¦           +---format
+¦   ¦   ¦   ¦           +---jtd
+¦   ¦   ¦   ¦           +---unevaluated
+¦   ¦   ¦   ¦           +---validation
+¦   ¦   ¦   +---ajv-keywords
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---definitions
+¦   ¦   ¦   ¦   ¦   +---keywords
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       +---definitions
+¦   ¦   ¦   ¦       +---keywords
+¦   ¦   ¦   +---json-schema-traverse
+¦   ¦   ¦   ¦   +---.github
+¦   ¦   ¦   ¦   ¦   +---workflows
+¦   ¦   ¦   ¦   +---spec
+¦   ¦   ¦   ¦       +---fixtures
+¦   ¦   ¦   +---schema-utils
+¦   ¦   ¦       +---declarations
+¦   ¦   ¦       ¦   +---keywords
+¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---keywords
+¦   ¦   ¦           +---util
+¦   ¦   +---types
+¦   +---thunky
+¦   +---timers-browserify
+¦   +---timsort
+¦   ¦   +---build
+¦   ¦   +---src
+¦   +---to-arraybuffer
+¦   +---to-regex-range
+¦   +---toidentifier
+¦   +---tslib
+¦   ¦   +---modules
+¦   +---tty-browserify
+¦   +---type
+¦   ¦   +---array
+¦   ¦   +---array-length
+¦   ¦   +---array-like
+¦   ¦   +---big-int
+¦   ¦   +---constructor
+¦   ¦   +---date
+¦   ¦   +---docs
+¦   ¦   +---error
+¦   ¦   +---finite
+¦   ¦   +---function
+¦   ¦   +---integer
+¦   ¦   +---iterable
+¦   ¦   +---lib
+¦   ¦   ¦   +---ensure
+¦   ¦   +---map
+¦   ¦   +---natural-number
+¦   ¦   +---number
+¦   ¦   +---object
+¦   ¦   +---plain-function
+¦   ¦   +---plain-object
+¦   ¦   +---promise
+¦   ¦   +---prototype
+¦   ¦   +---reg-exp
+¦   ¦   +---safe-integer
+¦   ¦   +---set
+¦   ¦   +---string
+¦   ¦   +---thenable
+¦   ¦   +---time-value
+¦   ¦   +---ts-types
+¦   ¦   ¦   +---array
+¦   ¦   ¦   +---array-length
+¦   ¦   ¦   +---array-like
+¦   ¦   ¦   +---big-int
+¦   ¦   ¦   +---constructor
+¦   ¦   ¦   +---date
+¦   ¦   ¦   +---error
+¦   ¦   ¦   +---finite
+¦   ¦   ¦   +---function
+¦   ¦   ¦   +---integer
+¦   ¦   ¦   +---iterable
+¦   ¦   ¦   +---map
+¦   ¦   ¦   +---natural-number
+¦   ¦   ¦   +---number
+¦   ¦   ¦   +---object
+¦   ¦   ¦   +---plain-function
+¦   ¦   ¦   +---plain-object
+¦   ¦   ¦   +---promise
+¦   ¦   ¦   +---prototype
+¦   ¦   ¦   +---reg-exp
+¦   ¦   ¦   +---safe-integer
+¦   ¦   ¦   +---set
+¦   ¦   ¦   +---string
+¦   ¦   ¦   +---thenable
+¦   ¦   ¦   +---time-value
+¦   ¦   ¦   +---value
+¦   ¦   +---value
+¦   +---type-is
+¦   +---typed-array-buffer
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---typed-array-byte-length
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---typed-array-byte-offset
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---typed-array-length
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---unbox-primitive
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---undici-types
+¦   +---unicode-canonical-property-names-ecmascript
+¦   +---unicode-match-property-ecmascript
+¦   +---unicode-match-property-value-ecmascript
+¦   ¦   +---data
+¦   +---unicode-property-aliases-ecmascript
+¦   +---uniq
+¦   ¦   +---test
+¦   +---uniqs
+¦   +---universalify
+¦   +---unpipe
+¦   +---unquote
+¦   +---update-browserslist-db
+¦   +---uri-js
+¦   ¦   +---dist
+¦   ¦   ¦   +---es5
+¦   ¦   ¦   +---esnext
+¦   ¦   ¦       +---schemes
+¦   ¦   +---node_modules
+¦   ¦       +---punycode
+¦   +---urix
+¦   ¦   +---test
+¦   +---url
+¦   ¦   +---test
+¦   +---util
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---inherits
+¦   ¦   +---support
+¦   +---util-deprecate
+¦   +---util.promisify
+¦   ¦   +---.github
+¦   ¦       +---workflows
+¦   +---utils-merge
+¦   +---uuid
+¦   ¦   +---dist
+¦   ¦       +---bin
+¦   ¦       +---esm-browser
+¦   ¦       +---esm-node
+¦   ¦       +---umd
+¦   +---vary
+¦   +---vendors
+¦   +---vm-browserify
+¦   ¦   +---.github
+¦   ¦   +---example
+¦   ¦   ¦   +---run
+¦   ¦   +---test
+¦   +---vue
+¦   ¦   +---compiler-sfc
+¦   ¦   +---dist
+¦   ¦   +---packages
+¦   ¦   ¦   +---compiler-sfc
+¦   ¦   ¦       +---dist
+¦   ¦   ¦       +---node_modules
+¦   ¦   ¦       ¦   +---.bin
+¦   ¦   ¦       +---src
+¦   ¦   ¦       ¦   +---stylePlugins
+¦   ¦   ¦       ¦   +---templateCompilerModules
+¦   ¦   ¦       +---test
+¦   ¦   ¦           +---__snapshots__
+¦   ¦   +---src
+¦   ¦   ¦   +---compiler
+¦   ¦   ¦   ¦   +---codegen
+¦   ¦   ¦   ¦   +---directives
+¦   ¦   ¦   ¦   +---parser
+¦   ¦   ¦   +---core
+¦   ¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   +---global-api
+¦   ¦   ¦   ¦   +---instance
+¦   ¦   ¦   ¦   ¦   +---render-helpers
+¦   ¦   ¦   ¦   +---observer
+¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---vdom
+¦   ¦   ¦   ¦       +---helpers
+¦   ¦   ¦   ¦       +---modules
+¦   ¦   ¦   +---platforms
+¦   ¦   ¦   ¦   +---web
+¦   ¦   ¦   ¦       +---compiler
+¦   ¦   ¦   ¦       ¦   +---directives
+¦   ¦   ¦   ¦       ¦   +---modules
+¦   ¦   ¦   ¦       +---runtime
+¦   ¦   ¦   ¦       ¦   +---components
+¦   ¦   ¦   ¦       ¦   +---directives
+¦   ¦   ¦   ¦       ¦   +---modules
+¦   ¦   ¦   ¦       +---util
+¦   ¦   ¦   +---shared
+¦   ¦   ¦   +---types
+¦   ¦   ¦   +---v3
+¦   ¦   ¦       +---reactivity
+¦   ¦   ¦       +---sfc-helpers
+¦   ¦   +---types
+¦   +---vue-chartjs
+¦   ¦   +---dist
+¦   +---vue-hot-reload-api
+¦   ¦   +---dist
+¦   +---vue-loader
+¦   ¦   +---lib
+¦   ¦   ¦   +---codegen
+¦   ¦   ¦   +---loaders
+¦   ¦   ¦   +---runtime
+¦   ¦   +---node_modules
+¦   ¦       +---.bin
+¦   ¦       +---json5
+¦   ¦       ¦   +---dist
+¦   ¦       ¦   +---lib
+¦   ¦       +---loader-utils
+¦   ¦           +---lib
+¦   +---vue-loading-overlay
+¦   ¦   +---dist
+¦   ¦   +---src
+¦   ¦   ¦   +---css
+¦   ¦   ¦   +---js
+¦   ¦   ¦   +---loaders
+¦   ¦   +---types
+¦   +---vue-style-loader
+¦   ¦   +---.circleci
+¦   ¦   +---.github
+¦   ¦   +---lib
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---.bin
+¦   ¦   ¦   +---json5
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   +---loader-utils
+¦   ¦   ¦       +---lib
+¦   ¦   +---test
+¦   +---vue-template-compiler
+¦   ¦   +---types
+¦   +---vue-template-es2015-compiler
+¦   +---vuetify
+¦   ¦   +---dist
+¦   ¦   ¦   +---json
+¦   ¦   +---es5
+¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   +---transitions
+¦   ¦   ¦   ¦   +---VAlert
+¦   ¦   ¦   ¦   +---VApp
+¦   ¦   ¦   ¦   +---VAppBar
+¦   ¦   ¦   ¦   +---VAutocomplete
+¦   ¦   ¦   ¦   +---VAvatar
+¦   ¦   ¦   ¦   +---VBadge
+¦   ¦   ¦   ¦   +---VBanner
+¦   ¦   ¦   ¦   +---VBottomNavigation
+¦   ¦   ¦   ¦   +---VBottomSheet
+¦   ¦   ¦   ¦   +---VBreadcrumbs
+¦   ¦   ¦   ¦   +---VBtn
+¦   ¦   ¦   ¦   +---VBtnToggle
+¦   ¦   ¦   ¦   +---VCalendar
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   +---modes
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VCard
+¦   ¦   ¦   ¦   +---VCarousel
+¦   ¦   ¦   ¦   +---VCheckbox
+¦   ¦   ¦   ¦   +---VChip
+¦   ¦   ¦   ¦   +---VChipGroup
+¦   ¦   ¦   ¦   +---VColorPicker
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VCombobox
+¦   ¦   ¦   ¦   +---VContent
+¦   ¦   ¦   ¦   +---VCounter
+¦   ¦   ¦   ¦   +---VData
+¦   ¦   ¦   ¦   +---VDataIterator
+¦   ¦   ¦   ¦   +---VDataTable
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   +---VDatePicker
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VDialog
+¦   ¦   ¦   ¦   +---VDivider
+¦   ¦   ¦   ¦   +---VExpansionPanel
+¦   ¦   ¦   ¦   +---VFileInput
+¦   ¦   ¦   ¦   +---VFooter
+¦   ¦   ¦   ¦   +---VForm
+¦   ¦   ¦   ¦   +---VGrid
+¦   ¦   ¦   ¦   +---VHover
+¦   ¦   ¦   ¦   +---VIcon
+¦   ¦   ¦   ¦   +---VImg
+¦   ¦   ¦   ¦   +---VInput
+¦   ¦   ¦   ¦   +---VItemGroup
+¦   ¦   ¦   ¦   +---VLabel
+¦   ¦   ¦   ¦   +---VLazy
+¦   ¦   ¦   ¦   +---VList
+¦   ¦   ¦   ¦   +---VMain
+¦   ¦   ¦   ¦   +---VMenu
+¦   ¦   ¦   ¦   +---VMessages
+¦   ¦   ¦   ¦   +---VNavigationDrawer
+¦   ¦   ¦   ¦   +---VOtpInput
+¦   ¦   ¦   ¦   +---VOverflowBtn
+¦   ¦   ¦   ¦   +---VOverlay
+¦   ¦   ¦   ¦   +---VPagination
+¦   ¦   ¦   ¦   +---VParallax
+¦   ¦   ¦   ¦   +---VPicker
+¦   ¦   ¦   ¦   +---VProgressCircular
+¦   ¦   ¦   ¦   +---VProgressLinear
+¦   ¦   ¦   ¦   +---VRadioGroup
+¦   ¦   ¦   ¦   +---VRangeSlider
+¦   ¦   ¦   ¦   +---VRating
+¦   ¦   ¦   ¦   +---VResponsive
+¦   ¦   ¦   ¦   +---VSelect
+¦   ¦   ¦   ¦   +---VSheet
+¦   ¦   ¦   ¦   +---VSkeletonLoader
+¦   ¦   ¦   ¦   +---VSlideGroup
+¦   ¦   ¦   ¦   +---VSlider
+¦   ¦   ¦   ¦   +---VSnackbar
+¦   ¦   ¦   ¦   +---VSparkline
+¦   ¦   ¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   +---VSpeedDial
+¦   ¦   ¦   ¦   +---VStepper
+¦   ¦   ¦   ¦   +---VSubheader
+¦   ¦   ¦   ¦   +---VSwitch
+¦   ¦   ¦   ¦   +---VSystemBar
+¦   ¦   ¦   ¦   +---VTabs
+¦   ¦   ¦   ¦   +---VTextarea
+¦   ¦   ¦   ¦   +---VTextField
+¦   ¦   ¦   ¦   +---VThemeProvider
+¦   ¦   ¦   ¦   +---VTimeline
+¦   ¦   ¦   ¦   +---VTimePicker
+¦   ¦   ¦   ¦   +---VToolbar
+¦   ¦   ¦   ¦   +---VTooltip
+¦   ¦   ¦   ¦   +---VTreeview
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VVirtualScroll
+¦   ¦   ¦   ¦   +---VWindow
+¦   ¦   ¦   +---directives
+¦   ¦   ¦   ¦   +---click-outside
+¦   ¦   ¦   ¦   +---color
+¦   ¦   ¦   ¦   +---intersect
+¦   ¦   ¦   ¦   +---mutate
+¦   ¦   ¦   ¦   +---resize
+¦   ¦   ¦   ¦   +---ripple
+¦   ¦   ¦   ¦   +---scroll
+¦   ¦   ¦   ¦   +---touch
+¦   ¦   ¦   +---locale
+¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   +---activatable
+¦   ¦   ¦   ¦   +---applicationable
+¦   ¦   ¦   ¦   +---binds-attrs
+¦   ¦   ¦   ¦   +---bootable
+¦   ¦   ¦   ¦   +---button-group
+¦   ¦   ¦   ¦   +---colorable
+¦   ¦   ¦   ¦   +---comparable
+¦   ¦   ¦   ¦   +---delayable
+¦   ¦   ¦   ¦   +---dependent
+¦   ¦   ¦   ¦   +---detachable
+¦   ¦   ¦   ¦   +---elevatable
+¦   ¦   ¦   ¦   +---filterable
+¦   ¦   ¦   ¦   +---groupable
+¦   ¦   ¦   ¦   +---intersectable
+¦   ¦   ¦   ¦   +---loadable
+¦   ¦   ¦   ¦   +---localable
+¦   ¦   ¦   ¦   +---measurable
+¦   ¦   ¦   ¦   +---menuable
+¦   ¦   ¦   ¦   +---mobile
+¦   ¦   ¦   ¦   +---overlayable
+¦   ¦   ¦   ¦   +---picker
+¦   ¦   ¦   ¦   +---picker-button
+¦   ¦   ¦   ¦   +---positionable
+¦   ¦   ¦   ¦   +---proxyable
+¦   ¦   ¦   ¦   +---registrable
+¦   ¦   ¦   ¦   +---returnable
+¦   ¦   ¦   ¦   +---rippleable
+¦   ¦   ¦   ¦   +---roundable
+¦   ¦   ¦   ¦   +---routable
+¦   ¦   ¦   ¦   +---scrollable
+¦   ¦   ¦   ¦   +---selectable
+¦   ¦   ¦   ¦   +---sizeable
+¦   ¦   ¦   ¦   +---ssr-bootable
+¦   ¦   ¦   ¦   +---stackable
+¦   ¦   ¦   ¦   +---themeable
+¦   ¦   ¦   ¦   +---toggleable
+¦   ¦   ¦   ¦   +---transitionable
+¦   ¦   ¦   ¦   +---translatable
+¦   ¦   ¦   ¦   +---validatable
+¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---default
+¦   ¦   ¦   +---services
+¦   ¦   ¦   ¦   +---application
+¦   ¦   ¦   ¦   +---breakpoint
+¦   ¦   ¦   ¦   +---goto
+¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---service
+¦   ¦   ¦   ¦   +---theme
+¦   ¦   ¦   +---util
+¦   ¦   ¦       +---color
+¦   ¦   +---lib
+¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   +---transitions
+¦   ¦   ¦   ¦   +---VAlert
+¦   ¦   ¦   ¦   +---VApp
+¦   ¦   ¦   ¦   +---VAppBar
+¦   ¦   ¦   ¦   +---VAutocomplete
+¦   ¦   ¦   ¦   +---VAvatar
+¦   ¦   ¦   ¦   +---VBadge
+¦   ¦   ¦   ¦   +---VBanner
+¦   ¦   ¦   ¦   +---VBottomNavigation
+¦   ¦   ¦   ¦   +---VBottomSheet
+¦   ¦   ¦   ¦   +---VBreadcrumbs
+¦   ¦   ¦   ¦   +---VBtn
+¦   ¦   ¦   ¦   +---VBtnToggle
+¦   ¦   ¦   ¦   +---VCalendar
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   +---modes
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VCard
+¦   ¦   ¦   ¦   +---VCarousel
+¦   ¦   ¦   ¦   +---VCheckbox
+¦   ¦   ¦   ¦   +---VChip
+¦   ¦   ¦   ¦   +---VChipGroup
+¦   ¦   ¦   ¦   +---VColorPicker
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VCombobox
+¦   ¦   ¦   ¦   +---VContent
+¦   ¦   ¦   ¦   +---VCounter
+¦   ¦   ¦   ¦   +---VData
+¦   ¦   ¦   ¦   +---VDataIterator
+¦   ¦   ¦   ¦   +---VDataTable
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   +---VDatePicker
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VDialog
+¦   ¦   ¦   ¦   +---VDivider
+¦   ¦   ¦   ¦   +---VExpansionPanel
+¦   ¦   ¦   ¦   +---VFileInput
+¦   ¦   ¦   ¦   +---VFooter
+¦   ¦   ¦   ¦   +---VForm
+¦   ¦   ¦   ¦   +---VGrid
+¦   ¦   ¦   ¦   +---VHover
+¦   ¦   ¦   ¦   +---VIcon
+¦   ¦   ¦   ¦   +---VImg
+¦   ¦   ¦   ¦   +---VInput
+¦   ¦   ¦   ¦   +---VItemGroup
+¦   ¦   ¦   ¦   +---VLabel
+¦   ¦   ¦   ¦   +---VLazy
+¦   ¦   ¦   ¦   +---VList
+¦   ¦   ¦   ¦   +---VMain
+¦   ¦   ¦   ¦   +---VMenu
+¦   ¦   ¦   ¦   +---VMessages
+¦   ¦   ¦   ¦   +---VNavigationDrawer
+¦   ¦   ¦   ¦   +---VOtpInput
+¦   ¦   ¦   ¦   +---VOverflowBtn
+¦   ¦   ¦   ¦   +---VOverlay
+¦   ¦   ¦   ¦   +---VPagination
+¦   ¦   ¦   ¦   +---VParallax
+¦   ¦   ¦   ¦   +---VPicker
+¦   ¦   ¦   ¦   +---VProgressCircular
+¦   ¦   ¦   ¦   +---VProgressLinear
+¦   ¦   ¦   ¦   +---VRadioGroup
+¦   ¦   ¦   ¦   +---VRangeSlider
+¦   ¦   ¦   ¦   +---VRating
+¦   ¦   ¦   ¦   +---VResponsive
+¦   ¦   ¦   ¦   +---VSelect
+¦   ¦   ¦   ¦   +---VSheet
+¦   ¦   ¦   ¦   +---VSkeletonLoader
+¦   ¦   ¦   ¦   +---VSlideGroup
+¦   ¦   ¦   ¦   +---VSlider
+¦   ¦   ¦   ¦   +---VSnackbar
+¦   ¦   ¦   ¦   +---VSparkline
+¦   ¦   ¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   +---VSpeedDial
+¦   ¦   ¦   ¦   +---VStepper
+¦   ¦   ¦   ¦   +---VSubheader
+¦   ¦   ¦   ¦   +---VSwitch
+¦   ¦   ¦   ¦   +---VSystemBar
+¦   ¦   ¦   ¦   +---VTabs
+¦   ¦   ¦   ¦   +---VTextarea
+¦   ¦   ¦   ¦   +---VTextField
+¦   ¦   ¦   ¦   +---VThemeProvider
+¦   ¦   ¦   ¦   +---VTimeline
+¦   ¦   ¦   ¦   +---VTimePicker
+¦   ¦   ¦   ¦   +---VToolbar
+¦   ¦   ¦   ¦   +---VTooltip
+¦   ¦   ¦   ¦   +---VTreeview
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---VVirtualScroll
+¦   ¦   ¦   ¦   +---VWindow
+¦   ¦   ¦   +---directives
+¦   ¦   ¦   ¦   +---click-outside
+¦   ¦   ¦   ¦   +---color
+¦   ¦   ¦   ¦   +---intersect
+¦   ¦   ¦   ¦   +---mutate
+¦   ¦   ¦   ¦   +---resize
+¦   ¦   ¦   ¦   +---ripple
+¦   ¦   ¦   ¦   +---scroll
+¦   ¦   ¦   ¦   +---touch
+¦   ¦   ¦   +---locale
+¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   +---activatable
+¦   ¦   ¦   ¦   +---applicationable
+¦   ¦   ¦   ¦   +---binds-attrs
+¦   ¦   ¦   ¦   +---bootable
+¦   ¦   ¦   ¦   +---button-group
+¦   ¦   ¦   ¦   +---colorable
+¦   ¦   ¦   ¦   +---comparable
+¦   ¦   ¦   ¦   +---delayable
+¦   ¦   ¦   ¦   +---dependent
+¦   ¦   ¦   ¦   +---detachable
+¦   ¦   ¦   ¦   +---elevatable
+¦   ¦   ¦   ¦   +---filterable
+¦   ¦   ¦   ¦   +---groupable
+¦   ¦   ¦   ¦   +---intersectable
+¦   ¦   ¦   ¦   +---loadable
+¦   ¦   ¦   ¦   +---localable
+¦   ¦   ¦   ¦   +---measurable
+¦   ¦   ¦   ¦   +---menuable
+¦   ¦   ¦   ¦   +---mobile
+¦   ¦   ¦   ¦   +---overlayable
+¦   ¦   ¦   ¦   +---picker
+¦   ¦   ¦   ¦   +---picker-button
+¦   ¦   ¦   ¦   +---positionable
+¦   ¦   ¦   ¦   +---proxyable
+¦   ¦   ¦   ¦   +---registrable
+¦   ¦   ¦   ¦   +---returnable
+¦   ¦   ¦   ¦   +---rippleable
+¦   ¦   ¦   ¦   +---roundable
+¦   ¦   ¦   ¦   +---routable
+¦   ¦   ¦   ¦   +---scrollable
+¦   ¦   ¦   ¦   +---selectable
+¦   ¦   ¦   ¦   +---sizeable
+¦   ¦   ¦   ¦   +---ssr-bootable
+¦   ¦   ¦   ¦   +---stackable
+¦   ¦   ¦   ¦   +---themeable
+¦   ¦   ¦   ¦   +---toggleable
+¦   ¦   ¦   ¦   +---transitionable
+¦   ¦   ¦   ¦   +---translatable
+¦   ¦   ¦   ¦   +---validatable
+¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---default
+¦   ¦   ¦   +---services
+¦   ¦   ¦   ¦   +---application
+¦   ¦   ¦   ¦   +---breakpoint
+¦   ¦   ¦   ¦   +---goto
+¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---service
+¦   ¦   ¦   ¦   +---theme
+¦   ¦   ¦   +---util
+¦   ¦   ¦       +---color
+¦   ¦   +---src
+¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   +---transitions
+¦   ¦   ¦   ¦   +---VAlert
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VApp
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VAppBar
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VAutocomplete
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VAvatar
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VBadge
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VBanner
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VBottomNavigation
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VBottomSheet
+¦   ¦   ¦   ¦   +---VBreadcrumbs
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VBtn
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VBtnToggle
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VCalendar
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   ¦   +---modes
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VCard
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VCarousel
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VCheckbox
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VChip
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VChipGroup
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VColorPicker
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VCombobox
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VContent
+¦   ¦   ¦   ¦   +---VCounter
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VData
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VDataIterator
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VDataTable
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VDatePicker
+¦   ¦   ¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VDialog
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VDivider
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VExpansionPanel
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VFileInput
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VFooter
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VForm
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VGrid
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VHover
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VIcon
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VImg
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VInput
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VItemGroup
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VLabel
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VLazy
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VList
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VMain
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VMenu
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VMessages
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VNavigationDrawer
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VOtpInput
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VOverflowBtn
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VOverlay
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VPagination
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VParallax
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VPicker
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VProgressCircular
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VProgressLinear
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VRadioGroup
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VRangeSlider
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VRating
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VResponsive
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSelect
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSheet
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSkeletonLoader
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSlideGroup
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSlider
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSnackbar
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VSparkline
+¦   ¦   ¦   ¦   ¦   +---helpers
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSpeedDial
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VStepper
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSubheader
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSwitch
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VSystemBar
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VTabs
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VTextarea
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VTextField
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VThemeProvider
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---VTimeline
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VTimePicker
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VToolbar
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VTooltip
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VTreeview
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VVirtualScroll
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---VWindow
+¦   ¦   ¦   ¦       +---__tests__
+¦   ¦   ¦   +---directives
+¦   ¦   ¦   ¦   +---click-outside
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---color
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---intersect
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---mutate
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---resize
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---ripple
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---scroll
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---touch
+¦   ¦   ¦   ¦       +---__tests__
+¦   ¦   ¦   +---locale
+¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   +---mixins
+¦   ¦   ¦   ¦   +---activatable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---applicationable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---binds-attrs
+¦   ¦   ¦   ¦   +---bootable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---button-group
+¦   ¦   ¦   ¦   +---colorable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---comparable
+¦   ¦   ¦   ¦   +---delayable
+¦   ¦   ¦   ¦   +---dependent
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---detachable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---elevatable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---filterable
+¦   ¦   ¦   ¦   +---groupable
+¦   ¦   ¦   ¦   +---intersectable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---loadable
+¦   ¦   ¦   ¦   +---localable
+¦   ¦   ¦   ¦   +---measurable
+¦   ¦   ¦   ¦   +---menuable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---mobile
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---overlayable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---picker
+¦   ¦   ¦   ¦   +---picker-button
+¦   ¦   ¦   ¦   +---positionable
+¦   ¦   ¦   ¦   +---proxyable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---registrable
+¦   ¦   ¦   ¦   +---returnable
+¦   ¦   ¦   ¦   +---rippleable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---roundable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---routable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---scrollable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---selectable
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---sizeable
+¦   ¦   ¦   ¦   +---ssr-bootable
+¦   ¦   ¦   ¦   +---stackable
+¦   ¦   ¦   ¦   +---themeable
+¦   ¦   ¦   ¦   +---toggleable
+¦   ¦   ¦   ¦   +---transitionable
+¦   ¦   ¦   ¦   +---translatable
+¦   ¦   ¦   ¦   +---validatable
+¦   ¦   ¦   ¦       +---__tests__
+¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   +---default
+¦   ¦   ¦   +---services
+¦   ¦   ¦   ¦   +---application
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---breakpoint
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---goto
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---icons
+¦   ¦   ¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---lang
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   +---presets
+¦   ¦   ¦   ¦   ¦   +---__tests__
+¦   ¦   ¦   ¦   ¦       +---__snapshots__
+¦   ¦   ¦   ¦   +---service
+¦   ¦   ¦   ¦   +---theme
+¦   ¦   ¦   ¦       +---__tests__
+¦   ¦   ¦   ¦           +---__snapshots__
+¦   ¦   ¦   +---styles
+¦   ¦   ¦   ¦   +---components
+¦   ¦   ¦   ¦   +---elements
+¦   ¦   ¦   ¦   +---generic
+¦   ¦   ¦   ¦   +---settings
+¦   ¦   ¦   ¦   +---tools
+¦   ¦   ¦   ¦   +---utilities
+¦   ¦   ¦   +---util
+¦   ¦   ¦       +---color
+¦   ¦   ¦       +---__tests__
+¦   ¦   ¦           +---__snapshots__
+¦   ¦   +---types
+¦   ¦       +---services
+¦   +---watchpack
+¦   ¦   +---lib
+¦   +---wbuf
+¦   ¦   +---test
+¦   +---webpack
+¦   ¦   +---bin
+¦   ¦   +---hot
+¦   ¦   +---lib
+¦   ¦   ¦   +---asset
+¦   ¦   ¦   +---async-modules
+¦   ¦   ¦   +---cache
+¦   ¦   ¦   +---config
+¦   ¦   ¦   +---container
+¦   ¦   ¦   +---css
+¦   ¦   ¦   +---debug
+¦   ¦   ¦   +---dependencies
+¦   ¦   ¦   +---electron
+¦   ¦   ¦   +---errors
+¦   ¦   ¦   +---esm
+¦   ¦   ¦   +---hmr
+¦   ¦   ¦   +---ids
+¦   ¦   ¦   +---javascript
+¦   ¦   ¦   +---json
+¦   ¦   ¦   +---library
+¦   ¦   ¦   +---logging
+¦   ¦   ¦   +---node
+¦   ¦   ¦   +---optimize
+¦   ¦   ¦   +---performance
+¦   ¦   ¦   +---prefetch
+¦   ¦   ¦   +---rules
+¦   ¦   ¦   +---runtime
+¦   ¦   ¦   +---schemes
+¦   ¦   ¦   +---serialization
+¦   ¦   ¦   +---sharing
+¦   ¦   ¦   +---stats
+¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---hash
+¦   ¦   ¦   +---wasm
+¦   ¦   ¦   +---wasm-async
+¦   ¦   ¦   +---wasm-sync
+¦   ¦   ¦   +---web
+¦   ¦   ¦   +---webworker
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---ajv
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---compile
+¦   ¦   ¦   ¦   ¦   ¦   +---codegen
+¦   ¦   ¦   ¦   ¦   ¦   +---jtd
+¦   ¦   ¦   ¦   ¦   ¦   +---validate
+¦   ¦   ¦   ¦   ¦   +---refs
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---meta
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦   ¦   ¦       +---meta
+¦   ¦   ¦   ¦   ¦   +---runtime
+¦   ¦   ¦   ¦   ¦   +---standalone
+¦   ¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   ¦   ¦   +---vocabularies
+¦   ¦   ¦   ¦   ¦       +---applicator
+¦   ¦   ¦   ¦   ¦       +---core
+¦   ¦   ¦   ¦   ¦       +---discriminator
+¦   ¦   ¦   ¦   ¦       +---dynamic
+¦   ¦   ¦   ¦   ¦       +---format
+¦   ¦   ¦   ¦   ¦       +---jtd
+¦   ¦   ¦   ¦   ¦       +---unevaluated
+¦   ¦   ¦   ¦   ¦       +---validation
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       +---compile
+¦   ¦   ¦   ¦       ¦   +---codegen
+¦   ¦   ¦   ¦       ¦   +---jtd
+¦   ¦   ¦   ¦       ¦   +---validate
+¦   ¦   ¦   ¦       +---refs
+¦   ¦   ¦   ¦       ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦       ¦   ¦   +---meta
+¦   ¦   ¦   ¦       ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦       ¦       +---meta
+¦   ¦   ¦   ¦       +---runtime
+¦   ¦   ¦   ¦       +---standalone
+¦   ¦   ¦   ¦       +---types
+¦   ¦   ¦   ¦       +---vocabularies
+¦   ¦   ¦   ¦           +---applicator
+¦   ¦   ¦   ¦           +---core
+¦   ¦   ¦   ¦           +---discriminator
+¦   ¦   ¦   ¦           +---dynamic
+¦   ¦   ¦   ¦           +---format
+¦   ¦   ¦   ¦           +---jtd
+¦   ¦   ¦   ¦           +---unevaluated
+¦   ¦   ¦   ¦           +---validation
+¦   ¦   ¦   +---ajv-keywords
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---definitions
+¦   ¦   ¦   ¦   ¦   +---keywords
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       +---definitions
+¦   ¦   ¦   ¦       +---keywords
+¦   ¦   ¦   +---json-schema-traverse
+¦   ¦   ¦   ¦   +---.github
+¦   ¦   ¦   ¦   ¦   +---workflows
+¦   ¦   ¦   ¦   +---spec
+¦   ¦   ¦   ¦       +---fixtures
+¦   ¦   ¦   +---schema-utils
+¦   ¦   ¦   ¦   +---declarations
+¦   ¦   ¦   ¦   ¦   +---keywords
+¦   ¦   ¦   ¦   ¦   +---util
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦       +---keywords
+¦   ¦   ¦   ¦       +---util
+¦   ¦   ¦   +---webpack-sources
+¦   ¦   ¦       +---lib
+¦   ¦   ¦           +---helpers
+¦   ¦   +---schemas
+¦   ¦       +---plugins
+¦   ¦           +---asset
+¦   ¦           +---container
+¦   ¦           +---css
+¦   ¦           +---debug
+¦   ¦           +---ids
+¦   ¦           +---optimize
+¦   ¦           +---schemes
+¦   ¦           +---sharing
+¦   +---webpack-cli
+¦   ¦   +---bin
+¦   ¦   +---lib
+¦   ¦       +---plugins
+¦   ¦       +---utils
+¦   +---webpack-dev-middleware
+¦   ¦   +---dist
+¦   ¦   ¦   +---utils
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---ajv
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---compile
+¦   ¦   ¦   ¦   ¦   ¦   +---codegen
+¦   ¦   ¦   ¦   ¦   ¦   +---jtd
+¦   ¦   ¦   ¦   ¦   ¦   +---validate
+¦   ¦   ¦   ¦   ¦   +---refs
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---meta
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦   ¦   ¦       +---meta
+¦   ¦   ¦   ¦   ¦   +---runtime
+¦   ¦   ¦   ¦   ¦   +---standalone
+¦   ¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   ¦   ¦   +---vocabularies
+¦   ¦   ¦   ¦   ¦       +---applicator
+¦   ¦   ¦   ¦   ¦       +---core
+¦   ¦   ¦   ¦   ¦       +---discriminator
+¦   ¦   ¦   ¦   ¦       +---dynamic
+¦   ¦   ¦   ¦   ¦       +---format
+¦   ¦   ¦   ¦   ¦       +---jtd
+¦   ¦   ¦   ¦   ¦       +---unevaluated
+¦   ¦   ¦   ¦   ¦       +---validation
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       +---compile
+¦   ¦   ¦   ¦       ¦   +---codegen
+¦   ¦   ¦   ¦       ¦   +---jtd
+¦   ¦   ¦   ¦       ¦   +---validate
+¦   ¦   ¦   ¦       +---refs
+¦   ¦   ¦   ¦       ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦       ¦   ¦   +---meta
+¦   ¦   ¦   ¦       ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦       ¦       +---meta
+¦   ¦   ¦   ¦       +---runtime
+¦   ¦   ¦   ¦       +---standalone
+¦   ¦   ¦   ¦       +---types
+¦   ¦   ¦   ¦       +---vocabularies
+¦   ¦   ¦   ¦           +---applicator
+¦   ¦   ¦   ¦           +---core
+¦   ¦   ¦   ¦           +---discriminator
+¦   ¦   ¦   ¦           +---dynamic
+¦   ¦   ¦   ¦           +---format
+¦   ¦   ¦   ¦           +---jtd
+¦   ¦   ¦   ¦           +---unevaluated
+¦   ¦   ¦   ¦           +---validation
+¦   ¦   ¦   +---ajv-keywords
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---definitions
+¦   ¦   ¦   ¦   ¦   +---keywords
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       +---definitions
+¦   ¦   ¦   ¦       +---keywords
+¦   ¦   ¦   +---json-schema-traverse
+¦   ¦   ¦   ¦   +---.github
+¦   ¦   ¦   ¦   ¦   +---workflows
+¦   ¦   ¦   ¦   +---spec
+¦   ¦   ¦   ¦       +---fixtures
+¦   ¦   ¦   +---schema-utils
+¦   ¦   ¦       +---declarations
+¦   ¦   ¦       ¦   +---keywords
+¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---keywords
+¦   ¦   ¦           +---util
+¦   ¦   +---types
+¦   ¦       +---utils
+¦   +---webpack-dev-server
+¦   ¦   +---bin
+¦   ¦   +---client
+¦   ¦   ¦   +---clients
+¦   ¦   ¦   +---modules
+¦   ¦   ¦   ¦   +---logger
+¦   ¦   ¦   ¦   +---sockjs-client
+¦   ¦   ¦   +---overlay
+¦   ¦   ¦   +---utils
+¦   ¦   +---lib
+¦   ¦   ¦   +---servers
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---ajv
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---compile
+¦   ¦   ¦   ¦   ¦   ¦   +---codegen
+¦   ¦   ¦   ¦   ¦   ¦   +---jtd
+¦   ¦   ¦   ¦   ¦   ¦   +---validate
+¦   ¦   ¦   ¦   ¦   +---refs
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦   ¦   ¦   ¦   +---meta
+¦   ¦   ¦   ¦   ¦   ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦   ¦   ¦       +---meta
+¦   ¦   ¦   ¦   ¦   +---runtime
+¦   ¦   ¦   ¦   ¦   +---standalone
+¦   ¦   ¦   ¦   ¦   +---types
+¦   ¦   ¦   ¦   ¦   +---vocabularies
+¦   ¦   ¦   ¦   ¦       +---applicator
+¦   ¦   ¦   ¦   ¦       +---core
+¦   ¦   ¦   ¦   ¦       +---discriminator
+¦   ¦   ¦   ¦   ¦       +---dynamic
+¦   ¦   ¦   ¦   ¦       +---format
+¦   ¦   ¦   ¦   ¦       +---jtd
+¦   ¦   ¦   ¦   ¦       +---unevaluated
+¦   ¦   ¦   ¦   ¦       +---validation
+¦   ¦   ¦   ¦   +---lib
+¦   ¦   ¦   ¦       +---compile
+¦   ¦   ¦   ¦       ¦   +---codegen
+¦   ¦   ¦   ¦       ¦   +---jtd
+¦   ¦   ¦   ¦       ¦   +---validate
+¦   ¦   ¦   ¦       +---refs
+¦   ¦   ¦   ¦       ¦   +---json-schema-2019-09
+¦   ¦   ¦   ¦       ¦   ¦   +---meta
+¦   ¦   ¦   ¦       ¦   +---json-schema-2020-12
+¦   ¦   ¦   ¦       ¦       +---meta
+¦   ¦   ¦   ¦       +---runtime
+¦   ¦   ¦   ¦       +---standalone
+¦   ¦   ¦   ¦       +---types
+¦   ¦   ¦   ¦       +---vocabularies
+¦   ¦   ¦   ¦           +---applicator
+¦   ¦   ¦   ¦           +---core
+¦   ¦   ¦   ¦           +---discriminator
+¦   ¦   ¦   ¦           +---dynamic
+¦   ¦   ¦   ¦           +---format
+¦   ¦   ¦   ¦           +---jtd
+¦   ¦   ¦   ¦           +---unevaluated
+¦   ¦   ¦   ¦           +---validation
+¦   ¦   ¦   +---ajv-keywords
+¦   ¦   ¦   ¦   +---dist
+¦   ¦   ¦   ¦   ¦   +---definitions
+¦   ¦   ¦   ¦   ¦   +---keywords
+¦   ¦   ¦   ¦   +---src
+¦   ¦   ¦   ¦       +---definitions
+¦   ¦   ¦   ¦       +---keywords
+¦   ¦   ¦   +---json-schema-traverse
+¦   ¦   ¦   ¦   +---.github
+¦   ¦   ¦   ¦   ¦   +---workflows
+¦   ¦   ¦   ¦   +---spec
+¦   ¦   ¦   ¦       +---fixtures
+¦   ¦   ¦   +---schema-utils
+¦   ¦   ¦       +---declarations
+¦   ¦   ¦       ¦   +---keywords
+¦   ¦   ¦       ¦   +---util
+¦   ¦   ¦       +---dist
+¦   ¦   ¦           +---keywords
+¦   ¦   ¦           +---util
+¦   ¦   +---types
+¦   ¦       +---bin
+¦   ¦       +---lib
+¦   ¦           +---servers
+¦   +---webpack-merge
+¦   ¦   +---dist
+¦   +---webpack-notifier
+¦   +---webpack-sources
+¦   ¦   +---lib
+¦   +---websocket-driver
+¦   ¦   +---lib
+¦   ¦       +---websocket
+¦   ¦           +---driver
+¦   ¦               +---hybi
+¦   +---websocket-extensions
+¦   ¦   +---lib
+¦   ¦       +---pipeline
+¦   +---which
+¦   ¦   +---bin
+¦   +---which-boxed-primitive
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---which-builtin-type
+¦   ¦   +---node_modules
+¦   ¦   ¦   +---isarray
+¦   ¦   +---test
+¦   +---which-collection
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---which-typed-array
+¦   ¦   +---.github
+¦   ¦   +---test
+¦   +---wildcard
+¦   ¦   +---.github
+¦   ¦   ¦   +---workflows
+¦   ¦   +---examples
+¦   ¦   +---test
+¦   +---wrap-ansi
+¦   +---wrappy
+¦   +---ws
+¦   ¦   +---lib
+¦   +---xtend
+¦   +---y18n
+¦   ¦   +---build
+¦   ¦       +---lib
+¦   ¦           +---platform-shims
+¦   +---yallist
+¦   +---yaml
+¦   ¦   +---browser
+¦   ¦   ¦   +---dist
+¦   ¦   ¦   +---types
+¦   ¦   +---dist
+¦   ¦   +---types
+¦   +---yargs
+¦   ¦   +---build
+¦   ¦   ¦   +---lib
+¦   ¦   ¦       +---typings
+¦   ¦   ¦       +---utils
+¦   ¦   +---helpers
+¦   ¦   +---lib
+¦   ¦   ¦   +---platform-shims
+¦   ¦   +---locales
+¦   +---yargs-parser
+¦       +---build
+¦           +---lib
++---public
+¦   +---css
+¦   +---dist
+¦   ¦   +---themes
+¦   ¦       +---social-1
+¦   ¦           +---css
+¦   ¦           ¦   +---app
+¦   ¦           ¦   +---fonts
+¦   ¦           ¦   +---vendor
+¦   ¦           ¦       +---fonts
+¦   ¦           +---images
+¦   ¦           ¦   +---flags
+¦   ¦           ¦   +---people
+¦   ¦           ¦   ¦   +---110
+¦   ¦           ¦   ¦   +---50
+¦   ¦           ¦   +---social
+¦   ¦           ¦       +---100
+¦   ¦           +---js
+¦   ¦               +---app
+¦   ¦               ¦   +---charts
+¦   ¦               +---vendor
+¦   ¦                   +---charts
+¦   ¦                   ¦   +---easy-pie
+¦   ¦                   ¦   +---flot
+¦   ¦                   ¦   +---morris
+¦   ¦                   ¦   +---sparkline
+¦   ¦                   +---core
+¦   ¦                   ¦   +---jquery-ui
+¦   ¦                   +---forms
+¦   ¦                   +---maps
+¦   ¦                   ¦   +---google
+¦   ¦                   ¦       +---jquery-ui-map
+¦   ¦                   ¦           +---addons
+¦   ¦                   ¦           +---ui
+¦   ¦                   +---media
+¦   ¦                   +---nestable
+¦   ¦                   +---tables
+¦   ¦                   +---tree
+¦   +---images
+¦   ¦   +---subastas
+¦   +---js
+¦   +---pagina
+¦   ¦   +---css
+¦   ¦   +---documentation
+¦   ¦   ¦   +---assets
+¦   ¦   ¦       +---css
+¦   ¦   ¦       +---img
+¦   ¦   ¦       ¦   +---glyphicons
+¦   ¦   ¦       +---js
+¦   ¦   ¦           +---google-code-prettify
+¦   ¦   +---fonts
+¦   ¦   +---ico
+¦   ¦   +---images
+¦   ¦   +---js
+¦   ¦   +---revolution
+¦   ¦   ¦   +---css
+¦   ¦   ¦   +---js
+¦   ¦   ¦       +---extensions
+¦   ¦   ¦           +---source
+¦   ¦   +---videos
+¦   +---videos
+¦   +---_skin
++---resources
+¦   +---css
+¦   +---js
+¦   ¦   +---components
+¦   ¦   +---plugins
+¦   ¦   +---store
+¦   +---lang
+¦   ¦   +---en
+¦   ¦   +---es
+¦   +---sass
+¦   +---views
+¦       +---admin
+¦       ¦   +---promotions
+¦       ¦   +---users
+¦       +---auth
+¦       ¦   +---passwords
+¦       +---balance
+¦       +---contenido
+¦       +---cuentadebanco
+¦       +---email
+¦       +---layouts
+¦       +---pagos
+¦       +---planes
+¦       +---publicaciones
+¦       +---recompensas
+¦       +---register
+¦       +---subastas
+¦       +---user
+¦       ¦   +---products
+¦       +---web
++---routes
++---storage
+¦   +---app
+¦   +---framework
+¦   ¦   +---cache
+¦   ¦   ¦   +---data
+¦   ¦   +---sessions
+¦   ¦   +---testing
+¦   ¦   +---views
+¦   +---logs
++---tests
+¦   +---Feature
+¦   +---Unit
++---vendor
+    +---asm89
+    ¦   +---stack-cors
+    ¦       +---src
+    +---bin
+    +---brick
+    ¦   +---math
+    ¦       +---src
+    ¦           +---Exception
+    ¦           +---Internal
+    ¦               +---Calculator
+    +---carbonphp
+    ¦   +---carbon-doctrine-types
+    ¦       +---src
+    ¦           +---Carbon
+    ¦               +---Doctrine
+    +---composer
+    +---dflydev
+    ¦   +---dot-access-data
+    ¦       +---src
+    ¦           +---Exception
+    +---doctrine
+    ¦   +---cache
+    ¦   ¦   +---lib
+    ¦   ¦       +---Doctrine
+    ¦   ¦           +---Common
+    ¦   ¦               +---Cache
+    ¦   ¦                   +---Psr6
+    ¦   +---dbal
+    ¦   ¦   +---bin
+    ¦   ¦   +---src
+    ¦   ¦       +---ArrayParameters
+    ¦   ¦       ¦   +---Exception
+    ¦   ¦       +---Cache
+    ¦   ¦       +---Connections
+    ¦   ¦       +---Driver
+    ¦   ¦       ¦   +---AbstractOracleDriver
+    ¦   ¦       ¦   +---AbstractSQLiteDriver
+    ¦   ¦       ¦   ¦   +---Middleware
+    ¦   ¦       ¦   +---AbstractSQLServerDriver
+    ¦   ¦       ¦   ¦   +---Exception
+    ¦   ¦       ¦   +---API
+    ¦   ¦       ¦   ¦   +---IBMDB2
+    ¦   ¦       ¦   ¦   +---MySQL
+    ¦   ¦       ¦   ¦   +---OCI
+    ¦   ¦       ¦   ¦   +---PostgreSQL
+    ¦   ¦       ¦   ¦   +---SQLite
+    ¦   ¦       ¦   ¦   +---SQLSrv
+    ¦   ¦       ¦   +---Exception
+    ¦   ¦       ¦   +---IBMDB2
+    ¦   ¦       ¦   ¦   +---Exception
+    ¦   ¦       ¦   +---Middleware
+    ¦   ¦       ¦   +---Mysqli
+    ¦   ¦       ¦   ¦   +---Exception
+    ¦   ¦       ¦   ¦   +---Initializer
+    ¦   ¦       ¦   +---OCI8
+    ¦   ¦       ¦   ¦   +---Exception
+    ¦   ¦       ¦   ¦   +---Middleware
+    ¦   ¦       ¦   +---PDO
+    ¦   ¦       ¦   ¦   +---MySQL
+    ¦   ¦       ¦   ¦   +---OCI
+    ¦   ¦       ¦   ¦   +---PgSQL
+    ¦   ¦       ¦   ¦   +---SQLite
+    ¦   ¦       ¦   ¦   +---SQLSrv
+    ¦   ¦       ¦   +---PgSQL
+    ¦   ¦       ¦   ¦   +---Exception
+    ¦   ¦       ¦   +---SQLite3
+    ¦   ¦       ¦   +---SQLSrv
+    ¦   ¦       ¦       +---Exception
+    ¦   ¦       +---Event
+    ¦   ¦       ¦   +---Listeners
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Id
+    ¦   ¦       +---Logging
+    ¦   ¦       +---Platforms
+    ¦   ¦       ¦   +---Keywords
+    ¦   ¦       ¦   +---MySQL
+    ¦   ¦       ¦   ¦   +---CollationMetadataProvider
+    ¦   ¦       ¦   +---SQLite
+    ¦   ¦       ¦   +---SQLServer
+    ¦   ¦       ¦       +---SQL
+    ¦   ¦       ¦           +---Builder
+    ¦   ¦       +---Portability
+    ¦   ¦       +---Query
+    ¦   ¦       ¦   +---Expression
+    ¦   ¦       ¦   +---ForUpdate
+    ¦   ¦       +---Schema
+    ¦   ¦       ¦   +---Exception
+    ¦   ¦       ¦   +---Visitor
+    ¦   ¦       +---SQL
+    ¦   ¦       ¦   +---Builder
+    ¦   ¦       ¦   +---Parser
+    ¦   ¦       ¦       +---Exception
+    ¦   ¦       +---Tools
+    ¦   ¦       ¦   +---Console
+    ¦   ¦       ¦       +---Command
+    ¦   ¦       ¦       +---ConnectionProvider
+    ¦   ¦       +---Types
+    ¦   +---deprecations
+    ¦   ¦   +---src
+    ¦   ¦       +---PHPUnit
+    ¦   +---event-manager
+    ¦   ¦   +---src
+    ¦   +---inflector
+    ¦   ¦   +---docs
+    ¦   ¦   ¦   +---en
+    ¦   ¦   +---lib
+    ¦   ¦       +---Doctrine
+    ¦   ¦           +---Inflector
+    ¦   ¦               +---Rules
+    ¦   ¦                   +---English
+    ¦   ¦                   +---French
+    ¦   ¦                   +---NorwegianBokmal
+    ¦   ¦                   +---Portuguese
+    ¦   ¦                   +---Spanish
+    ¦   ¦                   +---Turkish
+    ¦   +---instantiator
+    ¦   ¦   +---docs
+    ¦   ¦   ¦   +---en
+    ¦   ¦   +---src
+    ¦   ¦       +---Doctrine
+    ¦   ¦           +---Instantiator
+    ¦   ¦               +---Exception
+    ¦   +---lexer
+    ¦       +---lib
+    ¦           +---Doctrine
+    ¦               +---Common
+    ¦                   +---Lexer
+    +---dompdf
+    ¦   +---dompdf
+    ¦       +---.github
+    ¦       ¦   +---workflows
+    ¦       +---lib
+    ¦       ¦   +---fonts
+    ¦       ¦   +---html5lib
+    ¦       ¦   +---res
+    ¦       +---src
+    ¦           +---Adapter
+    ¦           +---Css
+    ¦           +---Exception
+    ¦           +---Frame
+    ¦           +---FrameDecorator
+    ¦           +---FrameReflower
+    ¦           +---Image
+    ¦           +---Positioner
+    ¦           +---Renderer
+    +---dragonmantank
+    ¦   +---cron-expression
+    ¦       +---src
+    ¦           +---Cron
+    +---egulias
+    ¦   +---email-validator
+    ¦       +---src
+    ¦           +---Exception
+    ¦           +---Parser
+    ¦           +---Validation
+    ¦           ¦   +---Error
+    ¦           ¦   +---Exception
+    ¦           +---Warning
+    +---facade
+    ¦   +---flare-client-php
+    ¦   ¦   +---src
+    ¦   ¦       +---Concerns
+    ¦   ¦       +---Context
+    ¦   ¦       +---Contracts
+    ¦   ¦       +---Enums
+    ¦   ¦       +---Glows
+    ¦   ¦       +---Http
+    ¦   ¦       ¦   +---Exceptions
+    ¦   ¦       +---Middleware
+    ¦   ¦       +---Solutions
+    ¦   ¦       +---Stacktrace
+    ¦   ¦       +---Time
+    ¦   ¦       +---Truncation
+    ¦   +---ignition
+    ¦   ¦   +---config
+    ¦   ¦   +---resources
+    ¦   ¦   ¦   +---compiled
+    ¦   ¦   ¦   +---views
+    ¦   ¦   +---src
+    ¦   ¦       +---Actions
+    ¦   ¦       +---Commands
+    ¦   ¦       ¦   +---stubs
+    ¦   ¦       +---Context
+    ¦   ¦       +---DumpRecorder
+    ¦   ¦       +---ErrorPage
+    ¦   ¦       +---Exceptions
+    ¦   ¦       +---Facades
+    ¦   ¦       +---Http
+    ¦   ¦       ¦   +---Controllers
+    ¦   ¦       ¦   +---Middleware
+    ¦   ¦       ¦   +---Requests
+    ¦   ¦       +---JobRecorder
+    ¦   ¦       +---Logger
+    ¦   ¦       +---LogRecorder
+    ¦   ¦       +---Middleware
+    ¦   ¦       +---QueryRecorder
+    ¦   ¦       +---SolutionProviders
+    ¦   ¦       +---Solutions
+    ¦   ¦       +---Support
+    ¦   ¦       ¦   +---Packagist
+    ¦   ¦       +---Tabs
+    ¦   ¦       +---Views
+    ¦   ¦           +---Compilers
+    ¦   ¦           +---Concerns
+    ¦   ¦           +---Engines
+    ¦   +---ignition-contracts
+    ¦       +---.github
+    ¦       ¦   +---workflows
+    ¦       +---src
+    +---fakerphp
+    ¦   +---faker
+    ¦       +---src
+    ¦           +---Faker
+    ¦               +---Calculator
+    ¦               +---Container
+    ¦               +---Core
+    ¦               +---Extension
+    ¦               +---Guesser
+    ¦               +---ORM
+    ¦               ¦   +---CakePHP
+    ¦               ¦   +---Doctrine
+    ¦               ¦   +---Mandango
+    ¦               ¦   +---Propel
+    ¦               ¦   +---Propel2
+    ¦               ¦   +---Spot
+    ¦               +---Provider
+    ¦                   +---ar_EG
+    ¦                   +---ar_JO
+    ¦                   +---ar_SA
+    ¦                   +---at_AT
+    ¦                   +---bg_BG
+    ¦                   +---bn_BD
+    ¦                   +---cs_CZ
+    ¦                   +---da_DK
+    ¦                   +---de_AT
+    ¦                   +---de_CH
+    ¦                   +---de_DE
+    ¦                   +---el_CY
+    ¦                   +---el_GR
+    ¦                   +---en_AU
+    ¦                   +---en_CA
+    ¦                   +---en_GB
+    ¦                   +---en_HK
+    ¦                   +---en_IN
+    ¦                   +---en_NG
+    ¦                   +---en_NZ
+    ¦                   +---en_PH
+    ¦                   +---en_SG
+    ¦                   +---en_UG
+    ¦                   +---en_US
+    ¦                   +---en_ZA
+    ¦                   +---es_AR
+    ¦                   +---es_ES
+    ¦                   +---es_PE
+    ¦                   +---es_VE
+    ¦                   +---et_EE
+    ¦                   +---fa_IR
+    ¦                   +---fi_FI
+    ¦                   +---fr_BE
+    ¦                   +---fr_CA
+    ¦                   +---fr_CH
+    ¦                   +---fr_FR
+    ¦                   +---he_IL
+    ¦                   +---hr_HR
+    ¦                   +---hu_HU
+    ¦                   +---hy_AM
+    ¦                   +---id_ID
+    ¦                   +---is_IS
+    ¦                   +---it_CH
+    ¦                   +---it_IT
+    ¦                   +---ja_JP
+    ¦                   +---ka_GE
+    ¦                   +---kk_KZ
+    ¦                   +---ko_KR
+    ¦                   +---lt_LT
+    ¦                   +---lv_LV
+    ¦                   +---me_ME
+    ¦                   +---mn_MN
+    ¦                   +---ms_MY
+    ¦                   +---nb_NO
+    ¦                   +---ne_NP
+    ¦                   +---nl_BE
+    ¦                   +---nl_NL
+    ¦                   +---pl_PL
+    ¦                   +---pt_BR
+    ¦                   +---pt_PT
+    ¦                   +---ro_MD
+    ¦                   +---ro_RO
+    ¦                   +---ru_RU
+    ¦                   +---sk_SK
+    ¦                   +---sl_SI
+    ¦                   +---sr_Cyrl_RS
+    ¦                   +---sr_Latn_RS
+    ¦                   +---sr_RS
+    ¦                   +---sv_SE
+    ¦                   +---th_TH
+    ¦                   +---tr_TR
+    ¦                   +---uk_UA
+    ¦                   +---vi_VN
+    ¦                   +---zh_CN
+    ¦                   +---zh_TW
+    +---filp
+    ¦   +---whoops
+    ¦       +---src
+    ¦           +---Whoops
+    ¦               +---Exception
+    ¦               +---Handler
+    ¦               +---Inspector
+    ¦               +---Resources
+    ¦               ¦   +---css
+    ¦               ¦   +---js
+    ¦               ¦   +---views
+    ¦               +---Util
+    +---fruitcake
+    ¦   +---laravel-cors
+    ¦       +---config
+    ¦       +---src
+    +---graham-campbell
+    ¦   +---result-type
+    ¦       +---src
+    +---guzzlehttp
+    ¦   +---guzzle
+    ¦   ¦   +---src
+    ¦   ¦       +---Cookie
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Handler
+    ¦   +---promises
+    ¦   ¦   +---src
+    ¦   +---psr7
+    ¦       +---src
+    ¦           +---Exception
+    +---hamcrest
+    ¦   +---hamcrest-php
+    ¦       +---.github
+    ¦       ¦   +---workflows
+    ¦       +---generator
+    ¦       ¦   +---parts
+    ¦       +---hamcrest
+    ¦       ¦   +---Hamcrest
+    ¦       ¦       +---Arrays
+    ¦       ¦       +---Collection
+    ¦       ¦       +---Core
+    ¦       ¦       +---Internal
+    ¦       ¦       +---Number
+    ¦       ¦       +---Text
+    ¦       ¦       +---Type
+    ¦       ¦       +---Xml
+    ¦       +---tests
+    ¦           +---Hamcrest
+    ¦               +---Array
+    ¦               +---Collection
+    ¦               +---Core
+    ¦               +---Number
+    ¦               +---Text
+    ¦               +---Type
+    ¦               +---Xml
+    +---laravel
+    ¦   +---cashier
+    ¦   ¦   +---art
+    ¦   ¦   +---config
+    ¦   ¦   +---database
+    ¦   ¦   ¦   +---factories
+    ¦   ¦   ¦   +---migrations
+    ¦   ¦   +---resources
+    ¦   ¦   ¦   +---views
+    ¦   ¦   +---routes
+    ¦   ¦   +---src
+    ¦   ¦       +---Concerns
+    ¦   ¦       +---Events
+    ¦   ¦       +---Exceptions
+    ¦   ¦       +---Http
+    ¦   ¦       ¦   +---Controllers
+    ¦   ¦       ¦   +---Middleware
+    ¦   ¦       +---Notifications
+    ¦   +---framework
+    ¦   ¦   +---src
+    ¦   ¦       +---Illuminate
+    ¦   ¦           +---Auth
+    ¦   ¦           ¦   +---Access
+    ¦   ¦           ¦   ¦   +---Events
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   ¦       +---make
+    ¦   ¦           ¦   ¦           +---views
+    ¦   ¦           ¦   ¦               +---layouts
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Listeners
+    ¦   ¦           ¦   +---Middleware
+    ¦   ¦           ¦   +---Notifications
+    ¦   ¦           ¦   +---Passwords
+    ¦   ¦           +---Broadcasting
+    ¦   ¦           ¦   +---Broadcasters
+    ¦   ¦           +---Bus
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           +---Cache
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---RateLimiting
+    ¦   ¦           +---Collections
+    ¦   ¦           ¦   +---Traits
+    ¦   ¦           +---Config
+    ¦   ¦           +---Console
+    ¦   ¦           ¦   +---Concerns
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Scheduling
+    ¦   ¦           +---Container
+    ¦   ¦           +---Contracts
+    ¦   ¦           ¦   +---Auth
+    ¦   ¦           ¦   ¦   +---Access
+    ¦   ¦           ¦   ¦   +---Middleware
+    ¦   ¦           ¦   +---Broadcasting
+    ¦   ¦           ¦   +---Bus
+    ¦   ¦           ¦   +---Cache
+    ¦   ¦           ¦   +---Config
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   +---Container
+    ¦   ¦           ¦   +---Cookie
+    ¦   ¦           ¦   +---Database
+    ¦   ¦           ¦   ¦   +---Eloquent
+    ¦   ¦           ¦   ¦   +---Events
+    ¦   ¦           ¦   +---Debug
+    ¦   ¦           ¦   +---Encryption
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Filesystem
+    ¦   ¦           ¦   +---Foundation
+    ¦   ¦           ¦   +---Hashing
+    ¦   ¦           ¦   +---Http
+    ¦   ¦           ¦   +---Mail
+    ¦   ¦           ¦   +---Notifications
+    ¦   ¦           ¦   +---Pagination
+    ¦   ¦           ¦   +---Pipeline
+    ¦   ¦           ¦   +---Queue
+    ¦   ¦           ¦   +---Redis
+    ¦   ¦           ¦   +---Routing
+    ¦   ¦           ¦   +---Session
+    ¦   ¦           ¦   +---Support
+    ¦   ¦           ¦   +---Translation
+    ¦   ¦           ¦   +---Validation
+    ¦   ¦           ¦   +---View
+    ¦   ¦           +---Cookie
+    ¦   ¦           ¦   +---Middleware
+    ¦   ¦           +---Database
+    ¦   ¦           ¦   +---Capsule
+    ¦   ¦           ¦   +---Concerns
+    ¦   ¦           ¦   +---Connectors
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---Factories
+    ¦   ¦           ¦   ¦   ¦   +---stubs
+    ¦   ¦           ¦   ¦   +---Migrations
+    ¦   ¦           ¦   ¦   +---Seeds
+    ¦   ¦           ¦   ¦       +---stubs
+    ¦   ¦           ¦   +---DBAL
+    ¦   ¦           ¦   +---Eloquent
+    ¦   ¦           ¦   ¦   +---Casts
+    ¦   ¦           ¦   ¦   +---Concerns
+    ¦   ¦           ¦   ¦   +---Factories
+    ¦   ¦           ¦   ¦   +---Relations
+    ¦   ¦           ¦   ¦       +---Concerns
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Migrations
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---PDO
+    ¦   ¦           ¦   ¦   +---Concerns
+    ¦   ¦           ¦   +---Query
+    ¦   ¦           ¦   ¦   +---Grammars
+    ¦   ¦           ¦   ¦   +---Processors
+    ¦   ¦           ¦   +---Schema
+    ¦   ¦           ¦       +---Grammars
+    ¦   ¦           +---Encryption
+    ¦   ¦           +---Events
+    ¦   ¦           +---Filesystem
+    ¦   ¦           +---Foundation
+    ¦   ¦           ¦   +---Auth
+    ¦   ¦           ¦   ¦   +---Access
+    ¦   ¦           ¦   +---Bootstrap
+    ¦   ¦           ¦   +---Bus
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Exceptions
+    ¦   ¦           ¦   ¦   +---views
+    ¦   ¦           ¦   +---Http
+    ¦   ¦           ¦   ¦   +---Events
+    ¦   ¦           ¦   ¦   +---Exceptions
+    ¦   ¦           ¦   ¦   +---Middleware
+    ¦   ¦           ¦   +---Providers
+    ¦   ¦           ¦   +---stubs
+    ¦   ¦           ¦   +---Support
+    ¦   ¦           ¦   ¦   +---Providers
+    ¦   ¦           ¦   +---Testing
+    ¦   ¦           ¦   ¦   +---Concerns
+    ¦   ¦           ¦   ¦   +---Traits
+    ¦   ¦           ¦   +---Validation
+    ¦   ¦           +---Hashing
+    ¦   ¦           +---Http
+    ¦   ¦           ¦   +---Client
+    ¦   ¦           ¦   ¦   +---Events
+    ¦   ¦           ¦   +---Concerns
+    ¦   ¦           ¦   +---Exceptions
+    ¦   ¦           ¦   +---Middleware
+    ¦   ¦           ¦   +---Resources
+    ¦   ¦           ¦   ¦   +---Json
+    ¦   ¦           ¦   +---Testing
+    ¦   ¦           +---Log
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           +---Macroable
+    ¦   ¦           ¦   +---Traits
+    ¦   ¦           +---Mail
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---resources
+    ¦   ¦           ¦   ¦   +---views
+    ¦   ¦           ¦   ¦       +---html
+    ¦   ¦           ¦   ¦       ¦   +---themes
+    ¦   ¦           ¦   ¦       +---text
+    ¦   ¦           ¦   +---Transport
+    ¦   ¦           +---Notifications
+    ¦   ¦           ¦   +---Channels
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Messages
+    ¦   ¦           ¦   +---resources
+    ¦   ¦           ¦       +---views
+    ¦   ¦           +---Pagination
+    ¦   ¦           ¦   +---resources
+    ¦   ¦           ¦       +---views
+    ¦   ¦           +---Pipeline
+    ¦   ¦           +---Queue
+    ¦   ¦           ¦   +---Capsule
+    ¦   ¦           ¦   +---Connectors
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Failed
+    ¦   ¦           ¦   +---Jobs
+    ¦   ¦           ¦   +---Middleware
+    ¦   ¦           +---Redis
+    ¦   ¦           ¦   +---Connections
+    ¦   ¦           ¦   +---Connectors
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Limiters
+    ¦   ¦           +---Routing
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---Contracts
+    ¦   ¦           ¦   +---Events
+    ¦   ¦           ¦   +---Exceptions
+    ¦   ¦           ¦   +---Matching
+    ¦   ¦           ¦   +---Middleware
+    ¦   ¦           +---Session
+    ¦   ¦           ¦   +---Console
+    ¦   ¦           ¦   ¦   +---stubs
+    ¦   ¦           ¦   +---Middleware
+    ¦   ¦           +---Support
+    ¦   ¦           ¦   +---Facades
+    ¦   ¦           ¦   +---Testing
+    ¦   ¦           ¦   ¦   +---Fakes
+    ¦   ¦           ¦   +---Traits
+    ¦   ¦           +---Testing
+    ¦   ¦           ¦   +---Concerns
+    ¦   ¦           ¦   +---Constraints
+    ¦   ¦           ¦   +---Fluent
+    ¦   ¦           ¦       +---Concerns
+    ¦   ¦           +---Translation
+    ¦   ¦           +---Validation
+    ¦   ¦           ¦   +---Concerns
+    ¦   ¦           ¦   +---Rules
+    ¦   ¦           +---View
+    ¦   ¦               +---Compilers
+    ¦   ¦               ¦   +---Concerns
+    ¦   ¦               +---Concerns
+    ¦   ¦               +---Engines
+    ¦   ¦               +---Middleware
+    ¦   +---sail
+    ¦   ¦   +---bin
+    ¦   ¦   +---database
+    ¦   ¦   ¦   +---mysql
+    ¦   ¦   ¦   +---pgsql
+    ¦   ¦   +---runtimes
+    ¦   ¦   ¦   +---8.0
+    ¦   ¦   ¦   +---8.1
+    ¦   ¦   ¦   +---8.2
+    ¦   ¦   ¦   +---8.3
+    ¦   ¦   +---src
+    ¦   ¦   ¦   +---Console
+    ¦   ¦   ¦       +---Concerns
+    ¦   ¦   +---stubs
+    ¦   +---sanctum
+    ¦   ¦   +---config
+    ¦   ¦   +---database
+    ¦   ¦   ¦   +---migrations
+    ¦   ¦   +---src
+    ¦   ¦       +---Console
+    ¦   ¦       ¦   +---Commands
+    ¦   ¦       +---Contracts
+    ¦   ¦       +---Events
+    ¦   ¦       +---Exceptions
+    ¦   ¦       +---Http
+    ¦   ¦           +---Controllers
+    ¦   ¦           +---Middleware
+    ¦   +---serializable-closure
+    ¦   ¦   +---src
+    ¦   ¦       +---Contracts
+    ¦   ¦       +---Exceptions
+    ¦   ¦       +---Serializers
+    ¦   ¦       +---Signers
+    ¦   ¦       +---Support
+    ¦   +---tinker
+    ¦   ¦   +---config
+    ¦   ¦   +---src
+    ¦   ¦       +---Console
+    ¦   +---ui
+    ¦       +---auth-backend
+    ¦       +---src
+    ¦       ¦   +---Auth
+    ¦       ¦   ¦   +---bootstrap-stubs
+    ¦       ¦   ¦   ¦   +---auth
+    ¦       ¦   ¦   ¦   ¦   +---passwords
+    ¦       ¦   ¦   ¦   +---layouts
+    ¦       ¦   ¦   +---stubs
+    ¦       ¦   ¦       +---controllers
+    ¦       ¦   +---Presets
+    ¦       ¦       +---bootstrap-stubs
+    ¦       ¦       +---react-stubs
+    ¦       ¦       +---vue-stubs
+    ¦       +---stubs
+    ¦       ¦   +---Auth
+    ¦       ¦   +---migrations
+    ¦       +---tests
+    ¦           +---AuthBackend
+    +---league
+    ¦   +---commonmark
+    ¦   ¦   +---src
+    ¦   ¦       +---Delimiter
+    ¦   ¦       ¦   +---Processor
+    ¦   ¦       +---Environment
+    ¦   ¦       +---Event
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Extension
+    ¦   ¦       ¦   +---Attributes
+    ¦   ¦       ¦   ¦   +---Event
+    ¦   ¦       ¦   ¦   +---Node
+    ¦   ¦       ¦   ¦   +---Parser
+    ¦   ¦       ¦   ¦   +---Util
+    ¦   ¦       ¦   +---Autolink
+    ¦   ¦       ¦   +---CommonMark
+    ¦   ¦       ¦   ¦   +---Delimiter
+    ¦   ¦       ¦   ¦   ¦   +---Processor
+    ¦   ¦       ¦   ¦   +---Node
+    ¦   ¦       ¦   ¦   ¦   +---Block
+    ¦   ¦       ¦   ¦   ¦   +---Inline
+    ¦   ¦       ¦   ¦   +---Parser
+    ¦   ¦       ¦   ¦   ¦   +---Block
+    ¦   ¦       ¦   ¦   ¦   +---Inline
+    ¦   ¦       ¦   ¦   +---Renderer
+    ¦   ¦       ¦   ¦       +---Block
+    ¦   ¦       ¦   ¦       +---Inline
+    ¦   ¦       ¦   +---DefaultAttributes
+    ¦   ¦       ¦   +---DescriptionList
+    ¦   ¦       ¦   ¦   +---Event
+    ¦   ¦       ¦   ¦   +---Node
+    ¦   ¦       ¦   ¦   +---Parser
+    ¦   ¦       ¦   ¦   +---Renderer
+    ¦   ¦       ¦   +---DisallowedRawHtml
+    ¦   ¦       ¦   +---Embed
+    ¦   ¦       ¦   ¦   +---Bridge
+    ¦   ¦       ¦   +---ExternalLink
+    ¦   ¦       ¦   +---Footnote
+    ¦   ¦       ¦   ¦   +---Event
+    ¦   ¦       ¦   ¦   +---Node
+    ¦   ¦       ¦   ¦   +---Parser
+    ¦   ¦       ¦   ¦   +---Renderer
+    ¦   ¦       ¦   +---FrontMatter
+    ¦   ¦       ¦   ¦   +---Data
+    ¦   ¦       ¦   ¦   +---Exception
+    ¦   ¦       ¦   ¦   +---Input
+    ¦   ¦       ¦   ¦   +---Listener
+    ¦   ¦       ¦   ¦   +---Output
+    ¦   ¦       ¦   +---HeadingPermalink
+    ¦   ¦       ¦   +---InlinesOnly
+    ¦   ¦       ¦   +---Mention
+    ¦   ¦       ¦   ¦   +---Generator
+    ¦   ¦       ¦   +---SmartPunct
+    ¦   ¦       ¦   +---Strikethrough
+    ¦   ¦       ¦   +---Table
+    ¦   ¦       ¦   +---TableOfContents
+    ¦   ¦       ¦   ¦   +---Node
+    ¦   ¦       ¦   ¦   +---Normalizer
+    ¦   ¦       ¦   +---TaskList
+    ¦   ¦       +---Input
+    ¦   ¦       +---Node
+    ¦   ¦       ¦   +---Block
+    ¦   ¦       ¦   +---Inline
+    ¦   ¦       ¦   +---Query
+    ¦   ¦       +---Normalizer
+    ¦   ¦       +---Output
+    ¦   ¦       +---Parser
+    ¦   ¦       ¦   +---Block
+    ¦   ¦       ¦   +---Inline
+    ¦   ¦       +---Reference
+    ¦   ¦       +---Renderer
+    ¦   ¦       ¦   +---Block
+    ¦   ¦       ¦   +---Inline
+    ¦   ¦       +---Util
+    ¦   ¦       +---Xml
+    ¦   +---config
+    ¦   ¦   +---src
+    ¦   ¦       +---Exception
+    ¦   +---flysystem
+    ¦   ¦   +---src
+    ¦   ¦       +---Adapter
+    ¦   ¦       ¦   +---Polyfill
+    ¦   ¦       +---Plugin
+    ¦   ¦       +---Util
+    ¦   +---mime-type-detection
+    ¦       +---src
+    +---mockery
+    ¦   +---mockery
+    ¦       +---docs
+    ¦       ¦   +---cookbook
+    ¦       ¦   +---getting_started
+    ¦       ¦   +---mockery
+    ¦       ¦   +---reference
+    ¦       ¦   +---_static
+    ¦       +---library
+    ¦           +---Mockery
+    ¦               +---Adapter
+    ¦               ¦   +---Phpunit
+    ¦               +---CountValidator
+    ¦               +---Exception
+    ¦               +---Generator
+    ¦               ¦   +---StringManipulation
+    ¦               ¦       +---Pass
+    ¦               +---Loader
+    ¦               +---Matcher
+    +---moneyphp
+    ¦   +---money
+    ¦       +---resources
+    ¦       +---src
+    ¦           +---Calculator
+    ¦           +---Currencies
+    ¦           +---Exception
+    ¦           +---Exchange
+    ¦           +---Formatter
+    ¦           +---Parser
+    ¦           +---PHPUnit
+    +---monolog
+    ¦   +---monolog
+    ¦       +---src
+    ¦           +---Monolog
+    ¦               +---Attribute
+    ¦               +---Formatter
+    ¦               +---Handler
+    ¦               ¦   +---Curl
+    ¦               ¦   +---FingersCrossed
+    ¦               ¦   +---Slack
+    ¦               ¦   +---SyslogUdp
+    ¦               +---Processor
+    ¦               +---Test
+    +---myclabs
+    ¦   +---deep-copy
+    ¦       +---src
+    ¦           +---DeepCopy
+    ¦               +---Exception
+    ¦               +---Filter
+    ¦               ¦   +---Doctrine
+    ¦               +---Matcher
+    ¦               ¦   +---Doctrine
+    ¦               +---Reflection
+    ¦               +---TypeFilter
+    ¦               ¦   +---Date
+    ¦               ¦   +---Spl
+    ¦               +---TypeMatcher
+    +---nesbot
+    ¦   +---carbon
+    ¦       +---bin
+    ¦       +---lazy
+    ¦       ¦   +---Carbon
+    ¦       ¦       +---MessageFormatter
+    ¦       ¦       +---PHPStan
+    ¦       +---src
+    ¦           +---Carbon
+    ¦               +---Cli
+    ¦               +---Exceptions
+    ¦               +---Lang
+    ¦               +---Laravel
+    ¦               +---List
+    ¦               +---MessageFormatter
+    ¦               +---PHPStan
+    ¦               +---Traits
+    +---nette
+    ¦   +---schema
+    ¦   ¦   +---src
+    ¦   ¦       +---Schema
+    ¦   ¦           +---Elements
+    ¦   +---utils
+    ¦       +---src
+    ¦           +---Iterators
+    ¦           +---Utils
+    +---nikic
+    ¦   +---php-parser
+    ¦       +---bin
+    ¦       +---lib
+    ¦           +---PhpParser
+    ¦               +---Builder
+    ¦               +---Comment
+    ¦               +---ErrorHandler
+    ¦               +---Internal
+    ¦               +---Lexer
+    ¦               ¦   +---TokenEmulator
+    ¦               +---Node
+    ¦               ¦   +---Expr
+    ¦               ¦   ¦   +---AssignOp
+    ¦               ¦   ¦   +---BinaryOp
+    ¦               ¦   ¦   +---Cast
+    ¦               ¦   +---Name
+    ¦               ¦   +---Scalar
+    ¦               ¦   ¦   +---MagicConst
+    ¦               ¦   +---Stmt
+    ¦               ¦       +---TraitUseAdaptation
+    ¦               +---NodeVisitor
+    ¦               +---Parser
+    ¦               +---PrettyPrinter
+    +---nunomaduro
+    ¦   +---collision
+    ¦       +---src
+    ¦           +---Adapters
+    ¦           ¦   +---Laravel
+    ¦           ¦   ¦   +---Commands
+    ¦           ¦   ¦   +---Exceptions
+    ¦           ¦   +---Phpunit
+    ¦           +---Contracts
+    ¦           ¦   +---Adapters
+    ¦           ¦       +---Phpunit
+    ¦           +---Exceptions
+    ¦           +---SolutionsRepositories
+    +---opis
+    ¦   +---closure
+    ¦       +---src
+    +---phar-io
+    ¦   +---manifest
+    ¦   ¦   +---.github
+    ¦   ¦   ¦   +---workflows
+    ¦   ¦   +---src
+    ¦   ¦   ¦   +---exceptions
+    ¦   ¦   ¦   +---values
+    ¦   ¦   ¦   +---xml
+    ¦   ¦   +---tools
+    ¦   ¦       +---php-cs-fixer.d
+    ¦   +---version
+    ¦       +---src
+    ¦           +---constraints
+    ¦           +---exceptions
+    +---phenx
+    ¦   +---php-font-lib
+    ¦   ¦   +---maps
+    ¦   ¦   +---src
+    ¦   ¦       +---FontLib
+    ¦   ¦           +---EOT
+    ¦   ¦           +---Exception
+    ¦   ¦           +---Glyph
+    ¦   ¦           +---OpenType
+    ¦   ¦           +---Table
+    ¦   ¦           ¦   +---Type
+    ¦   ¦           +---TrueType
+    ¦   ¦           +---WOFF
+    ¦   +---php-svg-lib
+    ¦       +---src
+    ¦           +---Svg
+    ¦               +---Gradient
+    ¦               +---Surface
+    ¦               +---Tag
+    +---phpoption
+    ¦   +---phpoption
+    ¦       +---src
+    ¦           +---PhpOption
+    +---phpunit
+    ¦   +---php-code-coverage
+    ¦   ¦   +---build
+    ¦   ¦   ¦   +---scripts
+    ¦   ¦   +---src
+    ¦   ¦       +---Driver
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Node
+    ¦   ¦       +---Report
+    ¦   ¦       ¦   +---Html
+    ¦   ¦       ¦   ¦   +---Renderer
+    ¦   ¦       ¦   ¦       +---Template
+    ¦   ¦       ¦   ¦           +---css
+    ¦   ¦       ¦   ¦           +---icons
+    ¦   ¦       ¦   ¦           +---js
+    ¦   ¦       ¦   +---Xml
+    ¦   ¦       +---StaticAnalysis
+    ¦   ¦       +---Util
+    ¦   +---php-file-iterator
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   +---php-invoker
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---php-text-template
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---php-timer
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---phpunit
+    ¦       +---schema
+    ¦       +---src
+    ¦           +---Framework
+    ¦           ¦   +---Assert
+    ¦           ¦   +---Constraint
+    ¦           ¦   ¦   +---Boolean
+    ¦           ¦   ¦   +---Cardinality
+    ¦           ¦   ¦   +---Equality
+    ¦           ¦   ¦   +---Exception
+    ¦           ¦   ¦   +---Filesystem
+    ¦           ¦   ¦   +---Math
+    ¦           ¦   ¦   +---Object
+    ¦           ¦   ¦   +---Operator
+    ¦           ¦   ¦   +---String
+    ¦           ¦   ¦   +---Traversable
+    ¦           ¦   ¦   +---Type
+    ¦           ¦   +---Error
+    ¦           ¦   +---Exception
+    ¦           ¦   +---MockObject
+    ¦           ¦       +---Api
+    ¦           ¦       +---Builder
+    ¦           ¦       +---Exception
+    ¦           ¦       +---Generator
+    ¦           ¦       +---Rule
+    ¦           ¦       +---Stub
+    ¦           +---Runner
+    ¦           ¦   +---Extension
+    ¦           ¦   +---Filter
+    ¦           ¦   +---Hook
+    ¦           +---TextUI
+    ¦           ¦   +---CliArguments
+    ¦           ¦   +---Exception
+    ¦           ¦   +---XmlConfiguration
+    ¦           ¦       +---CodeCoverage
+    ¦           ¦       ¦   +---Filter
+    ¦           ¦       ¦   +---Report
+    ¦           ¦       +---Filesystem
+    ¦           ¦       +---Group
+    ¦           ¦       +---Logging
+    ¦           ¦       ¦   +---TestDox
+    ¦           ¦       +---Migration
+    ¦           ¦       ¦   +---Migrations
+    ¦           ¦       +---PHP
+    ¦           ¦       +---PHPUnit
+    ¦           ¦       +---TestSuite
+    ¦           +---Util
+    ¦               +---Annotation
+    ¦               +---Log
+    ¦               +---PHP
+    ¦               ¦   +---Template
+    ¦               +---TestDox
+    ¦               +---Xml
+    +---psr
+    ¦   +---cache
+    ¦   ¦   +---src
+    ¦   +---clock
+    ¦   ¦   +---src
+    ¦   +---container
+    ¦   ¦   +---src
+    ¦   +---event-dispatcher
+    ¦   ¦   +---src
+    ¦   +---http-client
+    ¦   ¦   +---src
+    ¦   +---http-factory
+    ¦   ¦   +---src
+    ¦   +---http-message
+    ¦   ¦   +---docs
+    ¦   ¦   +---src
+    ¦   +---log
+    ¦   ¦   +---src
+    ¦   +---simple-cache
+    ¦       +---src
+    +---psy
+    ¦   +---psysh
+    ¦       +---bin
+    ¦       +---src
+    ¦           +---CodeCleaner
+    ¦           +---Command
+    ¦           ¦   +---ListCommand
+    ¦           ¦   +---TimeitCommand
+    ¦           +---Exception
+    ¦           +---ExecutionLoop
+    ¦           +---Formatter
+    ¦           +---Input
+    ¦           +---Output
+    ¦           +---Readline
+    ¦           ¦   +---Hoa
+    ¦           ¦       +---Terminfo
+    ¦           ¦           +---77
+    ¦           ¦           +---78
+    ¦           +---Reflection
+    ¦           +---Sudo
+    ¦           +---TabCompletion
+    ¦           ¦   +---Matcher
+    ¦           +---Util
+    ¦           +---VarDumper
+    ¦           +---VersionUpdater
+    ¦               +---Downloader
+    +---ralouphie
+    ¦   +---getallheaders
+    ¦       +---src
+    +---ramsey
+    ¦   +---collection
+    ¦   ¦   +---src
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Map
+    ¦   ¦       +---Tool
+    ¦   +---uuid
+    ¦       +---src
+    ¦           +---Builder
+    ¦           +---Codec
+    ¦           +---Converter
+    ¦           ¦   +---Number
+    ¦           ¦   +---Time
+    ¦           +---Exception
+    ¦           +---Fields
+    ¦           +---Generator
+    ¦           +---Guid
+    ¦           +---Lazy
+    ¦           +---Math
+    ¦           +---Nonstandard
+    ¦           +---Provider
+    ¦           ¦   +---Dce
+    ¦           ¦   +---Node
+    ¦           ¦   +---Time
+    ¦           +---Rfc4122
+    ¦           +---Type
+    ¦           +---Validator
+    +---sabberworm
+    ¦   +---php-css-parser
+    ¦       +---src
+    ¦           +---Comment
+    ¦           +---CSSList
+    ¦           +---Parsing
+    ¦           +---Property
+    ¦           +---Rule
+    ¦           +---RuleSet
+    ¦           +---Value
+    +---sebastian
+    ¦   +---cli-parser
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---code-unit
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---code-unit-reverse-lookup
+    ¦   ¦   +---src
+    ¦   +---comparator
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---complexity
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   ¦       +---Complexity
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Visitor
+    ¦   +---diff
+    ¦   ¦   +---src
+    ¦   ¦       +---Exception
+    ¦   ¦       +---Output
+    ¦   +---environment
+    ¦   ¦   +---src
+    ¦   +---exporter
+    ¦   ¦   +---src
+    ¦   +---global-state
+    ¦   ¦   +---src
+    ¦   ¦       +---exceptions
+    ¦   +---lines-of-code
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   ¦       +---Exception
+    ¦   +---object-enumerator
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   +---object-reflector
+    ¦   ¦   +---.psalm
+    ¦   ¦   +---src
+    ¦   +---recursion-context
+    ¦   ¦   +---src
+    ¦   +---resource-operations
+    ¦   ¦   +---build
+    ¦   ¦   +---src
+    ¦   +---type
+    ¦   ¦   +---src
+    ¦   ¦       +---exception
+    ¦   ¦       +---type
+    ¦   +---version
+    ¦       +---src
+    +---stripe
+    ¦   +---stripe-php
+    ¦       +---data
+    ¦       +---lib
+    ¦           +---ApiOperations
+    ¦           +---BillingPortal
+    ¦           +---Checkout
+    ¦           +---Exception
+    ¦           ¦   +---OAuth
+    ¦           +---FinancialConnections
+    ¦           +---HttpClient
+    ¦           +---Identity
+    ¦           +---Issuing
+    ¦           +---Radar
+    ¦           +---Reporting
+    ¦           +---Service
+    ¦           ¦   +---BillingPortal
+    ¦           ¦   +---Checkout
+    ¦           ¦   +---FinancialConnections
+    ¦           ¦   +---Identity
+    ¦           ¦   +---Issuing
+    ¦           ¦   +---Radar
+    ¦           ¦   +---Reporting
+    ¦           ¦   +---Sigma
+    ¦           ¦   +---Terminal
+    ¦           ¦   +---TestHelpers
+    ¦           ¦       +---Terminal
+    ¦           +---Sigma
+    ¦           +---Terminal
+    ¦           +---TestHelpers
+    ¦           +---Util
+    +---swiftmailer
+    ¦   +---swiftmailer
+    ¦       +---.github
+    ¦       ¦   +---workflows
+    ¦       +---doc
+    ¦       +---lib
+    ¦           +---classes
+    ¦           ¦   +---Swift
+    ¦           ¦       +---AddressEncoder
+    ¦           ¦       +---ByteStream
+    ¦           ¦       +---CharacterReader
+    ¦           ¦       +---CharacterReaderFactory
+    ¦           ¦       +---CharacterStream
+    ¦           ¦       +---Encoder
+    ¦           ¦       +---Events
+    ¦           ¦       +---KeyCache
+    ¦           ¦       +---Mailer
+    ¦           ¦       +---Mime
+    ¦           ¦       ¦   +---ContentEncoder
+    ¦           ¦       ¦   +---HeaderEncoder
+    ¦           ¦       ¦   +---Headers
+    ¦           ¦       +---Plugins
+    ¦           ¦       ¦   +---Decorator
+    ¦           ¦       ¦   +---Loggers
+    ¦           ¦       ¦   +---Pop
+    ¦           ¦       ¦   +---Reporters
+    ¦           ¦       +---Signers
+    ¦           ¦       +---StreamFilters
+    ¦           ¦       +---Transport
+    ¦           ¦           +---Esmtp
+    ¦           ¦               +---Auth
+    ¦           +---dependency_maps
+    +---symfony
+    ¦   +---console
+    ¦   ¦   +---Attribute
+    ¦   ¦   +---CI
+    ¦   ¦   +---Command
+    ¦   ¦   +---CommandLoader
+    ¦   ¦   +---Completion
+    ¦   ¦   ¦   +---Output
+    ¦   ¦   +---DependencyInjection
+    ¦   ¦   +---Descriptor
+    ¦   ¦   +---Event
+    ¦   ¦   +---EventListener
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Formatter
+    ¦   ¦   +---Helper
+    ¦   ¦   +---Input
+    ¦   ¦   +---Logger
+    ¦   ¦   +---Output
+    ¦   ¦   +---Question
+    ¦   ¦   +---Resources
+    ¦   ¦   ¦   +---bin
+    ¦   ¦   +---SignalRegistry
+    ¦   ¦   +---Style
+    ¦   ¦   +---Tester
+    ¦   ¦       +---Constraint
+    ¦   +---css-selector
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Node
+    ¦   ¦   +---Parser
+    ¦   ¦   ¦   +---Handler
+    ¦   ¦   ¦   +---Shortcut
+    ¦   ¦   ¦   +---Tokenizer
+    ¦   ¦   +---XPath
+    ¦   ¦       +---Extension
+    ¦   +---deprecation-contracts
+    ¦   +---error-handler
+    ¦   ¦   +---Error
+    ¦   ¦   +---ErrorEnhancer
+    ¦   ¦   +---ErrorRenderer
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Internal
+    ¦   ¦   +---Resources
+    ¦   ¦       +---assets
+    ¦   ¦       ¦   +---css
+    ¦   ¦       ¦   +---images
+    ¦   ¦       ¦   +---js
+    ¦   ¦       +---bin
+    ¦   ¦       +---views
+    ¦   +---event-dispatcher
+    ¦   ¦   +---Attribute
+    ¦   ¦   +---Debug
+    ¦   ¦   +---DependencyInjection
+    ¦   +---event-dispatcher-contracts
+    ¦   +---finder
+    ¦   ¦   +---Comparator
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Iterator
+    ¦   +---http-foundation
+    ¦   ¦   +---Exception
+    ¦   ¦   +---File
+    ¦   ¦   ¦   +---Exception
+    ¦   ¦   +---RateLimiter
+    ¦   ¦   +---Session
+    ¦   ¦   ¦   +---Attribute
+    ¦   ¦   ¦   +---Flash
+    ¦   ¦   ¦   +---Storage
+    ¦   ¦   ¦       +---Handler
+    ¦   ¦   ¦       +---Proxy
+    ¦   ¦   +---Test
+    ¦   ¦       +---Constraint
+    ¦   +---http-kernel
+    ¦   ¦   +---Attribute
+    ¦   ¦   +---Bundle
+    ¦   ¦   +---CacheClearer
+    ¦   ¦   +---CacheWarmer
+    ¦   ¦   +---Config
+    ¦   ¦   +---Controller
+    ¦   ¦   ¦   +---ArgumentResolver
+    ¦   ¦   +---ControllerMetadata
+    ¦   ¦   +---DataCollector
+    ¦   ¦   +---Debug
+    ¦   ¦   +---DependencyInjection
+    ¦   ¦   +---Event
+    ¦   ¦   +---EventListener
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Fragment
+    ¦   ¦   +---HttpCache
+    ¦   ¦   +---Log
+    ¦   ¦   +---Profiler
+    ¦   ¦   +---Resources
+    ¦   +---mime
+    ¦   ¦   +---Crypto
+    ¦   ¦   +---DependencyInjection
+    ¦   ¦   +---Encoder
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Header
+    ¦   ¦   +---Part
+    ¦   ¦   ¦   +---Multipart
+    ¦   ¦   +---Resources
+    ¦   ¦   ¦   +---bin
+    ¦   ¦   +---Test
+    ¦   ¦       +---Constraint
+    ¦   +---polyfill-ctype
+    ¦   +---polyfill-iconv
+    ¦   ¦   +---Resources
+    ¦   ¦       +---charset
+    ¦   +---polyfill-intl-grapheme
+    ¦   +---polyfill-intl-icu
+    ¦   ¦   +---DateFormat
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Resources
+    ¦   ¦       +---stubs
+    ¦   +---polyfill-intl-idn
+    ¦   ¦   +---Resources
+    ¦   ¦       +---unidata
+    ¦   +---polyfill-intl-normalizer
+    ¦   ¦   +---Resources
+    ¦   ¦       +---stubs
+    ¦   ¦       +---unidata
+    ¦   +---polyfill-mbstring
+    ¦   ¦   +---Resources
+    ¦   ¦       +---unidata
+    ¦   +---polyfill-php73
+    ¦   ¦   +---Resources
+    ¦   ¦       +---stubs
+    ¦   +---polyfill-php80
+    ¦   ¦   +---Resources
+    ¦   ¦       +---stubs
+    ¦   +---process
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Pipes
+    ¦   +---routing
+    ¦   ¦   +---Annotation
+    ¦   ¦   +---DependencyInjection
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Generator
+    ¦   ¦   ¦   +---Dumper
+    ¦   ¦   +---Loader
+    ¦   ¦   ¦   +---Configurator
+    ¦   ¦   ¦   ¦   +---Traits
+    ¦   ¦   ¦   +---schema
+    ¦   ¦   ¦       +---routing
+    ¦   ¦   +---Matcher
+    ¦   ¦       +---Dumper
+    ¦   +---service-contracts
+    ¦   ¦   +---Attribute
+    ¦   ¦   +---Test
+    ¦   +---string
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Inflector
+    ¦   ¦   +---Resources
+    ¦   ¦   ¦   +---bin
+    ¦   ¦   ¦   +---data
+    ¦   ¦   +---Slugger
+    ¦   +---translation
+    ¦   ¦   +---Catalogue
+    ¦   ¦   +---Command
+    ¦   ¦   +---DataCollector
+    ¦   ¦   +---DependencyInjection
+    ¦   ¦   +---Dumper
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Extractor
+    ¦   ¦   ¦   +---Visitor
+    ¦   ¦   +---Formatter
+    ¦   ¦   +---Loader
+    ¦   ¦   +---Provider
+    ¦   ¦   +---Reader
+    ¦   ¦   +---Resources
+    ¦   ¦   ¦   +---bin
+    ¦   ¦   ¦   +---data
+    ¦   ¦   ¦   +---schemas
+    ¦   ¦   +---Test
+    ¦   ¦   +---Util
+    ¦   ¦   +---Writer
+    ¦   +---translation-contracts
+    ¦   ¦   +---Test
+    ¦   +---var-dumper
+    ¦   ¦   +---Caster
+    ¦   ¦   +---Cloner
+    ¦   ¦   +---Command
+    ¦   ¦   ¦   +---Descriptor
+    ¦   ¦   +---Dumper
+    ¦   ¦   ¦   +---ContextProvider
+    ¦   ¦   +---Exception
+    ¦   ¦   +---Resources
+    ¦   ¦   ¦   +---bin
+    ¦   ¦   ¦   +---css
+    ¦   ¦   ¦   +---functions
+    ¦   ¦   ¦   +---js
+    ¦   ¦   +---Server
+    ¦   ¦   +---Test
+    ¦   +---yaml
+    ¦       +---Command
+    ¦       +---Exception
+    ¦       +---Resources
+    ¦       ¦   +---bin
+    ¦       +---Tag
+    +---theseer
+    ¦   +---tokenizer
+    ¦       +---src
+    +---tijsverkoyen
+    ¦   +---css-to-inline-styles
+    ¦       +---src
+    ¦           +---Css
+    ¦               +---Property
+    ¦               +---Rule
+    +---vlucas
+    ¦   +---phpdotenv
+    ¦       +---src
+    ¦           +---Exception
+    ¦           +---Loader
+    ¦           +---Parser
+    ¦           +---Repository
+    ¦           ¦   +---Adapter
+    ¦           +---Store
+    ¦           ¦   +---File
+    ¦           +---Util
+    +---voku
+    ¦   +---portable-ascii
+    ¦       +---build
+    ¦       ¦   +---docs
+    ¦       +---src
+    ¦           +---voku
+    ¦               +---helper
+    ¦                   +---data
+    +---webmozart
+        +---assert
+            +---src

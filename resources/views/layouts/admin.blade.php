@@ -12,10 +12,9 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
+    <<script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
-
+       
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
@@ -34,9 +33,9 @@
     </style>
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
+<<script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
+   
 
 <div class="st-container" id="app">
     @include('layouts.nav')

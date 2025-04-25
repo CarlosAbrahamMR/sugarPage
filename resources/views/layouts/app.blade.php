@@ -12,9 +12,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- jQuery DEBE ir antes de todo lo que lo use -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
-            crossorigin="anonymous"></script>
+    <<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        crossorigin="anonymous"></script>
+        
 
     <!-- Laravel Mix app.js si es necesario aquí -->
     <script src="{{ asset('js/app.js') }}"></script>
@@ -40,9 +40,9 @@
     </style>
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
+<<script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
+       
 
     <div class="st-container" id="app">
         @include('layouts.nav')
