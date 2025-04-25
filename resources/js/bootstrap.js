@@ -1,4 +1,5 @@
-window.$ = window.jQuery = require('jquery');
+import jQuery from 'jquery';
+window.$ = window.jQuery = jQuery;
 
 window._ = require('lodash');
 
