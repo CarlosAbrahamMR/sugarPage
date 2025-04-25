@@ -9,6 +9,8 @@ window.$ = window.jQuery = jQuery;
 
 
 require('./bootstrap');
+require('jquery.cookie'); // ← importa el plugin
+
 
 window.Vue = require('vue').default;
 
