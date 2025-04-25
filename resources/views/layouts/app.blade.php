@@ -82,6 +82,10 @@
       }
     };
   </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
+        crossorigin="anonymous"></script>
+        
 {{--    <script src="{{ asset('js/admin.js')}}"></script>--}}
     @yield('scripts')
     <script src="{{ asset('dist/themes/social-1/js/vendor/all.js')}}"></script>
