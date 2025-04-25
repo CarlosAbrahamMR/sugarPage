@@ -40,6 +40,10 @@
     </style>
 </head>
 <body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJ+Y7DyKtLW7SmkC2utPHsGtvWybwO5v3YwE="
+        crossorigin="anonymous"></script>
+
     <div class="st-container" id="app">
         @include('layouts.nav')
         @include('layouts.menu')
