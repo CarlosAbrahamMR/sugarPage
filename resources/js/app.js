@@ -6,10 +6,11 @@
 import jQuery from 'jquery';
 window.$ = window.jQuery = jQuery;
 
+// Carga jquery.cookie manualmente
+require('jquery.cookie/jquery.cookie.js');
 
 
 require('./bootstrap');
-require('jquery.cookie'); // ← importa el plugin
 
 
 window.Vue = require('vue').default;
