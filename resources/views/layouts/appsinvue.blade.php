@@ -30,6 +30,7 @@
 <body>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 
     <div class="st-container">
         @include('layouts.nav')

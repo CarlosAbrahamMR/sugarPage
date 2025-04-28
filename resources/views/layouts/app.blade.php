@@ -15,6 +15,7 @@
     <<script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
         
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 
     <!-- Laravel Mix app.js si es necesario aquí -->
     <script src="{{ asset('js/app.js') }}"></script>

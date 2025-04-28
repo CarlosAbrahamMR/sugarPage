@@ -12,6 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
 
 
     <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
