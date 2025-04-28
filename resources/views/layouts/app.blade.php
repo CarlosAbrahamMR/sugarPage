@@ -43,6 +43,7 @@
 <<script src="https://code.jquery.com/jquery-3.7.1.min.js"
         crossorigin="anonymous"></script>
        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
     <div class="st-container" id="app">
         @include('layouts.nav')
