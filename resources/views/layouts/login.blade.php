@@ -45,6 +45,8 @@
 
     <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/XhmikosR/jquery-breakpoints@0.0.5/jquery.breakpoints.min.js"></script>
+
     <!-- Librerías principales -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
