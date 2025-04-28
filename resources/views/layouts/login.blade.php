@@ -9,7 +9,9 @@
     <title>MySugarFan</title>
 
     <!-- CSS primero -->
-   
+    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
+    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Estilos inline -->
     <style type="text/css">
@@ -42,19 +44,19 @@
     @yield('styles')
 
     <!-- Librerías principales -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/daterangepicker@3.1/daterangepicker.min.js"></script>
+
+<!-- Bootstrap 4.6 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- Vue, Vuetify, Axios -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
-    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" rel="stylesheet">
 </head>
 
 <body class="login">
