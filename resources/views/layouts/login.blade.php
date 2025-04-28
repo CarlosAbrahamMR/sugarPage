@@ -11,7 +11,6 @@
     <!-- CSS primero -->
     <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
     <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Estilos inline -->
     <style type="text/css">
@@ -45,7 +44,7 @@
 
     <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="{{ asset('js/plugins/jquery.breakpoints.min.js') }}"></script>
+<script src="/js/plugins/jquery.breakpoints.min.js"></script>
 
     <!-- Librerías principales -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>

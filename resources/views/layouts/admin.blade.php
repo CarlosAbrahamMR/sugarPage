@@ -13,7 +13,7 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="{{ asset('js/plugins/jquery.breakpoints.min.js') }}"></script>
+<script src="/js/plugins/jquery.breakpoints.min.js"></script>
 
 
     <!-- Primero JQuery y plugins -->
