@@ -9,9 +9,7 @@
     <title>MySugarFan</title>
 
     <!-- CSS primero -->
-    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
-    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" rel="stylesheet">
+   
 
     <!-- Estilos inline -->
     <style type="text/css">
@@ -49,12 +47,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Vue, Vuetify, Axios -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
+    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" rel="stylesheet">
 </head>
 
 <body class="login">
