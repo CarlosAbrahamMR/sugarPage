@@ -12,6 +12,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- jQuery DEBE ir antes de todo lo que lo use -->
+     <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <!-- Primero JQuery y plugins -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
