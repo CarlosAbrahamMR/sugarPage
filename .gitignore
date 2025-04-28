@@ -30,10 +30,17 @@ yarn-error.log
 /public/hot
 /public/storage
 /public/mix-manifest.json
-/public/js/*
-/public/css/*
 /public/build
 /build
+
+# Public JS/CSS (compilados por Laravel Mix)
+# Ignorar todos los js y css GENERADOS
+/public/js/*
+/public/css/*
+
+# Pero permitir plugins JS que no cambian
+!public/js/plugins/
+!public/js/plugins/**
 
 # dotenv files
 .env.*
@@ -53,5 +60,3 @@ docker-compose.override.yml
 .docker/
 
 # SSH keys
-*.pem
-*.key
