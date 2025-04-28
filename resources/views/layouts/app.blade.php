@@ -14,7 +14,7 @@
     <!-- jQuery DEBE ir antes de todo lo que lo use -->
      <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/XhmikosR/jquery-breakpoints@0.0.5/jquery.breakpoints.min.js"></script>
+<script src="/js/plugins/jquery.breakpoints.min.js"></script>
 
     <!-- Primero JQuery y plugins -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
