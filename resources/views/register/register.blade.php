@@ -59,13 +59,13 @@
             },
             methods: {
                 verifyRecapcha() {
-                    grecaptcha.execute('6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC', {action: 'register'}).then(function(token) {
-                        axios.post('/token-recapcha-verify', {response: token}).then(resp=>{
-                            if(resp.data.success){
+                    // grecaptcha.execute('6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC', {action: 'register'}).then(function(token) {
+                    //     axios.post('/token-recapcha-verify', {response: token}).then(resp=>{
+                    //         if(resp.data.success){
                                 document.getElementById("register_form").submit();
-                            }
-                        })
-                    });
+                    //         }
+                    //     })
+                    // });
                 },
                 mostrarPassword(){
                     var cambio = document.getElementById("password");
