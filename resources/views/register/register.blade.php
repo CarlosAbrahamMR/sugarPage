@@ -57,7 +57,7 @@
             },
             methods: {
                 verifyRecapcha() {
-                    grecaptcha.execute('6LevckcjAAAAAMMy5T2dKwgJ1trwHV0-NkjsufNL', {action: 'register'}).then(function(token) {
+                    grecaptcha.execute('6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC', {action: 'register'}).then(function(token) {
                         axios.post('/token-recapcha-verify', {response: token}).then(resp=>{
                             if(resp.data.success){
                                 document.getElementById("register_form").submit();

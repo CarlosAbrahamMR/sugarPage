@@ -55,7 +55,7 @@
 <!-- Bootstrap 4.6 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
-<script src="https://www.google.com/recaptcha/api.js?render=6LevckcjAAAAAMMy5T2dKwgJ1trwHV0-NkjsufNL"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC"></script>
 
 
     <!-- Vue, Vuetify, Axios -->

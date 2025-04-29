@@ -67,7 +67,7 @@
             },
             methods: {
                 verifyRecapcha() {
-                    grecaptcha.execute('6LevckcjAAAAAMMy5T2dKwgJ1trwHV0-NkjsufNL', {action: 'login'}).then(function(token) {
+                    grecaptcha.execute('6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC', {action: 'login'}).then(function(token) {
                         axios.post('/token-recapcha-verify', {response: token}).then(resp=>{
                             if(resp.data.success){
                                 document.getElementById("login_form").submit();

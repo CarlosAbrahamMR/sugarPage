@@ -218,12 +218,32 @@ class UserController extends Controller
         return view('auth.passwords.recover');
     }
 
-    public function VerifyToken(Request $request){
-        $response = $request['response'];
-        $secret = env('RECAPCHA_SECRET_KEY');
-        $response = Http::post('https://www.google.com/recaptcha/api/siteverify?secret='.$secret."&response=".$response );
-        return $response;
+    // public function VerifyToken(Request $request){
+    //     $response = $request['response'];
+    //     $secret = env('RECAPCHA_SECRET_KEY');
+    //     $response = Http::post('https://www.google.com/recaptcha/api/siteverify?secret='.$secret."&response=".$response );
+    //     return $response;
+    // }
+    public function VerifyToken(Request $request)
+{
+    $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+        'secret' => env('RECAPCHA_SECRET_KEY'),
+        'response' => $request->input('response'),
+    ]);
+
+    $body = $response->json();
+
+    if (!($body['success'] ?? false) || ($body['score'] ?? 0) < 0.5) {
+        // No pasó el captcha o el score fue bajo
+        return response()->json(['success' => false]);
     }
+
+    return response()->json([
+        'success' => true,
+        'score' => $body['score'],
+        'action' => $body['action'] ?? null,
+    ]);
+}
 
     public function dashboard()
     {
