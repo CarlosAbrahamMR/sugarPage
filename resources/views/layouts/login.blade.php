@@ -55,6 +55,8 @@
 <!-- Bootstrap 4.6 -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LevckcjAAAAAMMy5T2dKwgJ1trwHV0-NkjsufNL"></script>
+
 
     <!-- Vue, Vuetify, Axios -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
