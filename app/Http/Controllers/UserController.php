@@ -233,16 +233,9 @@ class UserController extends Controller
 
     $body = $response->json();
 
-    if (!($body['success'] ?? false) || ($body['score'] ?? 0) < 0.5) {
-        // No pasó el captcha o el score fue bajo
-        return response()->json(['success' => false]);
-    }
+    \Log::info('reCAPTCHA response:', $body); // <--- importante para ver todo
 
-    return response()->json([
-        'success' => true,
-        'score' => $body['score'],
-        'action' => $body['action'] ?? null,
-    ]);
+    return response()->json($body);
 }
 
     public function dashboard()
