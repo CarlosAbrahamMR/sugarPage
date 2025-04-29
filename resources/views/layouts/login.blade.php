@@ -125,15 +125,18 @@
 
 <script type="text/javascript">
 
-    $("#buttonSubmit").click(function (e) {
-    showLoading();
+$("#buttonSubmit").click(function (e) {
+        showLoading();
 
-    // Deja que el formulario se envíe después del loader
-    setTimeout(function () {
-        $("#register_form").submit();
-    }, 100);
-});
-
+        // Encuentra el formulario correcto y envíalo
+        setTimeout(function () {
+            if ($("#register_form").length) {
+                $("#register_form").submit();
+            } else if ($("#login_form").length) {
+                $("#login_form").submit();
+            }
+        }, 100);
+    });
     function showLoading() {
         document.querySelector('#loading').classList.add('loading');
         document.querySelector('#loading-content').classList.add('loading-content');
@@ -143,7 +146,7 @@
         document.querySelector('#loading').classList.remove('loading');
         document.querySelector('#loading-content').classList.remove('loading-content');
     }
-    
+
 </script>
 </body>
 </html>
