@@ -117,10 +117,18 @@
 @yield('scripts')
 
 <!-- Funciones para mostrar loading -->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     $("#buttonSubmit").click(function (e) {
         showLoading();
-    });
+    }); -->
+    $("#buttonSubmit").click(function (e) {
+    showLoading();
+
+    // Deja que el formulario se envíe después del loader
+    setTimeout(function () {
+        $("#register_form").submit();
+    }, 100);
+});
 
     function showLoading() {
         document.querySelector('#loading').classList.add('loading');
