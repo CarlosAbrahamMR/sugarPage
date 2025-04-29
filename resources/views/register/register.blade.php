@@ -32,8 +32,12 @@
                         <a class="forgot-password" href="/login">
                             Do you already have an account? Login
                         </a>
-                        <button type="button" id="buttonSubmit" :disabled="disabledButton" @click="verifyRecapcha()" class="btn btn-primary">Submit</button>
+                        <!-- <button type="button" id="buttonSubmit" :disabled="disabledButton" @click="verifyRecapcha()" class="btn btn-primary">Submit</button> -->
+
+                        <button type="submit" id="buttonSubmit" :disabled="disabledButton" class="btn btn-primary">Submit</button>
+
                     </form>
+
                 </div>
         </div>
     </div>

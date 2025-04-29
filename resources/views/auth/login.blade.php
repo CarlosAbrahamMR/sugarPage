@@ -37,7 +37,9 @@
                         <input style="margin-left:5px;" type="checkbox" id="mostrar_contrasena" @click="mostrarPassword()"/>
                         &nbsp;&nbsp;{{__('traducciones.mostrar_contrasenia')}}
                     </div>
-                    <button type="button" id="buttonSubmit" @click="verifyRecapcha()" class="btn btn-primary">
+                    <!-- <button type="button" id="buttonSubmit" @click="verifyRecapcha()" class="btn btn-primary"> -->
+                        <button type="button" id="buttonSubmit"  class="btn btn-primary"> 
+
                         {{ __('traducciones.iniciar_sesion') }}
                         <i class="fa fa-sign-in"></i>
                     </button>
