@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 
+
 class UserController extends Controller
 {
 
@@ -218,15 +219,36 @@ class UserController extends Controller
         return view('auth.passwords.recover');
     }
 
-    public function VerifyToken(Request $request){
-        $response = $request['response'];
+    // public function VerifyToken(Request $request){
+    //     $response = $request['response'];
+    //     $secret = env('RECAPCHA_SECRET_KEY');
+    //     $response = Http::post('https://www.google.com/recaptcha/api/siteverify?secret='.$secret."&response=".$response );
+    //     \Log::info('reCAPTCHA response:', $body); // <--- importante para ver todo
+    //     return $response;
+    // }
+
+
+    public function VerifyToken(Request $request)
+    {
+        $responseToken = $request->input('response'); // <-- más claro que $request['response']
         $secret = env('RECAPCHA_SECRET_KEY');
-        $response = Http::post('https://www.google.com/recaptcha/api/siteverify?secret='.$secret."&response=".$response );
-        return $response;
+    
+        $response = Http::asForm()->post('https://www.google.com/recaptcha/api/siteverify', [
+            'secret' => $secret,
+            'response' => $responseToken,
+        ]);
+    
+        $body = $response->json(); // <-- aquí parseamos la respuesta
+    
+        \Log::info('reCAPTCHA response:', $body); // <-- ahora sí existe $body
+    
+        return response()->json([
+            'success' => $body['success'] ?? false,
+            'score' => $body['score'] ?? null,
+            'action' => $body['action'] ?? null,
+            'errors' => $body['error-codes'] ?? []
+        ]);
     }
-
-
-
 
 //     public function VerifyToken(Request $request)
 // {

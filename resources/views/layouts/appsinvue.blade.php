@@ -44,6 +44,7 @@
 <!-- Ahora Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC"></script>
 
 
     <div class="st-container">

@@ -1,6 +1,8 @@
 @extends('layouts.login')
 @section('content')
     <div class="lock-container">
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC"></script>
+
         <h1>{{__('traducciones.crear_cuenta')}}</h1>
         <div class="panel panel-default text-center">
             <img src="{{ asset('images/user-profile.png') }}" style="width: 50% !important;" class="img-circle">
