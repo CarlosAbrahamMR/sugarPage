@@ -108,7 +108,7 @@
 </script>
 
 <!-- reCAPTCHA -->
-<script src="https://www.google.com/recaptcha/api.js?render=6LevckcjAAAAAMMy5T2dKwgJ1trwHV0-NkjsufNL"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC"></script>
 
 <!-- Scripts propios -->
 <script src="{{ asset('dist/themes/social-1/js/vendor/all.js')}}"></script>
