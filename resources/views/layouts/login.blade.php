@@ -121,6 +121,10 @@
     $("#buttonSubmit").click(function (e) {
         showLoading();
     }); -->
+
+
+<script type="text/javascript">
+
     $("#buttonSubmit").click(function (e) {
     showLoading();
 
@@ -139,6 +143,7 @@
         document.querySelector('#loading').classList.remove('loading');
         document.querySelector('#loading-content').classList.remove('loading-content');
     }
+    
 </script>
 </body>
 </html>
