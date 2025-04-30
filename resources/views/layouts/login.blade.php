@@ -9,6 +9,12 @@
     <meta name="author" content="">
     <title>MySugarFan</title>
 
+    <script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
+
+<!-- Luego otros scripts que dependan de jQuery -->
+<script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+
     <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
     <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
     <style type="text/css">

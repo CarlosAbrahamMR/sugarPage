@@ -9,9 +9,19 @@
     <meta name="author" content="">
     <title>{{ config('app.name', 'MySugarFan') }}</title>
 
+
+    <script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
+
+<!-- Luego otros scripts que dependan de jQuery -->
+<script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ asset('js/app.js') }}"></script>
+
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+
+    
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
