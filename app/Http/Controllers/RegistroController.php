@@ -23,10 +23,18 @@ class RegistroController extends Controller
     // Limpiar y normalizar el email correctamente
     $cleanEmail = strtolower(trim(filter_var($request->email, FILTER_SANITIZE_EMAIL)));
 
-    // Verificar si el correo ya existe
-    $user = User::where('email', $cleanEmail)->first();
+$user = User::where('email', $cleanEmail)->first();
+
+\Log::info('Intentando registrar email: ' . $cleanEmail);
+\Log::info('¿Existe en BD?: ' . ($user ? 'SÍ' : 'NO'));
+
+dd([
+    'Email filtrado' => $cleanEmail,
+    'Usuario encontrado' => $user,
+]);
+
     if ($user) {
-        return redirect()->back()->withInput()->with('error', 'The email already exists.');
+        return redirect()->back()->withInput()->with('error', 'The email already exists2.');
     }
 
     try {
