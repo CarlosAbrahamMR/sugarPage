@@ -11,7 +11,7 @@ mix.setPublicPath('public');
 mix.scripts([
     'public/js/vendor/jquery-3.5.1.min.js',
     'public/js/vendor/jquery.cookie.min.js',
-    'public/js/plugins/jquery-breakpoints.min.js',
+    'public/js/plugins/jquery.breakpoints.min.js',
     'public/js/vendor/moment.min.js',
     'public/js/vendor/daterangepicker.min.js',
     'public/js/vendor/bootstrap.bundle.min.js',
