@@ -20,10 +20,15 @@ class RegistroController extends Controller
      */
     public function crearUsuario(Request $request)
     {
-        $user= User::where('email',$request->email)->first(['id']);
-        if ($user) {
-            return redirect()->back()->withInput()->with('error', 'The email already exists.');
-        }
+        $cleanEmail = $this->filtro($request->email);
+$user = User::where('email', $cleanEmail)->first(['id']);
+
+if ($user) {
+    return redirect()->back()->withInput()->with('error', 'The email already exists.');
+}
+
+
+
         $data['confirmation_code'] =  Str::random(25);
         try {
             \DB::beginTransaction();
