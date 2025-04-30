@@ -9,31 +9,9 @@
     <meta name="author" content="">
     <title>{{ config('app.name', 'MySugarFan') }}</title>
 
+    <!-- CSRF Token -->
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 
-<!-- jQuery primero -->
-<script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
-
-<script src="{{ asset('js/plugins/jquery.breakpoints.min.js') }}"></script>
-<script src="{{ asset('js/vendor/jquery.cookie.min.js') }}"></script>
-
-
-<!-- Moment antes que daterangepicker -->
-<script src="{{ asset('js/vendor/moment.min.js') }}"></script>
-
-<!-- Plugins que dependen de moment y jQuery -->
-<script src="{{ asset('js/vendor/daterangepicker.min.js') }}"></script>
-<script src="{{ asset('js/vendor/jquery.nicescroll.min.js') }}"></script>
-
-<!-- Bootstrap si lo usas -->
-<script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
-
-<!-- Vue si lo usas -->
-<script src="{{ asset('js/vendor/vue.js') }}"></script>
-
-<!-- Tu script -->
-
-
-    
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
@@ -50,8 +28,6 @@
             background: red !important;
         }
     </style>
-    <script src="{{ asset('js/app.js') }}"></script>
-
 </head>
 <body>
 <div class="st-container" id="app">

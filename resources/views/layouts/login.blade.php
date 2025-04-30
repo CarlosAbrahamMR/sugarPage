@@ -9,28 +9,8 @@
     <meta name="author" content="">
     <title>MySugarFan</title>
 
- 
-
-<!-- jQuery primero -->
-<script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
-
-<script src="{{ asset('js/plugins/jquery.breakpoints.min.js') }}"></script>
-<script src="{{ asset('js/vendor/jquery.cookie.min.js') }}"></script>
-
-
-<!-- Moment antes que daterangepicker -->
-<script src="{{ asset('js/vendor/moment.min.js') }}"></script>
-
-<!-- Plugins que dependen de moment y jQuery -->
-<script src="{{ asset('js/vendor/daterangepicker.min.js') }}"></script>
-<script src="{{ asset('js/vendor/jquery.nicescroll.min.js') }}"></script>
-
-<!-- Bootstrap si lo usas -->
-<script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
-
-
-<!-- Tu script -->
-
+    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
+    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
     <style type="text/css">
         .loading {
             z-index: 20;
@@ -67,14 +47,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-
-
-
-    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
-    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
-
-    <script src="{{ asset('js/app.js') }}"></script>
-
 </head>
 
 <body class="login">
