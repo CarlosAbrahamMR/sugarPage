@@ -18,16 +18,12 @@ class RegistroController extends Controller
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    
-
-     public function crearUsuario(Request $request)
+    public function crearUsuario(Request $request)
 {
-    // Sanear y normalizar el email
     $cleanEmail = strtolower(trim(filter_var($request->email, FILTER_SANITIZE_EMAIL)));
 
-    // Verificar si ya existe un usuario con ese email
+    // Verifica si ya existe en DB (con email limpio)
     $user = User::where('email', $cleanEmail)->first(['id']);
-
     if ($user) {
         return redirect()->back()->withInput()->with('error', 'The email already exists.');
     }
@@ -35,12 +31,11 @@ class RegistroController extends Controller
     try {
         \DB::beginTransaction();
 
-        $maxId = \DB::table('users')->max('id');
-        $maxId = $maxId !== null ? $maxId : 1;
+        $maxId = \DB::table('users')->max('id') ?? 1;
 
         $user = new User;
         $user->email = $cleanEmail;
-        $user->name = $this->filtro($request->name);
+        $user->name = $this->filtro($request->name); // <-- solo nombre, si quieres seguir usando filtro
         $user->username = $maxId . mt_rand(10000000, 99999999);
         $user->password = \Hash::make($request->password);
         $user->confirmation_code = Str::random(25);
@@ -50,34 +45,23 @@ class RegistroController extends Controller
 
         \DB::commit();
 
-        // Enviar correo de confirmación
-        $data = [
+        // Enviar correo
+        Mail::send('email.confirmation', [
             'confirmation_code' => $user->confirmation_code,
             'name' => $user->name,
             'email' => $user->email,
-            'appName' => env('APP_NAME', 'MysugarFan'),
-        ];
-
-        Mail::send('email.confirmation', $data, function($message) use ($data) {
-            $message->to($data['email'], $data['name'])->subject('Por favor confirma tu correo');
+            'appName' => env('APP_NAME', 'MysugarFan')
+        ], function ($message) use ($user) {
+            $message->to($user->email, $user->name)->subject('Por favor confirma tu correo');
         });
 
         return redirect()->to('/login')->with('success', 'Registro exitoso, deberás confirmar tu correo para poder iniciar sesión.');
-        
     } catch (\Exception $e) {
-        // \DB::rollBack();
+        \DB::rollBack();
 
-        // // Borra el usuario parcialmente creado si aplica
-        // if (isset($user->id)) {
-        //     \DB::table('users')->where('id', $user->id)->delete();
-        // }
-
-        // return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
-        \Log::error('Error en registro: ' . $e->getMessage());
-        return redirect()->back()->withInput()->with('error', 'Error real: ' . $e->getMessage());
+        return redirect()->back()->withInput()->with('error', 'Error: ' . $e->getMessage());
     }
 }
-
 
 
     public function filtro($string){
