@@ -30,7 +30,6 @@
 <script src="{{ asset('js/vendor/vue.js') }}"></script>
 
 <!-- Tu script -->
-<script src="{{ asset('js/app.js') }}"></script>
 
 
     
@@ -50,6 +49,8 @@
             background: red !important;
         }
     </style>
+    <script src="{{ asset('js/app.js') }}"></script>
+
 </head>
 <body>
 <div class="st-container" id="app">

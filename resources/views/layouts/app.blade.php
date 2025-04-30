@@ -28,8 +28,6 @@
 <!-- Vue si lo usas -->
 <script src="{{ asset('js/vendor/vue.js') }}"></script>
 
-<!-- Tu script -->
-<script src="{{ asset('js/app.js') }}"></script>
 
 
 
@@ -137,5 +135,8 @@
             data.innerHTML = newElement
         })
     </script>
+    <!-- Tu script -->
+<script src="{{ asset('js/app.js') }}"></script>
+
 </body>
 </html>

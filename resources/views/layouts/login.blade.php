@@ -27,15 +27,9 @@
 <!-- Bootstrap si lo usas -->
 <script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
 
-<!-- Vue si lo usas -->
-<script src="{{ asset('js/vendor/vue.js') }}"></script>
 
 <!-- Tu script -->
-<script src="{{ asset('js/app.js') }}"></script>
 
-
-    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
-    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
     <style type="text/css">
         .loading {
             z-index: 20;
@@ -72,6 +66,14 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+
+    <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
+    <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">
+
+    <script src="{{ asset('js/app.js') }}"></script>
+
 </head>
 
 <body class="login">
