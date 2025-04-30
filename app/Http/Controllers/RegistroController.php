@@ -20,10 +20,11 @@ class RegistroController extends Controller
      */
     public function crearUsuario(Request $request)
 {
+    // Limpiar y normalizar el email correctamente
     $cleanEmail = strtolower(trim(filter_var($request->email, FILTER_SANITIZE_EMAIL)));
 
-    // Verifica si ya existe en DB (con email limpio)
-    $user = User::where('email', $cleanEmail)->first(['id']);
+    // Verificar si el correo ya existe
+    $user = User::where('email', $cleanEmail)->first();
     if ($user) {
         return redirect()->back()->withInput()->with('error', 'The email already exists.');
     }
@@ -35,7 +36,7 @@ class RegistroController extends Controller
 
         $user = new User;
         $user->email = $cleanEmail;
-        $user->name = $this->filtro($request->name); // <-- solo nombre, si quieres seguir usando filtro
+        $user->name = $request->name;
         $user->username = $maxId . mt_rand(10000000, 99999999);
         $user->password = \Hash::make($request->password);
         $user->confirmation_code = Str::random(25);
@@ -45,23 +46,14 @@ class RegistroController extends Controller
 
         \DB::commit();
 
-        // Enviar correo
-        Mail::send('email.confirmation', [
-            'confirmation_code' => $user->confirmation_code,
-            'name' => $user->name,
-            'email' => $user->email,
-            'appName' => env('APP_NAME', 'MysugarFan')
-        ], function ($message) use ($user) {
-            $message->to($user->email, $user->name)->subject('Por favor confirma tu correo');
-        });
-
-        return redirect()->to('/login')->with('success', 'Registro exitoso, deberás confirmar tu correo para poder iniciar sesión.');
+        return redirect()->to('/login')->with('success', 'Registro exitoso. Confirma tu correo para iniciar sesión.');
     } catch (\Exception $e) {
         \DB::rollBack();
-
-        return redirect()->back()->withInput()->with('error', 'Error: ' . $e->getMessage());
+        \Log::error('Error al crear usuario: ' . $e->getMessage());
+        return redirect()->back()->withInput()->with('error', 'Ocurrió un error: ' . $e->getMessage());
     }
 }
+
 
 
     public function filtro($string){
