@@ -11,22 +11,6 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="/js/plugins/jquery.breakpoints.min.js"></script>
-
-
-    <!-- Primero JQuery y plugins -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/daterangepicker@3.1/daterangepicker.min.js"></script>
-
-<!-- Bootstrap 4.6 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-
-<script src="https://www.google.com/recaptcha/api.js?render=6LeXnSgrAAAAAI0KWPQp7jFAVLOi3XuSzZ8qi6DC"></script>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
@@ -46,11 +30,6 @@
     </style>
 </head>
 <body>
-<<script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        crossorigin="anonymous"></script>
-   
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
-
 <div class="st-container" id="app">
     @include('layouts.nav')
     @include('layouts.menu')
