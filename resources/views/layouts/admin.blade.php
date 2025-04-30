@@ -10,12 +10,17 @@
     <title>{{ config('app.name', 'MySugarFan') }}</title>
 
 
-    <script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
+    <!-- jQuery -->
+<script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
 
-<!-- Luego otros scripts que dependan de jQuery -->
+<!-- Plugins dependientes de jQuery -->
+<script src="{{ asset('js/vendor/jquery.nicescroll.min.js') }}"></script>
+
+<!-- Bootstrap (si lo necesitas) -->
 <script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
-<script src="{{ asset('js/app.js') }}"></script>
 
+<!-- Tu script -->
+<script src="{{ asset('js/app.js') }}"></script>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
