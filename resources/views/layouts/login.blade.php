@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>MySugarFan</title>
+    <script src="{{ asset('js/vendor-bundle.js') }}"></script>
 
     <link href="{{ asset('dist/themes/social-1/css/vendor/all.css')}}" rel="stylesheet">
     <link href="{{ asset('dist/themes/social-1/css/app/app.css')}}" rel="stylesheet">

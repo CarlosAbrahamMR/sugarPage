@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>{{ config('app.name', 'MySugarFan') }}</title>
+    <script src="{{ asset('js/vendor-bundle.js') }}"></script>
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
