@@ -13,6 +13,7 @@
 <!-- jQuery primero -->
 <script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
 <script src="{{ asset('js/plugins/jquery.breakpoints.min.js') }}"></script>
+<script src="{{ asset('js/vendor/jquery.cookie.min.js') }}"></script>
 
 <!-- Moment antes que daterangepicker -->
 <script src="{{ asset('js/vendor/moment.min.js') }}"></script>
