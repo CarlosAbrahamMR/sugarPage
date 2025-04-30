@@ -9,17 +9,25 @@
     <title>{{ config('app.name', 'MySugarFan') }}</title>
 
     
-<!-- jQuery -->
+<!-- jQuery primero -->
 <script src="{{ asset('js/vendor/jquery-3.5.1.min.js') }}"></script>
 
-<!-- Plugins dependientes de jQuery -->
+<!-- Moment antes que daterangepicker -->
+<script src="{{ asset('js/vendor/moment.min.js') }}"></script>
+
+<!-- Plugins que dependen de moment y jQuery -->
+<script src="{{ asset('js/vendor/daterangepicker.min.js') }}"></script>
 <script src="{{ asset('js/vendor/jquery.nicescroll.min.js') }}"></script>
 
-<!-- Bootstrap (si lo necesitas) -->
+<!-- Bootstrap si lo usas -->
 <script src="{{ asset('js/vendor/bootstrap.bundle.min.js') }}"></script>
+
+<!-- Vue si lo usas -->
+<script src="{{ asset('js/vendor/vue.js') }}"></script>
 
 <!-- Tu script -->
 <script src="{{ asset('js/app.js') }}"></script>
+
 
 
     <!-- CSRF Token -->
