@@ -18,63 +18,64 @@ class RegistroController extends Controller
      *
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function crearUsuario(Request $request)
-    {
-        $cleanEmail = $this->filtro($request->email);
-$user = User::where('email', $cleanEmail)->first(['id']);
+    
 
-if ($user) {
-    return redirect()->back()->withInput()->with('error', 'The email already exists.');
+     public function crearUsuario(Request $request)
+{
+    // Sanear y normalizar el email
+    $cleanEmail = strtolower(trim(filter_var($request->email, FILTER_SANITIZE_EMAIL)));
+
+    // Verificar si ya existe un usuario con ese email
+    $user = User::where('email', $cleanEmail)->first(['id']);
+
+    if ($user) {
+        return redirect()->back()->withInput()->with('error', 'The email already exists.');
+    }
+
+    try {
+        \DB::beginTransaction();
+
+        $maxId = \DB::table('users')->max('id');
+        $maxId = $maxId !== null ? $maxId : 1;
+
+        $user = new User;
+        $user->email = $cleanEmail;
+        $user->name = $this->filtro($request->name);
+        $user->username = $maxId . mt_rand(10000000, 99999999);
+        $user->password = \Hash::make($request->password);
+        $user->confirmation_code = Str::random(25);
+        $user->roles_id = 2;
+        $user->confirmed = 1;
+        $user->save();
+
+        \DB::commit();
+
+        // Enviar correo de confirmación
+        $data = [
+            'confirmation_code' => $user->confirmation_code,
+            'name' => $user->name,
+            'email' => $user->email,
+            'appName' => env('APP_NAME', 'MysugarFan'),
+        ];
+
+        Mail::send('email.confirmation', $data, function($message) use ($data) {
+            $message->to($data['email'], $data['name'])->subject('Por favor confirma tu correo');
+        });
+
+        return redirect()->to('/login')->with('success', 'Registro exitoso, deberás confirmar tu correo para poder iniciar sesión.');
+        
+    } catch (\Exception $e) {
+        \DB::rollBack();
+
+        // Borra el usuario parcialmente creado si aplica
+        if (isset($user->id)) {
+            \DB::table('users')->where('id', $user->id)->delete();
+        }
+
+        return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
+    }
 }
 
-
-
-        $data['confirmation_code'] =  Str::random(25);
-        try {
-            \DB::beginTransaction();
-
-            $maxId = \DB::table('users')->max('id');
-            $maxId = $maxId !== null ? $maxId : 1;
-            $user           = new User;
-            $user->email    = $this->filtro($request->email);
-            $user->name     = $this->filtro($request->name);
-            $user->username = $maxId . mt_rand(10000000, 99999999);
-            $user->password = \Hash::make($request->password);
-            $user->confirmation_code = $data['confirmation_code'];
-            $user->roles_id = 2;
-            $user->confirmed = 1;
-            $user->save();
-
-            \DB::commit();
-
-            $data['name'] =  $request->name;
-            $data['email'] =  $request->email;
-
-            $data['appName'] = env('APP_NAME', 'MysugarFan');
-            Mail::send('email.confirmation', $data, function($message) use ($data) {
-                $message->to($data['email'], $data['name'])->subject('Por favor confirma tu correo');
-            });
-
-            return redirect()->to('/login')->with('success', 'Registro exitoso, deberás confirmar tu correo para poder iniciar sesión.');
-
-//            $credentials = $request->only('email', 'password');
-
-//            if (Auth::attempt($credentials)) {
-//               return redirect()->to('/home');
-//            }else {
-//                return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
-//            }
-        } catch (\Exception $e) {
-            \DB::table('users')->where('id', $user->id)->delete();
-
-            $maxId = \DB::table('users')->max('id');
-            $maxId = $maxId !== null ? $maxId : 1;
-
-            \DB::statement("ALTER TABLE users AUTO_INCREMENT = $maxId;");
-
-            return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
-        }
-    }
 
 
     public function filtro($string){
