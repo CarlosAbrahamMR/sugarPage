@@ -19,49 +19,57 @@ class RegistroController extends Controller
      * @return \Illuminate\Http\RedirectResponse
      */
     public function crearUsuario(Request $request)
-{
-    // Limpiar y normalizar el email correctamente
-    $cleanEmail = strtolower(trim(filter_var($request->email, FILTER_SANITIZE_EMAIL)));
+    {
+        $user= User::where('email',$request->email)->first(['id']);
+        if ($user) {
+            return redirect()->back()->withInput()->with('error', 'The email already exists.');
+        }
+        $data['confirmation_code'] =  Str::random(25);
+        try {
+            \DB::beginTransaction();
 
-$user = User::where('email', $cleanEmail)->first();
+            $maxId = \DB::table('users')->max('id');
+            $maxId = $maxId !== null ? $maxId : 1;
+            $user           = new User;
+            $user->email    = $this->filtro($request->email);
+            $user->name     = $this->filtro($request->name);
+            $user->username = $maxId . mt_rand(10000000, 99999999);
+            $user->password = \Hash::make($request->password);
+            $user->confirmation_code = $data['confirmation_code'];
+            $user->roles_id = 2;
+            $user->confirmed = 1;
+            $user->save();
 
-\Log::info('Intentando registrar email: ' . $cleanEmail);
-\Log::info('¿Existe en BD?: ' . ($user ? 'SÍ' : 'NO'));
+            \DB::commit();
 
-dd([
-    'Email filtrado' => $cleanEmail,
-    'Usuario encontrado' => $user,
-]);
+            $data['name'] =  $request->name;
+            $data['email'] =  $request->email;
 
-    if ($user) {
-        return redirect()->back()->withInput()->with('error', 'The email already exists2.');
+            $data['appName'] = env('APP_NAME', 'MysugarFan');
+            Mail::send('email.confirmation', $data, function($message) use ($data) {
+                $message->to($data['email'], $data['name'])->subject('Por favor confirma tu correo');
+            });
+
+            return redirect()->to('/login')->with('success', 'Registro exitoso, deberás confirmar tu correo para poder iniciar sesión.');
+
+//            $credentials = $request->only('email', 'password');
+
+//            if (Auth::attempt($credentials)) {
+//               return redirect()->to('/home');
+//            }else {
+//                return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
+//            }
+        } catch (\Exception $e) {
+            \DB::table('users')->where('id', $user->id)->delete();
+
+            $maxId = \DB::table('users')->max('id');
+            $maxId = $maxId !== null ? $maxId : 1;
+
+            \DB::statement("ALTER TABLE users AUTO_INCREMENT = $maxId;");
+
+            return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
+        }
     }
-
-    try {
-        \DB::beginTransaction();
-
-        $maxId = \DB::table('users')->max('id') ?? 1;
-
-        $user = new User;
-        $user->email = $cleanEmail;
-        $user->name = $request->name;
-        $user->username = $maxId . mt_rand(10000000, 99999999);
-        $user->password = \Hash::make($request->password);
-        $user->confirmation_code = Str::random(25);
-        $user->roles_id = 2;
-        $user->confirmed = 1;
-        $user->save();
-
-        \DB::commit();
-
-        return redirect()->to('/login')->with('success', 'Registro exitoso. Confirma tu correo para iniciar sesión.');
-    } catch (\Exception $e) {
-        \DB::rollBack();
-        \Log::error('Error al crear usuario: ' . $e->getMessage());
-        return redirect()->back()->withInput()->with('error', 'Ocurrió un error: ' . $e->getMessage());
-    }
-}
-
 
 
     public function filtro($string){
