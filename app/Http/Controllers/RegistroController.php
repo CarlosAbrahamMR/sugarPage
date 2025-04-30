@@ -65,14 +65,16 @@ class RegistroController extends Controller
         return redirect()->to('/login')->with('success', 'Registro exitoso, deberás confirmar tu correo para poder iniciar sesión.');
         
     } catch (\Exception $e) {
-        \DB::rollBack();
+        // \DB::rollBack();
 
-        // Borra el usuario parcialmente creado si aplica
-        if (isset($user->id)) {
-            \DB::table('users')->where('id', $user->id)->delete();
-        }
+        // // Borra el usuario parcialmente creado si aplica
+        // if (isset($user->id)) {
+        //     \DB::table('users')->where('id', $user->id)->delete();
+        // }
 
-        return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
+        // return redirect()->back()->withInput()->with('error', 'An error occurred, try again later.');
+        \Log::error('Error en registro: ' . $e->getMessage());
+        return redirect()->back()->withInput()->with('error', 'Error real: ' . $e->getMessage());
     }
 }
 
